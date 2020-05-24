@@ -111,13 +111,12 @@ limitations under the License.
         width: 50%;
       }
 
-      #z-checkbox {
-        margin: 27px 0 0 5px;
-        width: 18px;
-      }
-
       #z-dropdown {
         flex-grow: 1;
+      }
+
+      #tsne-note {
+        color: rgb(0, 35, 161);
       }
 
       .notice {
@@ -156,6 +155,10 @@ limitations under the License.
       #total-variance {
         color: rgba(0, 0, 0, 0.7);
       }
+
+      .hidden {
+        display: none;
+      }
     </style>
     <div id="main">
       <div class="ink-panel-header">
@@ -172,18 +175,6 @@ limitations under the License.
             uniform manifold approximation and projection
           </paper-tooltip>
 
-          <div data-tab="tsne" id="tsne-tab" class="ink-tab projection-tab">
-            t-SNE
-          </div>
-          <paper-tooltip
-            for="tsne-tab"
-            position="bottom"
-            animation-delay="0"
-            fit-to-visible-bounds
-          >
-            t-distributed stochastic neighbor embedding
-          </paper-tooltip>
-
           <div data-tab="pca" id="pca-tab" class="ink-tab projection-tab">
             PCA
           </div>
@@ -196,10 +187,22 @@ limitations under the License.
             Principal component analysis
           </paper-tooltip>
 
+          <div data-tab="tsne" id="tsne-tab" class="ink-tab projection-tab">
+            t-SNE
+          </div>
+          <paper-tooltip
+            for="tsne-tab"
+            position="bottom"
+            animation-delay="0"
+            fit-to-visible-bounds
+          >
+            t-distributed stochastic neighbor embedding
+          </paper-tooltip>
+
           <div
             data-tab="custom"
             id="custom-tab"
-            class="ink-tab projection-tab"
+            class="ink-tab projection-tab hidden"
             title="Linear projection of two custom vectors"
           >
             Custom
@@ -226,7 +229,7 @@ limitations under the License.
               >
             </div>
           </div>
-          <div class="slider umap-neighbors">
+          <div class="slider umap-neighbors hidden">
             <label>
               Neighbors
               <paper-icon-button
@@ -252,20 +255,23 @@ limitations under the License.
             ></paper-slider>
             <span>[[umapNeighbors]]</span>
           </div>
-          <p>
-            <button
-              id="run-umap"
-              class="ink-button"
-              title="Run UMAP"
-              on-tap="runUmap"
-            >
-              Run
-            </button>
-          </p>
-          <p id="umap-sampling" class="notice">
-            For faster results, the data will be sampled down to
-            [[getUmapSampleSizeText()]] points.
-          </p>
+        <div class="hidden">
+            <p>
+              <button
+                id="run-umap"
+                class="ink-button"
+                title="Run UMAP"
+                on-tap="runUmap"
+              >
+                Run
+              </button>
+            </p>
+            <p id="umap-sampling" class="notice">
+              For faster results, the data will be sampled down to
+              [[getUmapSampleSizeText()]] points.
+            </p>
+        </div>
+
           <p>
             <iron-icon icon="book" class="book-icon"></iron-icon>
             <a
@@ -288,7 +294,7 @@ limitations under the License.
               >
             </div>
           </div>
-          <div class="slider tsne-perplexity">
+          <div class="slider tsne-perplexity hidden">
             <label>
               Perplexity
               <paper-icon-button
@@ -315,7 +321,7 @@ limitations under the License.
             ></paper-slider>
             <span></span>
           </div>
-          <div class="slider tsne-learning-rate">
+          <div class="slider tsne-learning-rate hidden">
             <label>
               Learning rate
               <paper-icon-button
@@ -343,7 +349,7 @@ limitations under the License.
             </paper-slider>
             <span></span>
           </div>
-          <div class="slider tsne-supervise-factor">
+          <div class="slider tsne-supervise-factor hidden">
             <label>
               Supervise
               <paper-icon-button
@@ -369,22 +375,27 @@ limitations under the License.
             </paper-slider>
             <span></span>
           </div>
-          <p>
-            <button class="run-tsne ink-button" title="Re-run t-SNE">
-              Run
-            </button>
-            <button class="pause-tsne ink-button" title="Pause t-SNE">
-              Pause
-            </button>
-            <button class="perturb-tsne ink-button" title="Perturb t-SNE">
-              Perturb
-            </button>
-          </p>
-          <p>Iteration: <span class="run-tsne-iter">0</span></p>
-          <p id="tsne-sampling" class="notice">
-            For faster results, the data will be sampled down to
-            [[getTsneSampleSizeText()]] points.
-          </p>
+          <div class="hidden">
+            <p>
+              <button class="run-tsne ink-button" title="Run t-SNE">
+                Run
+              </button>
+              <button class="pause-tsne ink-button" title="Pause t-SNE">
+                Pause
+              </button>
+              <button class="perturb-tsne ink-button" title="Perturb t-SNE">
+                Perturb
+              </button>
+            </p>
+            <p>Iteration: <span class="run-tsne-iter">0</span></p>
+            <p id="tsne-note" class="notice">
+              <b>NOTE: Runing TNSE will take a long time.</b>
+            </p>
+            <p id="tsne-sampling" class="notice">
+              For faster results, the data will be sampled down to
+              [[getTsneSampleSizeText()]] points.
+            </p>
+          </div>
           <p>
             <iron-icon icon="book" class="book-icon"></iron-icon>
             <a
@@ -398,122 +409,140 @@ limitations under the License.
         </div>
         <!-- PCA Controls -->
         <div data-panel="pca" class="ink-panel-content">
-          <div class="two-columns">
-            <div>
-              <!-- Left column -->
-              <paper-dropdown-menu
-                class="pca-dropdown"
-                vertical-align="bottom"
-                no-animations
-                label="X"
+          <div class="slider">
+            <label>Dimension</label>
+            <div class="two-way-toggle">
+              <span>2D</span>
+              <paper-toggle-button id="pca-toggle" checked="{{pcaIs3d}}"
+                >3D</paper-toggle-button
               >
-                <paper-listbox
-                  attr-for-selected="value"
-                  class="dropdown-content"
-                  selected="{{pcaX}}"
-                  slot="dropdown-content"
-                >
-                  <paper-item disabled class="dropdown-item header">
-                    <div>#</div>
-                    <div>Variance (%)</div>
-                  </paper-item>
-                  <template is="dom-repeat" items="[[pcaComponents]]">
-                    <paper-item
-                      class="dropdown-item"
-                      value="[[item.id]]"
-                      label="Component #[[item.componentNumber]]"
-                    >
-                      <div>[[item.componentNumber]]</div>
-                      <div class="item-details">[[item.percVariance]]</div>
-                    </paper-item>
-                  </template>
-                </paper-listbox>
-              </paper-dropdown-menu>
-              <paper-dropdown-menu
-                class="pca-dropdown"
-                no-animations
-                vertical-align="bottom"
-                label="Z"
-                disabled="[[!hasPcaZ]]"
-                id="z-dropdown"
-              >
-                <paper-listbox
-                  attr-for-selected="value"
-                  class="dropdown-content"
-                  selected="{{pcaZ}}"
-                  slot="dropdown-content"
-                >
-                  <paper-item disabled class="dropdown-item header">
-                    <div>#</div>
-                    <div>Variance (%)</div>
-                  </paper-item>
-                  <template is="dom-repeat" items="[[pcaComponents]]">
-                    <paper-item
-                      class="dropdown-item"
-                      value="[[item.id]]"
-                      label="Component #[[item.componentNumber]]"
-                    >
-                      <div>[[item.componentNumber]]</div>
-                      <div class="item-details">[[item.percVariance]]</div>
-                    </paper-item>
-                  </template>
-                </paper-listbox>
-              </paper-dropdown-menu>
-            </div>
-            <div>
-              <!-- Right column -->
-              <paper-dropdown-menu
-                class="pca-dropdown"
-                vertical-align="bottom"
-                no-animations
-                label="Y"
-              >
-                <paper-listbox
-                  attr-for-selected="value"
-                  class="dropdown-content"
-                  selected="{{pcaY}}"
-                  slot="dropdown-content"
-                >
-                  <paper-item disabled class="dropdown-item header">
-                    <div>#</div>
-                    <div>Variance (%)</div>
-                  </paper-item>
-                  <template is="dom-repeat" items="[[pcaComponents]]">
-                    <paper-item
-                      class="dropdown-item"
-                      value="[[item.id]]"
-                      label="Component #[[item.componentNumber]]"
-                    >
-                      <div>[[item.componentNumber]]</div>
-                      <div class="item-details">[[item.percVariance]]</div>
-                    </paper-item>
-                  </template>
-                </paper-listbox>
-              </paper-dropdown-menu>
-              <paper-checkbox
-                id="z-checkbox"
-                checked="{{pcaIs3d}}"
-              ></paper-checkbox>
             </div>
           </div>
-          <p id="pca-sampling" class="notice">
-            PCA is approximate.
-            <paper-icon-button
-              icon="help"
-              class="help-icon"
-            ></paper-icon-button>
+          <div class="two-columns hidden">
+            <!-- Left column -->
+            <paper-dropdown-menu
+              class="pca-dropdown"
+              vertical-align="bottom"
+              no-animations
+              label="X"
+            >
+              <paper-listbox
+                attr-for-selected="value"
+                class="dropdown-content"
+                selected="{{pcaX}}"
+                slot="dropdown-content"
+              >
+                <paper-item disabled class="dropdown-item header">
+                  <div>#</div>
+                  <div>Variance (%)</div>
+                </paper-item>
+                <template is="dom-repeat" items="[[pcaComponents]]">
+                  <paper-item
+                    class="dropdown-item"
+                    value="[[item.id]]"
+                    label="Component #[[item.componentNumber]]"
+                  >
+                    <div>[[item.componentNumber]]</div>
+                    <div class="item-details">[[item.percVariance]]</div>
+                  </paper-item>
+                </template>
+              </paper-listbox>
+            </paper-dropdown-menu>
+            <paper-dropdown-menu
+              class="pca-dropdown"
+              no-animations
+              vertical-align="bottom"
+              label="Z"
+              disabled="[[!hasPcaZ]]"
+              id="z-dropdown"
+            >
+              <paper-listbox
+                attr-for-selected="value"
+                class="dropdown-content"
+                selected="{{pcaZ}}"
+                slot="dropdown-content"
+              >
+                <paper-item disabled class="dropdown-item header">
+                  <div>#</div>
+                  <div>Variance (%)</div>
+                </paper-item>
+                <template is="dom-repeat" items="[[pcaComponents]]">
+                  <paper-item
+                    class="dropdown-item"
+                    value="[[item.id]]"
+                    label="Component #[[item.componentNumber]]"
+                  >
+                    <div>[[item.componentNumber]]</div>
+                    <div class="item-details">[[item.percVariance]]</div>
+                  </paper-item>
+                </template>
+              </paper-listbox>
+            </paper-dropdown-menu>
+
+            <!-- Right column -->
+            <paper-dropdown-menu
+              class="pca-dropdown"
+              vertical-align="bottom"
+              no-animations
+              label="Y"
+            >
+              <paper-listbox
+                attr-for-selected="value"
+                class="dropdown-content"
+                selected="{{pcaY}}"
+                slot="dropdown-content"
+              >
+                <paper-item disabled class="dropdown-item header">
+                  <div>#</div>
+                  <div>Variance (%)</div>
+                </paper-item>
+                <template is="dom-repeat" items="[[pcaComponents]]">
+                  <paper-item
+                    class="dropdown-item"
+                    value="[[item.id]]"
+                    label="Component #[[item.componentNumber]]"
+                  >
+                    <div>[[item.componentNumber]]</div>
+                    <div class="item-details">[[item.percVariance]]</div>
+                  </paper-item>
+                </template>
+              </paper-listbox>
+            </paper-dropdown-menu>
+            <paper-checkbox
+              id="z-checkbox"
+              checked="{{pcaIs3d}}"
+            ></paper-checkbox>
+          </div>
+          <div class="hidden">
+            <p id="pca-sampling" class="notice hidden">
+              PCA is approximate.
+              <paper-icon-button
+                icon="help"
+                class="help-icon"
+              ></paper-icon-button>
+            </p>
+            <div id="total-variance">Total variance</div>
+            <paper-tooltip
+              for="pca-sampling"
+              position="top"
+              animation-delay="0"
+              fit-to-visible-bounds
+            >
+              For fast results, the data was sampled to [[getPcaSampleSizeText()]]
+              points and randomly projected down to [[getPcaSampledDimText()]]
+              dimensions.
+            </paper-tooltip>
+          </div>
+          <p>
+            <iron-icon icon="book" class="book-icon"></iron-icon>
+            <a
+              target="_blank"
+              href="https://en.wikipedia.org/wiki/Principal_component_analysis"
+              rel="noopener noreferrer"
+            >
+              Introduction to PCA
+            </a>
           </p>
-          <div id="total-variance">Total variance</div>
-          <paper-tooltip
-            for="pca-sampling"
-            position="top"
-            animation-delay="0"
-            fit-to-visible-bounds
-          >
-            For fast results, the data was sampled to [[getPcaSampleSizeText()]]
-            points and randomly projected down to [[getPcaSampledDimText()]]
-            dimensions.
-          </paper-tooltip>
         </div>
         <!-- Custom Controls -->
         <div data-panel="custom" class="ink-panel-content">

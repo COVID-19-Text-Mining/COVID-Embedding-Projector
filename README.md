@@ -3,10 +3,13 @@ This is a project forked from Google's [embedding projector](https://github.com/
 
 For source code, please refer to https://github.com/tensorflow/tensorboard/tree/master/tensorboard/plugins/projector.
 
-## Compile
-To compile the source code, just run `bash compile_projector.sh`, and `index.html` will be updated.
+## Install
+To install the website to the vhost, you can use the command below.
 
-- Note that this project depends on `bazel`. Please install `bazel` first.
+```Shell
+bash compile_projector.sh
+mv rsc/ vz-projector/ index.html <VHOST'S ROOT DIR> 
+```
 
 ## Demo
 You can find a demo on [https://projector.yuxingfei.top](https://projector.yuxingfei.top)

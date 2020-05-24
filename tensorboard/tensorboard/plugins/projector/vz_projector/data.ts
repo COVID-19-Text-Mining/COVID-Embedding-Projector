@@ -86,7 +86,7 @@ namespace vz_projector {
   /** Number of dimensions to sample when doing approximate PCA. */
   export const PCA_SAMPLE_DIM = 200;
   /** Number of pca components to compute. */
-  const NUM_PCA_COMPONENTS = 10;
+  const NUM_PCA_COMPONENTS = 3;
 
   /** Id of message box used for umap optimization progress bar. */
   const UMAP_MSG_ID = 'umap-optimization';
@@ -270,27 +270,34 @@ namespace vz_projector {
       if (this.projections['pca-0'] != null) {
         return Promise.resolve<void>(null);
       }
-      return util.runAsyncTask('Computing PCA...', () => {
-        // Approximate pca vectors by sampling the dimensions.
-        let dim = this.points[0].vector.length;
-        let vectors = this.shuffledDataIndices.map(
-          (i) => this.points[i].vector
-        );
-        if (dim > PCA_SAMPLE_DIM) {
-          vectors = vector.projectRandom(vectors, PCA_SAMPLE_DIM);
+      let NUM_PCA_COMPONENTS = 3;
+      let url = "rsc/pca.bytes";
+      let xhr = new XMLHttpRequest();
+      return new Promise((resolve, reject) => {
+        xhr.open('GET', url);
+        xhr.responseType = 'arraybuffer';
+        let msgId = null
+        let autoClear = msgId == null;
+        msgId = logging.setModalMessage("Fetching PCA tensor...", msgId);
+        xhr.onload = () => {
+          try {
+            if (autoClear) {
+              logging.setModalMessage(null, msgId);
+            }
+            resolve();
+          } catch (ex) {
+            reject(ex);
+          }
         }
-        const sampledVectors = vectors.slice(0, PCA_SAMPLE_SIZE);
-        const {dot, transpose, svd: numericSvd} = numeric;
-        // numeric dynamically generates `numeric.div` and Closure compiler has
-        // incorrectly compiles `numeric.div` property accessor. We use below
-        // signature to prevent Closure from mangling and guessing.
-        const div = numeric['div'];
-
-        const scalar = dot(transpose(sampledVectors), sampledVectors);
-        const sigma = div(scalar, sampledVectors.length);
-        const svd = numericSvd(sigma);
-
-        const variances: number[] = svd.S;
+        xhr.send();
+      }).then(() => {
+        let allData = this.reshapeTensor(new Float32Array(xhr.response), NUM_PCA_COMPONENTS);
+        let v = allData[0];
+        let variances: number[] = Array<number>(NUM_PCA_COMPONENTS);
+        for (let i = 0; i < NUM_PCA_COMPONENTS; ++i) {
+          variances[i] = v[i].valueOf();
+        }
+        let dataPoints = allData.slice(1);
         let totalVariance = 0;
         for (let i = 0; i < variances.length; ++i) {
           totalVariance += variances[i];
@@ -299,27 +306,31 @@ namespace vz_projector {
           variances[i] /= totalVariance;
         }
         this.fracVariancesExplained = variances;
-        let U: number[][] = svd.U;
-        let pcaVectors = vectors.map((vector) => {
-          let newV = new Float32Array(NUM_PCA_COMPONENTS);
-          for (let newDim = 0; newDim < NUM_PCA_COMPONENTS; newDim++) {
-            let dot = 0;
-            for (let oldDim = 0; oldDim < vector.length; oldDim++) {
-              dot += vector[oldDim] * U[oldDim][newDim];
-            }
-            newV[newDim] = dot;
-          }
-          return newV;
-        });
         for (let d = 0; d < NUM_PCA_COMPONENTS; d++) {
           let label = 'pca-' + d;
           this.projections[label] = true;
-          for (let i = 0; i < pcaVectors.length; i++) {
+          for (let i = 0; i < dataPoints.length; i++) {
             let pointIndex = this.shuffledDataIndices[i];
-            this.points[pointIndex].projections[label] = pcaVectors[i][d];
+            this.points[pointIndex].projections[label] = dataPoints[i][d];
           }
         }
-      });
+      })
+    }
+
+    reshapeTensor(
+      data: Float32Array,
+      dim: number
+    ): Array<Float32Array> {
+      console.log(dim);
+      console.log(data.length);
+      const N = data.length / dim;
+      let offset = 0;
+      let dataPoints = Array(N);
+      for (let i = 0; i < N; ++i) {
+        dataPoints[i] = data.subarray(offset, offset + dim);
+        offset += dim;
+      }
+      return dataPoints;
     }
 
     /** Runs tsne on the data. */
@@ -330,146 +341,77 @@ namespace vz_projector {
       stepCallback: (iter: number) => void
     ) {
       this.hasTSNERun = true;
-      let k = Math.floor(3 * perplexity);
-      let opt = {epsilon: learningRate, perplexity: perplexity, dim: tsneDim};
-      this.tsne = new TSNE(opt);
-      this.tsne.setSupervision(this.superviseLabels, this.superviseInput);
-      this.tsne.setSuperviseFactor(this.superviseFactor);
-      this.tSNEShouldPause = false;
-      this.tSNEShouldStop = false;
-      this.tSNEIteration = 0;
-
-      let sampledIndices = this.shuffledDataIndices.slice(0, TSNE_SAMPLE_SIZE);
-      let step = () => {
-        if (this.tSNEShouldStop) {
-          this.projections['tsne'] = false;
-          stepCallback(null);
-          this.tsne = null;
-          this.hasTSNERun = false;
-          return;
-        }
-
-        if (!this.tSNEShouldPause) {
-          this.tsne.step();
-          let result = this.tsne.getSolution();
-          sampledIndices.forEach((index, i) => {
-            let dataPoint = this.points[index];
-
-            dataPoint.projections['tsne-0'] = result[i * tsneDim + 0];
-            dataPoint.projections['tsne-1'] = result[i * tsneDim + 1];
-            if (tsneDim === 3) {
-              dataPoint.projections['tsne-2'] = result[i * tsneDim + 2];
+      let url = "rsc/tsne.bytes";
+      let xhr = new XMLHttpRequest();
+      return new Promise((resolve, reject) => {
+        xhr.open('GET', url);
+        xhr.responseType = 'arraybuffer';
+        let msgId = null
+        let autoClear = msgId == null;
+        msgId = logging.setModalMessage("Fetching t-SNE tensor...", msgId);
+        xhr.onload = () => {
+          try {
+            if (autoClear) {
+              logging.setModalMessage(null, msgId);
             }
-          });
-          this.projections['tsne'] = true;
-          this.tSNEIteration++;
-          stepCallback(this.tSNEIteration);
+            resolve();
+          } catch (ex) {
+            reject(ex);
+          }
         }
-        requestAnimationFrame(step);
-      };
-
-      const sampledData = sampledIndices.map((i) => this.points[i]);
-      const knnComputation = this.computeKnn(sampledData, k);
-
-      knnComputation.then((nearest) => {
-        util
-          .runAsyncTask('Initializing T-SNE...', () => {
-            this.tsne.initDataDist(nearest);
-          })
-          .then(step);
-      });
+        xhr.send();
+      }).then(() => {
+        let result = this.reshapeTensor(new Float32Array(xhr.response), 3);
+        for (let i = 0; i < result.length; i++) {
+          this.points[i].projections['tsne-0'] = result[i][0];
+          this.points[i].projections['tsne-1'] = result[i][1];
+          if (tsneDim === 3) {
+            this.points[i].projections['tsne-2'] = result[i][2];
+          }
+        }
+        this.projections['umap'] = true;
+        stepCallback(400);
+      })
     }
 
     /** Runs UMAP on the data. */
-    async projectUmap(
+    projectUmap(
       nComponents: number,
       nNeighbors: number,
       stepCallback: (iter: number) => void
     ) {
       this.hasUmapRun = true;
-      this.umap = new UMAP({nComponents, nNeighbors});
-
-      let currentEpoch = 0;
-      const epochStepSize = 10;
-      const sampledIndices = this.shuffledDataIndices.slice(
-        0,
-        UMAP_SAMPLE_SIZE
-      );
-
-      const sampledData = sampledIndices.map((i) => this.points[i]);
-      // TODO: Switch to a Float32-based UMAP internal
-      const X = sampledData.map((x) => Array.from(x.vector));
-
-      const nearest = await this.computeKnn(sampledData, nNeighbors);
-
-      const nEpochs = await util.runAsyncTask(
-        'Initializing UMAP...',
-        () => {
-          const knnIndices = nearest.map((row) =>
-            row.map((entry) => entry.index)
-          );
-          const knnDistances = nearest.map((row) =>
-            row.map((entry) => entry.dist)
-          );
-
-          // Initialize UMAP and return the number of epochs.
-          this.umap.setPrecomputedKNN(knnIndices, knnDistances);
-          return this.umap.initializeFit(X);
-        },
-        UMAP_MSG_ID
-      );
-
-      // Now, iterate through all epoch batches of the UMAP optimization, updating
-      // the modal window with the progress rather than animating each step since
-      // the UMAP animation is not nearly as informative as t-SNE.
+      let url = "rsc/umap.bytes";
+      let xhr = new XMLHttpRequest();
       return new Promise((resolve, reject) => {
-        const step = () => {
-          // Compute a batch of epochs since we don't want to update the UI
-          // on every epoch.
-          const epochsBatch = Math.min(epochStepSize, nEpochs - currentEpoch);
-          for (let i = 0; i < epochsBatch; i++) {
-            currentEpoch = this.umap.step();
+        xhr.open('GET', url);
+        xhr.responseType = 'arraybuffer';
+        let msgId = null
+        let autoClear = msgId == null;
+        msgId = logging.setModalMessage("Fetching UMAP tensor...", msgId);
+        xhr.onload = () => {
+          try {
+            if (autoClear) {
+              logging.setModalMessage(null, msgId);
+            }
+            resolve();
+          } catch (ex) {
+            reject(ex);
           }
-          const progressMsg = `Optimizing UMAP (epoch ${currentEpoch} of ${nEpochs})`;
-
-          // Wrap the logic in a util.runAsyncTask in order to correctly update
-          // the modal with the progress of the optimization.
-          util
-            .runAsyncTask(
-              progressMsg,
-              () => {
-                if (currentEpoch < nEpochs) {
-                  requestAnimationFrame(step);
-                } else {
-                  const result = this.umap.getEmbedding();
-                  sampledIndices.forEach((index, i) => {
-                    const dataPoint = this.points[index];
-
-                    dataPoint.projections['umap-0'] = result[i][0];
-                    dataPoint.projections['umap-1'] = result[i][1];
-                    if (nComponents === 3) {
-                      dataPoint.projections['umap-2'] = result[i][2];
-                    }
-                  });
-                  this.projections['umap'] = true;
-
-                  logging.setModalMessage(null, UMAP_MSG_ID);
-                  this.hasUmapRun = true;
-                  stepCallback(currentEpoch);
-                  resolve();
-                }
-              },
-              UMAP_MSG_ID,
-              0
-            )
-            .catch((error) => {
-              logging.setModalMessage(null, UMAP_MSG_ID);
-              reject(error);
-            });
-        };
-
-        requestAnimationFrame(step);
-      });
+        }
+        xhr.send();
+      }).then(() => {
+        let result = this.reshapeTensor(new Float32Array(xhr.response), 3);
+        for (let i = 0; i < result.length; i++) {
+          this.points[i].projections['umap-0'] = result[i][0];
+          this.points[i].projections['umap-1'] = result[i][1];
+          if (nComponents === 3) {
+            this.points[i].projections['umap-2'] = result[i][2];
+          }
+        }
+        this.projections['umap'] = true;
+        stepCallback(400);
+      })
     }
 
     /** Computes KNN to provide to the UMAP and t-SNE algorithms. */

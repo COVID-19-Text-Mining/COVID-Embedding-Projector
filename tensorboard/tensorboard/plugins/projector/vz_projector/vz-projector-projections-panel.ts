@@ -13,7 +13,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 ==============================================================================*/
 namespace vz_projector {
-  const NUM_PCA_COMPONENTS = 10;
+  const NUM_PCA_COMPONENTS = 3;
 
   // tslint:disable-next-line
   export let ProjectionsPanelPolymer = PolymerElement({
@@ -520,6 +520,7 @@ namespace vz_projector {
     private runTSNE() {
       let projectionChangeNotified = false;
       this.runTsneButton.innerText = 'Stop';
+      this.runTsneButton.title = "Stop t-SNE"
       this.runTsneButton.disabled = true;
       this.pauseTsneButton.innerText = 'Pause';
       this.pauseTsneButton.disabled = true;
@@ -542,6 +543,7 @@ namespace vz_projector {
             }
           } else {
             this.runTsneButton.innerText = 'Re-run';
+            this.runTsneButton.title = "Re-run t-SNE"
             this.runTsneButton.disabled = false;
             this.pauseTsneButton.innerText = 'Pause';
             this.pauseTsneButton.disabled = true;

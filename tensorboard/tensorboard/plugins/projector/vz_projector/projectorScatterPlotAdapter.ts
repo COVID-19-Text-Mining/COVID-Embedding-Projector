@@ -56,7 +56,7 @@ namespace vz_projector {
   const NN_COLOR_SCALE = d3
     .scaleLinear<string, string>()
     .domain([1, 0.7, 0.4])
-    .range(['hsl(285, 80%, 40%)', 'hsl(0, 80%, 65%)', 'hsl(40, 70%, 60%)'])
+    .range(['hsl(240, 100%, 30%)', 'hsl(220, 100%, 30%)', 'hsl(200, 100%, 40%)'])
     .clamp(true);
 
   /**
