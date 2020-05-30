@@ -206,6 +206,7 @@ limitations under the License.
 
       .matches-list {
         padding: 0 20px;
+        overflow-y: scroll;
       }
 
       .matches-list .row {
@@ -214,9 +215,10 @@ limitations under the License.
         display: flex;
         font-size: 12px;
         margin: 5px 0;
+        color: #0033CC;
         padding: 4px 0;
       }
-
+      
       .results {
         display: flex;
         flex-direction: column;
@@ -224,6 +226,7 @@ limitations under the License.
 
       .results,
       .nn,
+      .matches-list,
       .nn-list {
         flex: 1 0 100px;
       }
@@ -235,8 +238,13 @@ limitations under the License.
         display: flex;
         font-size: 16px;
         font-weight: 500;
-        height: 59px;
+        height: 60px;
+        min-height: 60px;
         padding-left: 20px;
+      }
+
+      .limit-msg {
+        font-size: 12px;
       }
 
       .hidden {
