@@ -219,11 +219,15 @@ namespace vz_projector {
 
       this.loadTsneButton.addEventListener('click', () => {
         this.dataSet.tSNEFetched = false;
+        this.runTsneButton.innerText = 'Run';
+        this.runTsneButton.title = "Run t-SNE"
         this.runTSNE();
       });
 
       this.loadUmapButton.addEventListener('click', () => {
         this.dataSet.UMAPFetched = false;
+        this.runUmapButton.innerText = 'Run';
+        this.runUmapButton.title = 'Run UMAP'
         this.runUmap();
       });
 
@@ -234,6 +238,7 @@ namespace vz_projector {
         } else {
           this.dataSet.tSNEShouldPause = true;
           this.pauseTsneButton.innerText = 'Resume';
+          this.pauseTsneButton.title = 'Contine to run t-SNE';
         }
       });
 
@@ -556,6 +561,10 @@ namespace vz_projector {
       const originPointCount = this.originalDataSet == null ? 0 : this.originalDataSet.points.length;
 
       if (pointCount === originPointCount && !this.dataSet.tSNEFetched) {
+        this.runTsneButton.disabled = true;
+        this.loadTsneButton.disabled = true;
+        this.pauseTsneButton.disabled = true;
+        this.perturbTsneButton.disabled = true;
         this.dataSet.fetchTSNE(
           this.tSNEis3d ? 3 : 2,
           (iteration: number) => {
@@ -576,6 +585,7 @@ namespace vz_projector {
         this.pauseTsneButton.innerText = 'Pause';
         this.pauseTsneButton.disabled = true;
         this.perturbTsneButton.disabled = false;
+        this.loadTsneButton.disabled = true;
   
         this.dataSet.projectTSNE(
           this.perplexity,
@@ -599,6 +609,7 @@ namespace vz_projector {
               this.pauseTsneButton.innerText = 'Pause';
               this.pauseTsneButton.disabled = true;
               this.perturbTsneButton.disabled = true;
+              this.loadTsneButton.disabled = false;
               this.projector.onProjectionChanged();
             }
           }
@@ -643,15 +654,24 @@ namespace vz_projector {
       const originPointCount = this.originalDataSet == null ? 0 : this.originalDataSet.points.length;
 
       if (pointCount === originPointCount && !this.dataSet.UMAPFetched) {
+        this.runUmapButton.disabled = true;
+        this.loadUmapButton.disabled = true;
         this.dataSet.fetchUmap(nComponents, (iteration: number) => {
           this.projector.notifyProjectionPositionsUpdated();
           this.projector.onProjectionChanged();
           this.runUmapButton.disabled = false;
+          this.loadUmapButton.disabled = false;
         })
       } else {
+        this.runUmapButton.disabled = true;
+        this.loadUmapButton.disabled = true;
         this.dataSet.projectUmap(nComponents, nNeighbors, (iteration: number) => {
+          this.loadUmapButton.disabled = false;
+          this.runUmapButton.disabled = false;
           if (iteration != null) {
             this.runUmapButton.disabled = false;
+            this.runUmapButton.innerText = 'Re-run';
+            this.runUmapButton.title = 'Re-run UMAP'
             this.projector.notifyProjectionPositionsUpdated();
   
             if (!projectionChangeNotified && this.dataSet.projections['umap']) {
@@ -660,6 +680,7 @@ namespace vz_projector {
             }
           } else {
             this.runUmapButton.innerText = 'Re-run';
+            this.runUmapButton.title = 'Re-run UMAP'
             this.runUmapButton.disabled = false;
             this.projector.onProjectionChanged();
           }
