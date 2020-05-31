@@ -46,13 +46,19 @@ limitations under the License.
         border-radius: 2px;
         font-size: 13px;
         padding: 10px;
-        min-width: 88px;
+        min-width: 60px;
         flex-shrink: 0;
         background: #e3e3e3;
       }
 
       .ink-panel-buttons {
         margin-bottom: 10px;
+      }
+
+      .tsne-buttons {
+        justify-content: space-evenly;
+        display: flex;
+        padding: 15px 0 0 0;
       }
 
       .two-way-toggle {
@@ -229,7 +235,7 @@ limitations under the License.
               >
             </div>
           </div>
-          <div class="slider umap-neighbors hidden">
+          <div class="slider umap-neighbors">
             <label>
               Neighbors
               <paper-icon-button
@@ -255,22 +261,26 @@ limitations under the License.
             ></paper-slider>
             <span>[[umapNeighbors]]</span>
           </div>
-        <div class="hidden">
-            <p>
-              <button
-                id="run-umap"
-                class="ink-button"
-                title="Run UMAP"
-                on-tap="runUmap"
-              >
-                Run
-              </button>
-            </p>
-            <p id="umap-sampling" class="notice">
-              For faster results, the data will be sampled down to
-              [[getUmapSampleSizeText()]] points.
-            </p>
-        </div>
+          <div>
+            <button
+              id="run-umap"
+              class="ink-button"
+              title="Run UMAP"
+              on-tap="runUmap"
+            >
+              Run
+            </button>
+            <button 
+              id="load-umap"
+              class="ink-button"
+              title="Load UAMP result from server">
+              Load Cache
+            </button>
+          </div>
+          <p id="umap-sampling" class="notice">
+            For faster results, the data will be sampled down to
+            [[getUmapSampleSizeText()]] points.
+          </p>
 
           <p>
             <iron-icon icon="book" class="book-icon"></iron-icon>
@@ -375,7 +385,7 @@ limitations under the License.
             </paper-slider>
             <span></span>
           </div>
-          <p>
+          <div class="tsne-buttons">
             <button class="run-tsne ink-button" title="Run t-SNE">
               Run
             </button>
@@ -385,10 +395,13 @@ limitations under the License.
             <button class="perturb-tsne ink-button" title="Perturb t-SNE">
               Perturb
             </button>
-          </p>
+            <button class="load-tsne ink-button" title="Load t-SNE result from server">
+              Load Cache
+            </button>
+          </div>
           <p>Iteration: <span class="run-tsne-iter">0</span></p>
           <p id="tsne-note" class="notice">
-            <b>NOTE: Runing TNSE will take a long time.</b>
+            <b>NOTE: Running TNSE will take a long time.</b>
           </p>
           <p id="tsne-sampling" class="notice">
             For faster results, the data will be sampled down to
