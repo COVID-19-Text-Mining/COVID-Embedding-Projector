@@ -44,7 +44,7 @@ limitations under the License.
 
       .buttons {
         display: flex;
-        height: 60px;
+        height: 50px;
       }
 
       .button {
@@ -157,7 +157,7 @@ limitations under the License.
       }
 
       .neighbor-image-controls {
-        display: flex;
+        display: none;
         padding: 0.8em 0.1em;
       }
 
@@ -173,7 +173,7 @@ limitations under the License.
       }
 
       .neighbors {
-        margin-bottom: 15px;
+        margin-bottom: 5px;
       }
 
       .neighbors-options {
@@ -228,7 +228,7 @@ limitations under the License.
       .nn,
       .matches-list,
       .nn-list {
-        flex: 1 0 100px;
+        flex: 1 0 75px;
       }
 
       .title {
@@ -243,6 +243,10 @@ limitations under the License.
         padding-left: 20px;
       }
 
+      .num-nn {
+        margin-bottom: 5px;
+      }
+
       .limit-msg {
         font-size: 12px;
       }
@@ -251,8 +255,7 @@ limitations under the License.
         display: none;
       }
     </style>
-    <div class="title">EXPLORER</div>
-    <div class="container">
+    <div class="container" style="padding-top: 20px;">
       <div class="buttons">
         <button class="button reset-filter">Show All Data</button>
         <button class="button set-filter">Isolate selection</button>
