@@ -20841,10 +20841,6 @@ var vz_projector;
             this.customSelectedSearchByMetadataOption = this.searchByMetadataOptions[Math.max(0, searchByMetadataIndex)];
         }
         _hideTab() {
-            const allTabs = this.root.querySelectorAll('.ink-tab');
-            for (let i = 0; i < allTabs.length; i++) {
-                vz_projector.util.classed(allTabs[i], 'active', false);
-            }
             const allTabContent = this.root.querySelectorAll('.ink-panel-content');
             for (let i = 0; i < allTabContent.length; i++) {
                 vz_projector.util.classed(allTabContent[i], 'active', false);

@@ -487,11 +487,6 @@ namespace vz_projector {
     }
 
     private _hideTab() {
-      const allTabs = this.root.querySelectorAll('.ink-tab');
-      for (let i = 0; i < allTabs.length; i++) {
-        util.classed(allTabs[i] as HTMLElement, 'active', false);
-      }
-
       const allTabContent = this.root.querySelectorAll('.ink-panel-content');
       for (let i = 0; i < allTabContent.length; i++) {
         util.classed(allTabContent[i] as HTMLElement, 'active', false);
