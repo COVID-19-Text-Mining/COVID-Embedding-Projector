@@ -788,7 +788,7 @@ namespace vz_projector {
     }
   }
 
-  export type ProjectionType = 'tsne' | 'umap' | 'pca' | 'custom';
+  export type ProjectionType = 'tsne' | 'umap' | 'pca';
 
   export class Projection {
     constructor(

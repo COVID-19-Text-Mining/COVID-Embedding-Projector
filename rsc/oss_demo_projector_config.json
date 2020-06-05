@@ -4,7 +4,7 @@
       "tensorName": "COVID-19 Word Embedding",
       "tensorShape": [15000, 300],
       "tensorPath": "rsc/tensor.bytes",
-      "metadataPath": "rsc/labels.tsv",
+      "metadataPath": "rsc/labels.tsv"
     }
   ],
   "modelCheckpointPath": "COVID Dataset"

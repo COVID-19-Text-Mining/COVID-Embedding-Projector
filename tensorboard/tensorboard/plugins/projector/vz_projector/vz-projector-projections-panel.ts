@@ -119,9 +119,12 @@ namespace vz_projector {
     private superviseFactorInput: HTMLInputElement;
     private zDropdown: HTMLElement;
     private iterationLabelTsne: HTMLElement;
+    private projectionControlPanel: HTMLElement;
 
     private runUmapButton: HTMLButtonElement;
     private loadUmapButton: HTMLButtonElement;
+    private expandLessButton: HTMLButtonElement;
+    private expandMoreButton: HTMLButtonElement;
 
     private customProjectionXLeftInput: ProjectorInput;
     private customProjectionXRightInput: ProjectorInput;
@@ -160,6 +163,9 @@ namespace vz_projector {
       this.iterationLabelTsne = this.$$('.run-tsne-iter') as HTMLElement;
       this.runUmapButton = this.$$('#run-umap') as HTMLButtonElement;
       this.loadUmapButton = this.$$('#load-umap') as HTMLButtonElement;
+      this.expandLessButton = this.$$('#expand-less') as HTMLButtonElement;
+      this.expandMoreButton = this.$$('#expand-more') as HTMLButtonElement;
+      this.projectionControlPanel = this.$$('#projection-control-panel') as HTMLElement;
     }
 
     disablePolymerChangesTriggerReprojection() {
@@ -450,6 +456,21 @@ namespace vz_projector {
       this.beginProjection(this.currentProjection);
     }
 
+    /** Handles a click on show bookmarks tray button. */
+    _expandMore() {
+      this._showTab();
+      this.expandMoreButton.style.display = 'none';
+      this.expandLessButton.style.display = '';
+    }
+
+    /** Handles a click on hide bookmarks tray button. */
+    _expandLess() {
+      this._hideTab();
+      this.expandMoreButton.style.display = '';
+      this.expandLessButton.style.display = 'none';
+    }
+    
+
     metadataChanged(spriteAndMetadata: SpriteAndMetadataInfo) {
       // Project by options for custom projections.
       let searchByMetadataIndex = -1;
@@ -465,8 +486,70 @@ namespace vz_projector {
       ];
     }
 
+    private _hideTab() {
+      const allTabs = this.root.querySelectorAll('.ink-tab');
+      for (let i = 0; i < allTabs.length; i++) {
+        util.classed(allTabs[i] as HTMLElement, 'active', false);
+      }
+
+      const allTabContent = this.root.querySelectorAll('.ink-panel-content');
+      for (let i = 0; i < allTabContent.length; i++) {
+        util.classed(allTabContent[i] as HTMLElement, 'active', false);
+      }
+
+      this.projectionControlPanel.style.display = 'none';
+
+      // guard for unit tests, where polymer isn't attached and $ doesn't exist.
+      if (this.$ != null) {
+        const main = this.$['main'];
+        // In order for the projections panel to animate its height, we need to
+        // set it explicitly.
+        requestAnimationFrame(() => {
+          this.style.height = main.clientHeight + 'px';
+        });
+      }
+    }
+
+    private _showTab() {
+      const id = this.currentProjection;
+
+      const tab = this.$$('.ink-tab[data-tab="' + id + '"]') as HTMLElement;
+      const allTabs = this.root.querySelectorAll('.ink-tab');
+      for (let i = 0; i < allTabs.length; i++) {
+        util.classed(allTabs[i] as HTMLElement, 'active', false);
+      }
+
+      util.classed(tab, 'active', true);
+
+      const allTabContent = this.root.querySelectorAll('.ink-panel-content');
+      for (let i = 0; i < allTabContent.length; i++) {
+        util.classed(allTabContent[i] as HTMLElement, 'active', false);
+      }
+
+      util.classed(
+        this.$$('.ink-panel-content[data-panel="' + id + '"]') as HTMLElement,
+        'active',
+        true
+      );
+
+      this.projectionControlPanel.style.display = '';
+
+      // guard for unit tests, where polymer isn't attached and $ doesn't exist.
+      if (this.$ != null) {
+        const main = this.$['main'];
+        // In order for the projections panel to animate its height, we need to
+        // set it explicitly.
+        requestAnimationFrame(() => {
+          this.style.height = main.clientHeight + 'px';
+        });
+      }
+    }
+
     public showTab(id: ProjectionType) {
+      this.expandMoreButton.style.display = 'none';
+      this.expandLessButton.style.display = '';
       this.currentProjection = id;
+      this.projectionControlPanel.style.display = '';
 
       const tab = this.$$('.ink-tab[data-tab="' + id + '"]') as HTMLElement;
       const allTabs = this.root.querySelectorAll('.ink-tab');

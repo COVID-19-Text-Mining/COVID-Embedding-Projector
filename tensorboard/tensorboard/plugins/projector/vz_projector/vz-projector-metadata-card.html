@@ -54,6 +54,12 @@ limitations under the License.
         padding: 8px 12px 4px;
       }
 
+      #metadata-link {
+        position: absolute;
+        top:50%;
+        right: 5%;
+      }
+
       .metadata-row {
         display: table-row;
       }
@@ -85,7 +91,9 @@ limitations under the License.
           </paper-icon-button>
         </div>
         <div id="header">
-          <div id="metadata-label">[[label]]</div>
+          <div id="metadata-label">
+              [[label]]
+          </div>
         </div>
         <iron-collapse id="metadata-container" opened>
           <div id="metadata-table">
@@ -96,6 +104,20 @@ limitations under the License.
               </div>
             </template>
           </div>
+          <div id="metadata-link">
+            <a href="https://covidscholar.org/search?query=[[label]]" target="_blank">
+              <paper-icon-button id="covidscholar-link" icon="search"></paper-icon-button>
+            </a>
+          </div>
+          <paper-tooltip
+          for="metadata-link"
+          position="bottom"
+          animation-delay="0"
+          offset="0"
+          fit-to-visible-bounds
+        >Search papers  
+        in CovidScholar
+      </paper-tooltip>
         </iron-collapse>
       </div>
     </template>

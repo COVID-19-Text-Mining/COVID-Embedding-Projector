@@ -221,9 +221,23 @@ limitations under the License.
           >
             Search for two vectors upon which to project all points.
           </paper-tooltip>
+          <div id="icon-container">
+            <!-- Icons and event handlers are inverted because the tray expands upwards. -->
+            <paper-icon-button
+              id="expand-less"
+              icon="expand-more"
+              on-tap="_expandLess"
+            ></paper-icon-button>
+            <paper-icon-button
+              id="expand-more"
+              style="display: none"
+              icon="expand-less"
+              on-tap="_expandMore"
+            ></paper-icon-button>
+          </div>
         </div>
       </div>
-      <div class="container">
+      <div class="container" id="projection-control-panel">
         <!-- UMAP Controls -->
         <div data-panel="umap" class="ink-panel-content">
           <div class="slider">

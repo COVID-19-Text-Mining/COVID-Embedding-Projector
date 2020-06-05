@@ -37,8 +37,10 @@ namespace vz_projector {
 
     /** Handles toggle of metadata-container. */
     _toggleMetadataContainer() {
-      (this.$$('#metadata-container') as any).toggle();
       this.isCollapsed = !this.isCollapsed;
+      (this.$$('#covidscholar-link') as any).hidden = this.isCollapsed;
+
+      (this.$$('#metadata-container') as any).toggle();
       this.set(
         'collapseIcon',
         this.isCollapsed ? 'expand-more' : 'expand-less'
