@@ -51,13 +51,15 @@ limitations under the License.
 
       #metadata-table {
         display: table;
-        padding: 8px 12px 4px;
+        padding: 8px 12px 6px;
       }
 
       #metadata-link {
+        font-size: 11px;
+        display: block;
+        left: 55%;
         position: absolute;
-        top:50%;
-        right: 5%;
+        bottom: 5%;
       }
 
       .metadata-row {
@@ -106,18 +108,9 @@ limitations under the License.
           </div>
           <div id="metadata-link">
             <a href="https://covidscholar.org/search?query=[[label]]" target="_blank">
-              <paper-icon-button id="covidscholar-link" icon="search"></paper-icon-button>
+              Search in CovidScholar
             </a>
           </div>
-          <paper-tooltip
-          for="metadata-link"
-          position="bottom"
-          animation-delay="0"
-          offset="0"
-          fit-to-visible-bounds
-        >Search papers  
-        in CovidScholar
-      </paper-tooltip>
         </iron-collapse>
       </div>
     </template>
