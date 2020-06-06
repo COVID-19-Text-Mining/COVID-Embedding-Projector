@@ -99,7 +99,6 @@ limitations under the License.
         justify-content: space-between;
         width: 350px;
         border-right: 1px solid rgba(0, 0, 0, 0.1);
-        background: #fafafa;
       }
 
       #right-pane {
@@ -209,16 +208,8 @@ limitations under the License.
         align-items: center;
         position: relative;
         height: 60px;
-        border-bottom: solid 1px #eee;
         padding: 0 24px;
         display: flex;
-      }
-
-      .ink-panel-menubar .ink-fabs {
-        position: absolute;
-        right: 12px;
-        top: 40px;
-        z-index: 1;
       }
 
       #bookmark-panel {
@@ -232,7 +223,7 @@ limitations under the License.
       }
 
       .ink-fab {
-        margin-left: 8px;
+        margin-right: 10px;
         border: 1px solid rgba(0, 0, 0, 0.02);
         background: white;
         box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
@@ -315,6 +306,15 @@ limitations under the License.
       <div id="main" class="ink-panel">
         <div class="ink-panel-menubar">
           <paper-icon-button
+            id="reset-zoom"
+            class="ink-fab"
+            alt="Reset zoom to fit all points"
+            icon="home"
+          ></paper-icon-button>
+          <paper-tooltip for="reset-zoom" position="left" animation-delay="0"
+            >Reset zoom to fit all points</paper-tooltip
+          >
+          <paper-icon-button
             id="selectMode"
             alt="Bounding box selection"
             toggles
@@ -381,17 +381,6 @@ limitations under the License.
               class="status-bar-entry"
               style="display: none;"
             ></div>
-          </div>
-          <div class="ink-fabs">
-            <paper-icon-button
-              id="reset-zoom"
-              class="ink-fab"
-              alt="Reset zoom to fit all points"
-              icon="home"
-            ></paper-icon-button>
-            <paper-tooltip for="reset-zoom" position="left" animation-delay="0"
-              >Reset zoom to fit all points</paper-tooltip
-            >
           </div>
         </div>
         <div class="stage">
