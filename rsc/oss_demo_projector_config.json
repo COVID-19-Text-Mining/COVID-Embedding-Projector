@@ -2,7 +2,7 @@
   "embeddings": [
     {
       "tensorName": "COVID-19 Word Embedding",
-      "tensorShape": [15000, 300],
+      "tensorShape": [8000, 100],
       "tensorPath": "rsc/tensor.bytes",
       "metadataPath": "rsc/labels.tsv"
     }
