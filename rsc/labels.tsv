@@ -1,3 +1,4 @@
+retrosynthetic
 synthetic
 contingency
 hydroxychloroquine
@@ -15,14 +16,12 @@ anticipated
 shortages
 commonly
 substrates
-2019 novel
-coronavirus
+2019 novel coronavirus
 newly emerged
 strain
 humans
 laboratory-based
-reverse transcription-polymerase
-chain reaction
+reverse transcription-polymerase chain reaction
 RT-PCR
 confirm
 infection
@@ -31,9 +30,9 @@ epidemic
 overwhelms
 resulting
 tested
-queues
-potentially infected
-breeding ground
+potentially
+infected individuals
+breeding
 describe
 rapid
 highly sensitive
@@ -41,20 +40,19 @@ point-of-care
 molecular
 amenable
 clinic
-minimally trained
-minimal
-instrumentation
-loop mediated
-isothermal amplification
+minimally
+trained
+minimal instrumentation
+loop mediated isothermal amplification
 LAMP
 sensitivity
 nested
 nucleic acid
+isothermal amplification
 Penn-RAMP
 tubes
 fluorescence
 colorimetric
-leuco
 crystal violet
 LCV
 detection
@@ -64,6 +62,7 @@ RAMP
 fold
 purified
 targets
+100 times
 rapidly
 mimics
 fortunate
@@ -75,9 +74,9 @@ impacted
 significantly reduce
 false negatives
 2019-nCoV
+coronavirus
 world-wide
 virus replication
-DataBank
 Additionally
 homology models
 proteins
@@ -85,9 +84,9 @@ bythe
 Zhang
 deriving
 virtual screening
-FDA approved
+FDA approved drugs
 distinct
-showed
+Results showed
 protease inhibitors
 ofCOVID-19
 virulence
@@ -99,7 +98,7 @@ numerous
 compounds
 derivatives
 terpenoids
-effective in controlling
+controlling
 virus-induced
 bioinformatical
 inhibition
@@ -115,7 +114,6 @@ molegro
 docker
 inhibitory activities
 novel
-Ginkgolide
 stronger
 bond
 high affinity
@@ -124,7 +122,6 @@ effectiveness
 conclude
 effectire
 antiprotease
-use of hydroxychloroquine
 disruption
 SARS-CoV-2
 cure
@@ -132,8 +129,9 @@ treat
 clinical trials
 insufficient
 examination
-human ACE2
-viral spike
+ACE2
+viral
+spike
 assess the efficacy
 pharmaceutical
 azithromycin
@@ -144,34 +142,29 @@ modeling
 better characterize
 assess
 enhance
-PDB files
 br
-recent outbreak
+outbreak
 novel coronavirus
 welcomes
 efficient
-computer-aided drug
+computer-aided drug design
 promising drug
 repurposing candidates
 3D-structures
-virous
 resolved
 inhibitor
-virtual docking
+docking
 screening
 drug candidates
-docking
-molecular dynamics
-simulations
-energy calculations
+molecular dynamics simulations
+binding free energy calculations
 endpoint
 inhibitors
 Carfilzomib
-Eravacycline
 Valrubicin
 Lopinavir
 Elbasvir
-anti-cancer
+anti-cancer drug
 acting
 proteasome inhibitor
 MM-PBSA-WSAS
@@ -185,10 +178,10 @@ inhibitory effect
 predicted
 neutral
 bioactive
-receptor-ligand interactions
+receptor-ligand
+interactions
 analyzed
 hot spots
-receptor-ligand
 hotspot
 residue
 HIS41
@@ -199,22 +192,18 @@ MERS
 HCV
 findings
 facilitate
-rational drug
+rational drug design
 targeting
 rapidly spreading
 highly contagious
-pathogenic SARS-coronavirus
-Coronavirus Disease
+pathogenic SARS-coronavirus 2
+Coronavirus Disease 2019
 declared
-pandemic by the World
+pandemic
 SARS-CoV-2 enters
-viral
-surface spike
-glycoprotein
+surface spike glycoprotein
 S-protein
-angiotensin converting
-enzyme 2
-ACE2
+angiotensin converting enzyme 2
 interaction
 represents a promising
 therapeutic target
@@ -222,15 +211,19 @@ identifying
 repurposing of drugs
 exponentially
 expending
+Thereto
 high-throughput
 investigate
+FDA approved
 LOPAC
-receptor
+host cell receptor
 binding modes
 dynamics
+simulations
 Evidently
 acetate
 TNP
+GNF5
 GR
 hydrochloride
 hydrate
@@ -238,13 +231,14 @@ RS504393
 binding motifs
 ACE2 receptor
 KT185
+KT203
+GSK1838705A
+BMS195614
 bind
-receptor binding
+receptor binding site
 drug molecules
 effectively
-controlling
 rapid spread
-potentially
 inhibiting
 anti-inflammatory agents
 impart
@@ -271,7 +265,7 @@ predicting
 potential targets
 inherent
 deficiency
-different conformations
+conformations
 largely
 varied
 binding pockets
@@ -297,8 +291,8 @@ efficiency
 drug discovery
 https
 declared a pandemic
+2019 novel
 cornavirus
-SARS-CoV-2 infection
 confirmed
 anti-COVID-19
 therapeutic
@@ -309,23 +303,18 @@ knowledge-based
 constructed
 MODELLER
 refined
-PHENIX
-COOT
 assessed
-MolProbity
 ligand
 molecules
 template
 approved/experimental
 medicines
 KEGG
-KNApSAcK
 suggested
 sinefungin
 tecadenoson
 trabodenoson
 new millennium
-outbreak
 new coronavirus
 happened
 SARS-CoV
@@ -333,7 +322,6 @@ MERS-CoV
 Unfortunately
 weapons
 diseases
-pandemic
 reminds
 urgency
 totally
@@ -344,7 +332,7 @@ targeted
 oxidation
 TOS
 leveraging
-non-covalent interactions
+non-covalent
 oxidize
 inhibit
 cytosolic
@@ -362,7 +350,8 @@ relatively
 reducing
 microenvironments
 proteases
-nsp5 and nsp3
+nsp5
+nsp3
 experimentally
 anti-2019-nCoV
 oxidants
@@ -370,22 +359,23 @@ disulfiram
 Remarkably
 approved by FDA
 70 years
-preliminary list
+preliminary
+drug candidates targeting
 disulfides
 emergence
 vaccine
+sense of urgency
 approaches
-nsp5
 immediate
 focused
 drug repurposing
 clinically-approved
 IC50
-HIV protease
+HIV protease inhibitor
 approximately 50
 micromolar
-attempt to address
-January 28th
+attempt
+28th
 Insilico
 utilize
 generative
@@ -408,7 +398,7 @@ paved the way
 worth considering
 surpassed
 effectivity
-research focuses
+focuses
 candidate
 constrained
 graph
@@ -419,15 +409,15 @@ Tanimoto
 similarities
 considering
 ligands
-SARS-CoV-2 nsp5
+SARS-CoV-2 nsp5 inhibitors
 blockers
 PyRx
-successfully
+successfully generated
+SARS-CoV-2 nsp5
 officially
 labeled
-Health Organisation
-presents
-vigabatrin
+World Health Organisation
+This paper presents
 combatting
 discovered
 paper presents
@@ -435,11 +425,11 @@ discoveries
 connectivity map
 configurations
 simulate
-new strain
 spread
 swiftly
 globe
-2019 in Wuhan
+late December 2019
+Wuhan
 declaration
 3 months
 researchers
@@ -450,7 +440,7 @@ repositioning
 molecular modeling
 inhibitory effects
 nsp5 enzyme
-nsp5 substrate-binding
+nsp5 substrate-binding pocket
 focusing
 terminal
 binding energies
@@ -458,7 +448,6 @@ interacting
 amino acids
 indications
 elucidate
-preliminary
 pharmacophore
 candidates
 bound
@@ -477,25 +466,25 @@ indicate
 antiviral activity
 vitro and in vivo
 individually or in combination
-severe acute
-respiratory syndrome
+severe acute respiratory syndrome
 coronavirus 2
 reached
-Wuhan
 December 2019
 globally
 peptide-like
 anti-HIV-1
-Main protease
-close phylogenetic
+Main protease nsp5
+close phylogenetic relationship
 main proteases
-structural and functional
+structural and functional features
 regarded
+potential drug candidates
 mechanism of action
 atomic-level
 revealed
-interactions
 performing
+pharmacophore modeling
+molecular dynamics
 Gly143
 Glu166
 formed
@@ -507,8 +496,9 @@ consist
 virulent pathogens
 zoonotic
 Severe
+Respiratory Syndrome
+Middle East Respiratory Syndrome
 emerged
-emerged in China
 Characterization
 spike glycoproteins
 polyproteins
@@ -526,6 +516,8 @@ sequences
 genome sequences
 spike protein
 analysed
+receptor binding
+Our results showed
 tertiary structure
 polyprotein
 isolate
@@ -534,39 +526,38 @@ NSP12
 NSP7
 NSP8
 co-factors
+Our results indicate
 viral genome
 residues
-isolate Wuhan-Hu-1
+Wuhan-Hu-1
 Genbank
-Accession Number
+Accession
 MN908947.3
 modelled
-PDB database
-3C
+3C like
 peptidase
 ability to bind
 APE
-irreversible inhibition
+irreversible
+main peptidase
 genome
-3e9s
 papain-like
+protease/deubiquitinase
 complexed
 GRL0617
 acts
-SARS-CoV replication
+replication
 continuously increasing
 scenario
 repertoire
 drugs to treat
-rational
+rational selection
 ability to inhibit
 viral life-cycle
-We chose
+chose
 crucial
-papain-like protease
-nsp3
+papain-like protease nsp3
 silico
-homology model
 docked
 pockets
 enzyme
@@ -586,9 +577,9 @@ effectively combat
 urgent
 pressing
 respond
-small molecule
+small molecule therapeutics
+SARS-CoV-2 nsp5 nsp5
 publicly available
-candidates.In
 DD
 enables
 billions
@@ -602,14 +593,14 @@ respiratory illness
 Hubei Province
 threat
 effectively inhibit
-HIV-1 protease
+HIV-1 protease inhibitors
 anti-SARS drugs
 SARS-CoV nsp5
 evaluate
 pneumonia
 COVID19
 results indicate
-binding affinity
+higher binding affinity
 studied
 homologue
 indinavir
@@ -619,6 +610,7 @@ subjected
 MM-PBSA
 molecular interactions
 proteinase inhibitors
+binding affinity
 indicating
 SARS-CoV2
 investigated
@@ -635,35 +627,34 @@ becoming
 reliable
 field-deployable
 detect
-shortest possible
+shortest possible time
 urgently needed
+whole-course
 encapsulated
 ultrasensitive
-detection methods
 isothermal
 exponential
-amplification methods
+amplification
 reverse transcription
 subsequent
 enzymatic
 recombinase
-amplification
 ERA
-recombinase polymerase
+recombinase polymerase amplification
 RPA
 amplify
 trace
 exo
 FRET
 probe
-nfo
 amplified
 nucleic acids
-reliably detected
+reliably
+detected
 sequenced
 substantial
-similarity with SARS-CoV
 computational model
+human ACE2 receptor
 world 's
 supercomputer
 SUMMIT
@@ -678,19 +669,18 @@ repurposed
 recognition
 disrupt
 host-virus interactions
-ranked
+ranked list
 emergent
 tackled
 fragment
 molecular orbital
 FMO
 inhibitor N3
-PDB ID
-6LU7
+PDB ID : 6LU7
 segmented
 fragments
-order to capture
-amino acid
+capture
+amino acid residues
 interaction energies
 decomposed
 contributions
@@ -707,14 +697,14 @@ His163
 His164
 guideline
 optimizations
-2019-nCoV nsp5
+nsp5 nsp5
 ortholog
-residues involved
 catalysis
 substrate binding
 dimerisation
 conserved
 PP1AB
+showed
 3C-like
 cleavage sites
 coronaviral
@@ -731,25 +721,25 @@ ledipasvir
 velpatasvir
 particularly attractive
 therapeutics to combat
+minimal
 fatigue
 headache
 Epclusa
 sofosbuvir
 Harvoni
 owing
-dual inhibitory
+inhibitory
 enzymes
 medications
-focused on identifying
-transmembrane serine
+transmembrane serine protease
 TMPRSS2
 3D structures
-close homologs
-serine protease
-conformations
+homologs
+serine protease inhibitor
 non-drug
 validated
 benchmark
+high binding affinity
 weak
 Camostat
 significantly lower
@@ -758,61 +748,78 @@ potentially dangerous
 Nonetheless
 significantly
 potentially useful
+novel coronavirus pneumonia
 infectious
 acute respiratory
-caused by the novel
+caused by the novel coronavirus
 positive-strand RNA
 high homology
 bat coronavirus
+pathogenic mechanism
+unclear
+obstacle
+rescue
 conserved domain
 homology modeling
 biological roles
-results showed
-ORF8
-surface glycoprotein
-porphyrin
+belonging
+envelope protein
+nucleocapsid phosphoprotein
+ORF3a
+heme
+linked
+Cys44
+heme-iron
 respectively
+possessed
+conserved domains
+cytochrome C
+reductases
+bacterial
+domains
+overlapping
+dissociate
+porphyrin
+infectivity
 orf1ab
 ORF10
-ORF3a
-coordinate
-heme
+coordinated
 1-beta
 hemoglobin
-dissociate
-oxygen and carbon
-dioxide
-lung
-extremely
-intense
-poisoning
-inflammatory
-inability
-carbon dioxide
+structural and non-structural
+vulnerable
+attacks
+oxidized
+peroxidase
+increasingly
 oxygen
-eventually
-ground-glass-like
+carbon dioxide
+producing
+symptoms
+respiratory distress
+coagulation
+reaction
+damaging
+organs and tissues
 interfered
 anabolic
 pathway
-validation
-finds
-surface glycoproteins
-porphyrins
-certain extent
-relieve
-symptoms
-respiratory distress
-Favipiravir
-envelope protein
-ORF7a
-entering
-catching
-dependent
-originate
-ancient
-biological
+expecting
+small molecule
+searched
+anticancer drugs
+attach
+Remdesivir
+obvious
+Besides
+screened
+firmly
+verified
 experiments
+consult
+qualified
+toxicity
+relieve
 Secendary
 Metabolite
 medicinal herbs
@@ -827,7 +834,6 @@ chymotrypsin-like
 post-translational modifications
 viral polyproteins
 survival
-replication
 ongoing
 attempts
 repurpose
@@ -840,19 +846,17 @@ employed
 deep neural
 network-based
 predictive models
-novo design
+novo
 capable of inhibiting
 filtered
-screened
 ideal candidates
 synthesis
-high similarity
 crisis
-Anti-HIV
 protease inhibitor
 pH
 carrying
 variance
+dependent
 variation
 differential
 hence
@@ -865,40 +869,41 @@ infected
 reemergence
 highly infectious
 able to infect
-SARS-CoV-2 genome
 translated
 processed
-nsp5 nsp5
+nsp5 nsp5 enzyme
 cleaves
 crucial role
-promising antiviral
 antiviral
+discovery of novel
+antiviral molecules
 examine
 Positively
 Etoposide
 Idarubicin
-pocket of nsp5
+substrate binding pocket
 efficacy
 efficiently
 interrupt
+viral life cycle
 reduce or eliminate
 expeditious
-There is an urgent
+There is an urgent need
 designing
 pharmacokinetics and pharmacodynamics
-high throughput
-re-purposing
+high throughput virtual screening
+drug re-purposing
 repurposing
 stages
 well-defined
-require prolonged
+prolonged
 preclinical studies
-excellent candidates
 emergencies
 outbreaks
 attractive targets
 pivotal role
 replication and transcription
+small molecule drugs
 investigation
 NIH
 Genomics
@@ -906,12 +911,13 @@ NPC
 apo
 holo
 retrieved
-PDB IDs
+IDs
+6LU7
 Precision
 SP
 Glide
 Maestro
-ranked based
+ranked
 represents
 docking simulations
 initially
@@ -925,13 +931,26 @@ MM/GBSA
 hit compounds
 scores
 100-ns
-numerical
+numerical calculations
+Main Protease
 propane
+China in late 2019
+genomic
+enabled
+first-generation
+CoV
+cysteine protease
+Whilst
+closely associated
+bat coronaviruses
+closely related
+SARS CoV
 infect humans
-invariably associated
+invariably
 strengths
+receptor
 initially named
-angiotensin-converting enzyme
+angiotensin-converting enzyme 2
 entry receptor
 interplay
 computational
@@ -939,18 +958,19 @@ alanine scanning
 mutagenesis
 protein-protein
 interfaces
+free energy calculations
 mutations
 provide insight
 appearance
 resulted
 deaths
 March 24
-spike
 glycoproteins
 hooks
-binds to the angiotensin-converting
+binds
 researches
 speculated
+receptor binding domain
 RDB
 computational docking
 saikosaponins
@@ -958,16 +978,13 @@ favorably
 spike glycoprotein
 Saikosaponin
 B4
-linked
+Hubei Province of China
 severity
-Organization to declare
+World Health Organization to declare
 Concern
-Whilst
-closely associated
-bat coronaviruses
+papain-like protease
 bat
 crystal structures
-closely related
 poses
 global concern
 fatalities
@@ -975,11 +992,10 @@ conquer
 viral infections
 proteolytic processing
 therapeutic strategy
-drugs or vaccines
 close relation
 SARS-CoV-1
 remains
-specific antiviral
+antiviral therapeutics
 computationally
 compound library
 recently solved
@@ -993,7 +1009,7 @@ stability
 comprehensively
 quantify
 energies
-off-target binding
+off-target
 drug-like compounds
 contrast
 cocrystallized
@@ -1003,6 +1019,7 @@ suffers
 pharmacokinetic properties
 binder
 comparable
+natural compound
 trajectory
 medicinal
 spreading
@@ -1018,65 +1035,71 @@ peptides
 strikingly
 ACE2-based
 peptide
-remdesivir
-nsp5-1
 vinylsulfone
-patients suffering
+suffering
 summarize
 drugging
 broad spectrum
 anti-coronaviral
 future epidemics
-2,000 deaths
-February 2020
-SARS-CoV-2 spike
-indispensable
-fusion
-To facilitate
-computational techniques
-mechanisms
-acceptor
-Impressively
-SARS-CoV-2 S protein
-higher affinity
-angles
+SARS-CoV-2-S
+infect
+computational methods
+accessibility
 RBD
-SARS-CoV S protein
-energy decomposition
-analysis showed
-partially
-infectiousness
-accessible
-angle
-BRD
+key residues
+SARS-CoV spike
+SARS-CoV-S
+antibody
+explored
+RBD-angle
+ranging
+energy calculation
+increases
+experimental
+decomposition
+disclosed
+strongly
+Q493
+decisive
+mutation
+corresponding
+mutated
 demonstrating
-opened
+remaining
+Simulation
+conformational change
+ligand-binding
+correlated
+accessible
+correlation
+interpreting
+infectiousness
+February 2020
 incoming
 Moreover
 cytopathic effect
 assay
+potential drug targets
 underlying mechanism
 compiled
 compound
-docking software
-docking results
-ascending order
+ascending
 compound-target
-interaction energy
 computational tool
 shed some light
 D3Targets-2019-nCoV
 Immunoinformatics
-epitopes
-structural and non-structural
+T cell epitopes
+structural and non-structural proteins
 immunotherapy
 populations
 prediction algorithms
 NetCTLpan
 generate
 consensus
-HLA
-supertypes
+epitopes
+HLA supertypes
 human proteome
 preventing
 crossreactivity
@@ -1086,16 +1109,79 @@ consensus sequences
 alleles
 urgently
 in-vitro
-MHC binding
+MHC
 lethal
-strategy combining
+Objective : To
+Agsirga
+HPLC-Q-Exactive
+high-resolution mass spectrometry
+Mongolian medicine
+separated
+Q-Exactive
+detector
+Orbitrap
+tandem
+structural formula
+precise
+molecular formulas
+retention
+mass spectra
+fragmentation
+regularities
+deduced
+pretreated
+autodock
+active ingredients
+alkaloids
+stilbenes
+Combining
+active substances
+molecular level
 pharmacological
-docking and molecular
 computation
 phillyrin
 chlorogenic acid
-2019-nCoV S-protein
-efficacy in treating
+Coronaviridae family
+unprecedented
+infected people
+highly contagious nature
+makes it imperative
+pre-existing
+druggable targets
+namely
+2'-O-ribose
+methyltransferase
+2'-O-MTase
+indispensable
+proteolysis
+replicase polyproteins
+formation
+whereas
+methylates
+ribose 2'-O
+nucleotide
+mRNA
+sequesters
+host immune
+in-house
+ΔG
+orientation
+interacting residues
+protein-drug
+subjected to MD
+consists
+structural
+equivalently
+reflect
+physiological state
+Paritaprevir
+Raltegravir
+Dolutegravir
+Bictegravir
+2'-OMTase
+extensive
+potential therapeutic
+treating
 NCP
 TCM
 Lianhua Qingwen
@@ -1103,6 +1189,7 @@ Formula
 LQF
 composed
 Diagnosis and Treatment
+New Coronavirus Pneumonia
 fourth
 seventh
 editions
@@ -1113,9 +1200,10 @@ influenza
 FDA
 molecular mechanism
 Rutin
+Forsythoside
+Hyperoside
 Importantly
-verified
-simulation
+binding free energies
 donor-acceptor
 stabilized
 non-polar
@@ -1124,14 +1212,51 @@ hydrophobic interactions
 pathways
 immunity
 receptor signaling
-natural killer
-mediated cytotoxicity
+natural killer cell
+mediated
+cytotoxicity
 anti inflammatory
 Fc
 epsilon
 RI
 ErbB
 MAPK signaling
+ceramic
+ultrafiltration
+nanofiltration
+membrane
+carbon
+ink
+particles
+dye
+Fe3+
+Cu2+
+ions
+filters
+supporter
+TiO2
+nanoparticles
+sintered
+FeCl3
+CuSO4
+filtration performance
+decolored
+nanomembrane
+conductivity
+textile
+μs/cm
+assumed
+pore size
+nm
+fulfill the requirements
+heavy metal ions
+bigger
+Dalton
+salts
+air filtration
+novel corona virus
+defending
+mask
 nucleotides
 base pairs
 encode
@@ -1142,18 +1267,13 @@ transcription
 steroid hormones
 structurally
 symmetric
-nucleotide
 pairs
 ionic
 gene transcription
 nucleotide sequences
 relates
-structural
-consists
-orientation
 steroid
-intermolecular
-hydrogen bond
+intermolecular hydrogen
 Thymine
 thereby
 describes
@@ -1165,12 +1285,12 @@ consistent
 regulatory elements
 DNA sequences
 TATA
-E-Box
 promoters
+bijective
 analyze
 scoring functions
-molecular dynamic
-literature mining
+molecular dynamic simulation
+mining
 readily available
 chemical entities
 Theaflavin
@@ -1180,14 +1300,17 @@ observed
 appeared
 metastable
 interact
-200 ns
+active site residues
+molecular dynamics simulation
+ns
 Invitro
 evident
 intermolecular interactions
 hydroxyl groups
-benzene ring
+benzene
 benzo
 annulen-6-one
+amino acid
 dimerization
 catalytic activity
 epigallocatechin gallate
@@ -1195,21 +1318,21 @@ mapped
 atomic structure
 nsp10/16
 azo
-COOH
-showed good
+protein-nucleic
 polymerase
 plausible
 symptomatic
 replicase
-Justicia
+Pemirolast
 prescribed
 lessen
-computational approaches
+Coronavirus disease
+computational approaches to identify
 sought to identify
-ACE2 or TMPRSS2
+entering
 AI-based
 ACE inhibitors
-beta-lactam antibiotic
+beta-lactam
 antiviral agents
 Fosamprenavir
 Emricasan
@@ -1222,7 +1345,6 @@ weigh
 blocking
 protective effects
 warrant
-experimental
 attenuate
 induced
 Cancelling
@@ -1235,72 +1357,58 @@ Vitamin E
 ruxolitinib
 glutamine
 precursor
-highly ranked
 warrant further investigation
 report highlights
 bioinformatics
 rapidly discover
 therapeutic agents
-novel corona
 fifty
 thousand
-developing vaccines
-silico molecular
+spike protein receptor binding
 viral replication
-March 27
-number of confirmed
+Health Organisation
+notified cases
 exceeded
-deaths worldwide
-humanity
-overlooked
-research aims
+thousand deaths worldwide
+aimed
 antagonists
+partially
 modulate
 ACE2 receptors
-RNA Polymerase
-realized
-algorithm
-AutoDock Vina
-structure-based virtual
-MTiOpenScreen
-Subsequently
-physical-chemical
-pharmacokinetic parameters
-SwissADME
-elapsed time
-nanoseconds
-ns
-detriment
-limitations
+lung
+RNA polymerase
+theoretical
+results indicated
 comparative
-Simeprevir
-Paritaprevir
-Baricitinib
+ivermectin
+simeprevir
 remission
-monotherapies
+corroborate
+modulation
 receptors
-Nevertheless
-conclusive results
-empirical
+HCQ
+monotherapies
 explosion
 highly fatal
 corona virus
 single stranded
 enveloped virus
-belongs to the Coronaviridae
+belongs to the Coronaviridae family
 non-structural proteins
 machinery
-treating
+viral genome replication and transcription
 impressive
 aged
+Morpholino
 physcion
 drug candidate
+PDB ID
 6NUR
 proceeded
+AutoDock Vina
 UCSF Chimera
 visualization
-3-Dimensional
-docked pose
+pose
 checked
 ADMET properties
 These findings
@@ -1308,14 +1416,12 @@ anti-viral drug
 Entrance
 happens
 spike proteins
-cleaved into S1
-S2 domains
+cleaved
+S1 and S2 domains
 cleavage
-mediated
 furin
 cleave
-proprotein
-convertases
+proprotein convertases
 trans-Golgi network
 cell membrane
 activates
@@ -1330,19 +1436,15 @@ vitamin
 alleviate
 respiratory
 involvement
-disease 2019
 calibrated
 inactivate
 causes
 biological functions
-extensive
 fast-response
 theoretically
 marketed
 clinics
-Combining
 experiment
-ligand-binding
 significantly improved
 partial
 occupies
@@ -1352,28 +1454,26 @@ high-potent
 drugs/molecules
 newly discovered
 paves the way
-manuscript
+In this manuscript
 highlight
-worldwide pandemic
-caused by severe
+caused by severe acute
 predictions
 shotgun
 biotechnology
 ours
-help combat
 inevitable
 pathogenic
 putative
 boronic
 moieties
 methodology
-AutoDock
 assaying
 boron-free
 boron-containing
+crystal structure of SARS-CoV-2 nsp5
 PDB code
-key residues
 boron
+higher affinity
 analogues
 peptidomimetics
 propose
@@ -1383,7 +1483,6 @@ drug designing
 enlarging
 COVID-19 pandemic
 SARS-coronavirus 2
-unprecedented
 requirement
 ssRNA
 large polyprotein
@@ -1391,17 +1490,16 @@ virtue
 papain
 promising target
 concluded
-X-ray crystal
+X-ray crystal structure
 6Y2F
 Zhang et
 determinants
 moleculardocking
 primarily
+nsp5 active site
 bending
 examined
 Lopinavir-Ritonavir
-Raltegravir
-binds
 α-ketoamide
 efficacies
 corroborated
@@ -1410,21 +1508,21 @@ rapidly expanding
 Henceforth
 investigators
 conducting
-plays an essential
+plays an essential role
 processing the polyproteins
 nsp12 nsp12
 catalyzes
 RNA template
 silico screening
-effective therapeutic
 predict
 bioactive compounds
+nsp5 and nsp12
 Riboflavin
+Cyanidin
 Daidzein
 Genistein
 potent inhibitor
 vitro
-required to validate
 individually
 glove
 dangerous
@@ -1434,7 +1532,7 @@ defining
 genetic
 molecular determinants
 mediating
-Walls et
+Walls
 targeted therapeutics
 ACE2 and FURIN
 baits
@@ -1455,15 +1553,15 @@ HIF1a
 HMGA2
 INSIG1
 manifest
-signatures
-mitigation
-Vitamin D
-Quercetin
+gene expression signatures
+mitigation agents
+Vitamin D and Quercetin
 over-the-counter
-medicinal substances
+substances
+viable candidates
 considerations
 Notably
-set enrichment
+enrichment analyses
 expression profiling
 infection-promoting
 Discordant
@@ -1477,64 +1575,60 @@ apparently
 mortality
 Observations
 contribution
-intended to facilitate
 follow-up
-experimental studies
 warranted
-randomized clinical
-trials
+randomized clinical trials
 therapeutically-viable
 interventions
-combat the pandemic
 manifesting
+Quercetin
 top-scoring
 candidate therapeutics
 drug-docking
 GSEA
 EPEs
 Luteolin
+Eriodictyol
 seasonal
-pandemic H1N1
-Organization has declared
+H1N1
+World Health Organization has declared
+mechanisms
 treatments
 high-binding-affinity
 aptamers
-SARS-CoV-2 RBD
 competition-based
-aptamer
-Kd values
+aptamer selection
+algorithm
+Kd
 optimized
 CoV2-RBD-1C
 CoV2-RBD-4C
-nM
 Simulated
 competitive
 suggests
 identical
 probes
 in-depth
-coronavirus pneumonia
 ritonavir/lopinavir
-proved to be effective
+favipiravir
+proved
 hyperpolarization
 technique
+presents
 roles
 nuclear magnetic
 resonance imaging
-This technique
 diagnosis
 biomedical research
 cope
 reversible
 large-sized
-hyperpolarized
 proton
 long-distance
 polarization
 optimum
 magnetic field
 yield
-molecular structure
 isotope
 labelling
 T1
@@ -1551,15 +1645,17 @@ herb
 societies
 Islamic
 traditions
-nsp5 protease
 CoVs
 nsp5/nsp5
 2GTB
 Nigella
 Sativa
 MOE
+Nigelledine
 Hederin
+about-6.50204802
 whcih
+4.12183571kcal/mol
 Nigellidine
 testify
 encourage
@@ -1570,26 +1666,21 @@ disasters
 indicates
 bats
 intermediate host
-unclear
 transmitted to humans
-mining
 closest
 modeled
 intermediate hosts
-susceptible animals
+susceptible
 systematically
 calculating
-ACE2 protein
 Rhinolophus sinicus
-transmitted directly
-bats to humans
+transmitted
 Primates
-wild Felidae
+Felidae
 civet
 goats
 spotted hyenas
 golden hamsters
-susceptible
 pangolins
 unlikely
 birds
@@ -1602,7 +1693,6 @@ non-human primates
 experimental animals
 transgenic
 guiding significance
-Noncovalent
 energetics
 differences
 claiming
@@ -1611,9 +1701,9 @@ intuition
 demonstrate
 incapable
 reproducing
+noncovalent
 parameterized
-van der
-Waals interactions
+van der Waals interactions
 nCoV-19
 invasion
 adverse
@@ -1621,11 +1711,11 @@ employ
 searching
 deposited
 DrugBank
-attempt
 accelerate
+drug discovery process
 systemic
 silico drug
-Besides
+shennongproject.com:11443
 browsing
 installing
 specialized
@@ -1633,22 +1723,20 @@ continuous
 incorporation
 standstill
 analyse
-deadly pathogen
+deadly
+pathogen
+China in December 2019
 shutdown
 confining
 ourselves
-computational resources
-silico approach
-based on the principle
+principle
 neighbourhood
 behaviour
 3D
 2D
 encoded
-preliminary analysis
 prioritized
 anti-coronavirus
-pathogen
 belong
 anticancer
 antibacterial agents
@@ -1656,31 +1744,31 @@ apart
 hints
 phytochemicals
 vinca
-alkaloids
 camptothecin
 on-going
 presenting
-sole purpose
+sole
 preliminary findings
 openly available
 biologists
 biomedical researchers
 clinicians
 Our findings
-strongly urge
+urge
 interpret
 self-diagnosis
 self-medication
 competent
 regulatory agencies
 theories
+candidate compounds
 ChemRxiv
 bioRxiv
 conformational
 stabilities
 hopes
+valproic
 exploration
-HF/6-31G
 rigorous
 GitHub
 circumstances
@@ -1688,15 +1776,12 @@ evaluated
 aliskiren
 dipyridamole
 mopidamol
-energies of binding
 co-crystallized
-ligand N3
+N3
 catalytic center
 CYS
-N3
 stimulate
 inhalation
-showed the highest
 renin
 possibility
 expression of ACE2
@@ -1706,18 +1791,16 @@ decrease
 hypercoagulabilty
 COVID
 promoting
-interferon
+type I interferon
 IFN
 responses
-protect mice
-viral pneumonia
 seemed
 tailored
 buried
 nominate
 Hopefully
 computationally designed
-causing
+currently causing
 sequential
 self-supporting
 alpha-helices
@@ -1725,26 +1808,23 @@ bundle
 extracted
 protease domain
 PD
-domains
+receptor binding domains
 stable
 peptide inhibitors
-immediate need
+There is an immediate need
 workflows
 screens
 impractical
 timelines
 clinically
-explored
 therapeutic potential
 therapeutic interventions
-Motivating
 polypharmacology
-off-target
 interrogate
 polypharmacological
 PolypharmDB
 yielded
-predicted to interact
+host proteins
 viral entry
 proliferation
 life-cycle
@@ -1753,11 +1833,12 @@ cathepsin B
 facilitates
 anti-COVID
 repurposed drug
-aimed
 receipt
 ACE-2 receptor
+promising drug targets
 Flavonoids
 anti-viral properties
+extremely
 pharmacokinetics
 absorption
 solubility
@@ -1766,20 +1847,20 @@ excretion
 bioavailability
 minimal toxicity
 health threat
-potential therapeutics
+rapidly spreading worldwide
 critically
 considerably
 essentiality
 CADD
 implemented
-initial screening
-approved antiviral
+approved antiviral drugs
 accomplished
 docking score
 Gscore
 possesses
 hydroxyethylamine
 HEA
+subjected to virtual screening
 Exclusively
 adhered
 Structure-Activity
@@ -1787,14 +1868,15 @@ SAR
 highlight the importance
 scaffolds
 therein
+simulation studies
 100ns
 II-III
 linker
 pave
 incredible
 nsp5 inhibitors
+deaths worldwide
 spanning
-203 countries
 exponentially increasing
 pre-clinical
 anti-viral
@@ -1805,8 +1887,7 @@ Alpinia
 officinarum
 ginger
 curcuma
-solvent accessible
-S3-S4
+solvent
 conformer
 reveal
 lead compounds
@@ -1818,17 +1899,18 @@ Niclosamide
 NCL
 anthelmintic
 shown to possess
-broad-spectrum antiviral
+broad-spectrum antiviral activity
 aqueous
 commercially available
 locally
 gastrointestinal
 worms
 suitable
-plasmatic
+plasmatic levels
 Consequently
 formulation
 risks
+biological
 compromise
 preclinical and clinical
 amorphous
@@ -1841,32 +1923,31 @@ kinetic
 aqueous solubility
 outcome
 dosage forms
+causing
 prevent or treat
-suffering
 receptor recognition
-infectivity
 pathogenesis
-compiled a list
+rational development
 vital
 membrane proteins
 NSPs
 Ramachandran plot
-structural alignment
+alignment
 utilizing
 COACH
-meta-server
 CASTp
 superimposition
 crystallized
 co-crystal
+manuscript
+causing a global pandemic
 In the absence
 intervention
+urgent need to develop
 antiviral drug
 elucidated
-namely
 Z31792168
-all-atom molecular
-dynamics simulations
+all-atom molecular dynamics simulations
 ΔGbind
 governing
 complex formation
@@ -1874,16 +1955,19 @@ MM/PBSA
 ΔGbind=
 arises
 favorable
-electrostatic and van
-der
+electrostatic
+van der
 nsp5-ligand
 per-residue
-decomposition
-freeenergy
+anti-HIV
 lopinavir and darunavir
+intermolecular
 contributes
+lower affinity
 help in designing
-anticoronaviral drugs
+rational
+anticoronaviral
+drugs targeting
 CREBBP
 CBP
 paralogue
@@ -1892,17 +1976,15 @@ lysine
 acetyltransferases
 comprise
 transcriptional
-co-activators
 nodes
-human protein-protein
 interactome
 bromodomain
 acetylated
 lysine residues
 histones
 p53
+p73
 E2F
-GATA1
 bromodomains
 OXFBD05
 100-fold
@@ -1911,12 +1993,13 @@ BET
 fundamental
 conformation
 intramolecular
+hydrogen bond
 amide
-enabled
+bioisostere
 cellular
 CREBBP/P300
 HCT116
-colon cancer
+colon cancer cells
 c-Myc
 modest
 repeatable
@@ -1936,14 +2019,14 @@ span
 progenies
 intuitive
 immunosuppressant
+anti-cancer
 re-purposed
 timescales
-current pandemic
+Coronavirus disease 19
 approved to treat
 abatement
 Kaletra
 investigational drug
-targeting nsp12
 RdRP
 immuno-modulatory
 virally encoded
@@ -1952,9 +2035,7 @@ nsp13
 investigational drugs
 unbiased
 computational modeling
-approved for treating
 hepatitis C
-predicted to bind
 stably
 preferentially
 dosage
@@ -1966,10 +2047,9 @@ well-characterized
 drug-drug interactions
 grazoprevir
 concerted action
+essential for viral replication
 renders
-mutation
 drug resistance
-extremely unlikely
 in-silico
 dataset
 FDA-approved drugs
@@ -1980,17 +2060,17 @@ characterise
 emerge
 Cobicistat
 well-ranked
+silico drug repurposing
 exhibited
 unstable
 HIV-protease
 Atazanavir
 rationalize
 favourably
-Dronedarone
 Computer-aided
-world is facing
+The world is facing
 absence
-clinically approved
+clinically approved drugs
 13B
 COVD-19
 Leupeptin
@@ -1998,7 +2078,6 @@ Hemisulphate
 Pepstatin
 Birinapant
 Lypression
-docking energy
 MMGBSA
 hot-spot
 pharmacokinetic
@@ -2007,22 +2086,20 @@ biological activity
 indicated
 possess
 drug-like properties
-vitro studies
 pharmacophore-based
 provoking
-economic and societal
+societal
 All-atom
 uncover
 traits
 underlying
+SARS-CoV-2 spike glycoprotein
 rationale
-high infectivity
 Harnessing
 boost
 medical countermeasures
 mild symptoms
-include fever
-dry cough
+fever and dry cough
 instances
 human coronaviruses
 interrogated
@@ -2030,18 +2107,19 @@ identification
 lactose
 anti-virals
 secondary metabolites
-inhibitor-binding
 data mining
 undergone
 fingerprint
 clusterization
 conformers
-selected compounds
 cyclosporine A
+HIV protease inhibitors
+COVID-19. < br
 SARS-CoV-2S
-fusion protein
+class I fusion protein
 attachment
 consecutive
+fusion
 S1 subunit
 pre-fusion
 post-fusion
@@ -2051,24 +2129,21 @@ S2 domain
 ancient times
 relied
 naturally occurring
-substances
 non-flavonoids
-anti-microbial agents
-anti-viral activities
+anti-microbial
 flavonoids/non-flavonoids
-HCQ
-docking analysis
+SARS-CoV-2 spike protein
+FDA approved drug
 C-terminal
 S1 domain
-pterostilbene
 Fisetin
 isorhamnetin
 resveratrol
 apigenin
 flavonoid
+attachment and internalization
 binding affinities
 ADME
-metabolism and excretion
 drug likeness
 anti-SARS-CoV-2 agents
 controlled
@@ -2088,7 +2163,7 @@ acetonitrile
 reagents
 exquisite
 exposed
-two-stage process
+two-stage
 dubbed
 SENDR
 Elaboration
@@ -2104,6 +2179,7 @@ congeners
 prototype
 industrialization
 hACE2
+SARS-CoV-2 S protein protein
 unveiled
 Artemisinin
 derived
@@ -2114,24 +2190,26 @@ occurs
 effective antivirals
 imminent threat
 antiviral therapies
-recently deposited
 hypotheses
+small molecule inhibitors
 repository
 hierarchical
 resultant
 Most importantly
 antiviral activities
 machine learning-based
+AutoQSAR
 hit molecules
-toxicity
+QikProp
 native ligand
 Lopinavir and Ritonavir
-currently facing
+world is currently facing
 prevent the spread
 accelerating
 therapies
 twenty-four
 divided
+Metaquine
 antimalarial
 substance
 antiretroviral
@@ -2141,29 +2219,28 @@ prioritization
 chemical compounds
 Malaria
 exploiting
-repositioning candidates
 dimensional structure
 SWEETLEAD
 ChEMBL
+active site of nsp5
 ran
-protein-drug
-asunaprevir
+bind to the active site
+highest binding affinity
 dasabuvir
 ritonavir
 amprenavir
-human immunodeficiency
+hepatitis C virus
+human immunodeficiency virus
 insights
 antiviral medication
 Attached
-excel file
+excel
 docking calculations
-COVID-19 outbreak
 global threat
 diagnosed
 thousand deaths
 contribute
 DrugBank database
-computational methods
 Histogram
 Monte Carlo
 sampling method
@@ -2173,14 +2250,10 @@ evaluating
 protein-ligand
 Rupintrivir
 Presently
-SARS-CoV2 infection
 silico approaches
-designed to enhance
 adjunct
-main-protease
-S1
+S1 receptor binding
 webserver
-protein stability
 disordered
 disrupting
 integrative
@@ -2190,12 +2263,13 @@ concentration
 EC50
 nelfinavir mesylate
 μM
-dose-response curves
+dose-response
+curves
 high potency
 plasma
 inflammation
 deserves
-CoV
+pathogenic agents
 Scientists
 acquainted
 oversight
@@ -2221,101 +2295,103 @@ zones
 residing
 800M
 organic compounds
-infectious disease
+In December 2019
+infectious disease caused
 appeared in Wuhan
-spread rapidly
+spread rapidly worldwide
 March 2020
+declared a pandemic by the World Health
 casualties
 docking-based
-undergoing
-binds directly
+undergoing clinical trials
 structurally diverse
+6.3 million
+spotted
 receptor-binding domain
 SASR-CoV-2
 furin protease
 S1-S2
-yielding
-proves
+molecular docking simulations
+derivative
+bound to the active site
+pave the way
 April 1st
 spreading rapidly
+effective drugs to treat
 pulling
 FPL
 perturbation
 FEP
+inhibitors of SARS-CoV-2 nsp5
+Subsequently
 natural compounds
 Vietnamese
+HIV-1 protease
 aza-peptide
 epoxide
 subsequently refined
-HIV-1
-accurate and precise
+HIV-1 PR
+accurate
 absolute
 cannabisin
 isoacteoside
 exhibit
-Waals
+van der Waals
 vdW
-form H-bonds
+H-bonds
 Replacing
-alanine residue
+alanine
 decreases
-contribute to the development
 respiratory symptoms
 Herbal
-non-herbal
 bonds
 monotherapy
 unseen
-assassin
 coronavirus-2
 overcoming
-encodes
+genome encodes
 2-O-methyltransferase
 OMTase
-plays a key
+plays a key role
 methylation
 viral RNA
-evading
-host immune
-comparative modeling
-modeled structure
+evading host
+immune
+modeling approach
 characteristic
 MTase
 accommodates
 array
 cardiac glycosides
 steroids
-results suggested
 combating
 facing
 immense
-deadly
 originated in Wuhan
 dexterity
-immune compromised
-transmitted
+compromised
 corona
 asymptomatic carriers
-pandemic has created
-havoc
+created havoc
+limitations
 undertaken
 assisted
 involves
 identifies
 key enzyme
-plays crucial
+plays
 retard
-Phenol
 explorer
-food borne
+borne
 polyphenols
+High throughput
 modelling
-belonging
+molecular docking approach
 gallate
 Kaempferol
-Punicalagin
 Protocatechuic
 likeness
+SwissADME
 fairly good
 Lipinski
 violation
@@ -2325,11 +2401,9 @@ early stages
 enriched
 subset
 n-Cov
-RBD of S protein
 prominent
 aims to identify
 synthetics
-antiasthmatics
 Antibacterial
 Anti-Inflammatory
 cyclic peptide
@@ -2337,15 +2411,13 @@ cyclic
 bis
 calcitriol
 synthetic compounds
+PubChem database
 antiasthmatic
 appreciable
-possible mechanism
-Using in silico
-detected
-31 December
-declared a Public
+31 December 2019
+declared a Public Health Emergency
 International Concern
-30 January
+30 January 2020
 spreading worldwide
 vary
 exigent
@@ -2354,25 +2426,22 @@ operational
 recognize
 anti-HCV
 anti-HIV drugs
-Ergotamin
-computational analysis
+promising drug candidates
 reveled
 researcher
 3-chymotrypsin-like
 cysteine
 life cycles
-order to overcome
+enzyme active site
 honeybee
 propolis
 Schrödinger
-v10.1
 constitution
 therapeutic drugs
 Since the emergence
 ever-growing
 virus-19
-transmission rate
-Considering the current
+transmission
 urgent unmet
 re-evaluating
 traditional medicines
@@ -2381,7 +2450,6 @@ pharmacological agents
 herbs
 Tulsi
 pepper
-Clove
 lemon
 Ashwagandha
 widely
@@ -2393,29 +2461,38 @@ cough
 cold and flu
 different stages
 justification
-active ingredients
+individual ’ s
 interfering
-multiplication
+virus multiplication
 infected person
+tautomerism
+T-705
+tautomeric
+density functional
+toluene
+Continuum
+enol
+dominating
+In order to validate
+theoretical predictions
+2-hydroxy
+pyridine
+conclusions
 commentary
 submission
 Liu
 Li
 preprint
-& Li
 puts forward
 attacking
 haemoglobin
 Arguments
 functional domains
 haem
-experimental evidence
-conclusions
-interpreted according
+interpreted
 interpretation
 significance
 judged
-interpreted
 correctly
 best-in-class
 allowance
@@ -2423,11 +2500,10 @@ uncertainty
 atomic coordinates
 invalidated
 catastrophic
-whereas
+trials
 stable complexes
 strained
-surface plasmon
-resonance
+surface plasmon resonance
 SPR
 sensor
 detecting
@@ -2464,7 +2540,6 @@ therapeutic modality
 historically
 short-term
 indication
-computational screening
 gliptins
 bioavailable
 antidiabetic
@@ -2486,35 +2561,46 @@ serological methods
 ease
 immunoinformatics tools
 NetCTL
-NetMHCII
 epitope prediction
 BepiPred
 ABCPred
 vaccine design
+B cell epitopes
 diagnostic kits
-chymotrypsin
-disturb
-tetracycline
+strict measures
+continues
+clinically proven
+pharmacotherapies
+hydroxyquinoline
+viable strategy
+viral nsp12 nsp12
+Well-tolerated
+drug-protein
+persistence
+physiological conditions
+Tetracycline
 dihydroergotamine
 ergotamine
 dutasteride
 paliperidone
-conivaptan
-tipranavir
+MD simulation
 eltrombopag
+tipranavir
+conivaptan
+bromocriptine
 tolerated
 cost-effective
-bromocriptine
-adjuvant
-forthe
-unprecedented global
-therapeutic agent
+SARS-CoV-2-infected patients
+unprecedented global pandemic
+therapeutic agent to treat
+present study aimed
 virtually
 MPP
 CID
 alpha-ketoamide
 comparative study
 T25
+T26
 H41
 M49
 L141
@@ -2524,12 +2610,8 @@ C145
 H164
 M165
 E166
-D187
-R188
-Q189
 analog
-themain
-accurate
+pharmacokinetic parameters
 measurement
 dissociation constant
 nsp3 nsp3
@@ -2537,12 +2619,11 @@ RNA dependent
 polimerase
 state-of-the art
 methodologies
-enhanced sampling
+sampling
 nonequilibrium
 massive
 parallelization
 HPC
-cluster.We
 mild
 potency
 By analyzing
@@ -2550,11 +2631,11 @@ HCQ-inspired
 PMP329
 nanomolar
 convincing
-use of HCQ
 strictly related
-affecting millions
-syndrome coronavirus
-underway
+infectious disease
+affecting millions of people
+respiratory syndrome coronavirus 2
+clinical trials are underway
 blockage
 blind
 anti-fungals
@@ -2570,14 +2651,15 @@ surrounded
 MET49
 PRO168
 GLN189
-requires extensive
 wet-lab
 experimentation
+positive sense RNA
 nCoV
-coronaviridae family
+respiratory tract infections
 deadly virus
 warrants
-intense research
+intense
+new chemical entities
 nCov-MP
 chains
 employs
@@ -2587,17 +2669,18 @@ constituent
 sub-pockets
 cavity
 adjacent
-generate new
 newly formed
 subjected to molecular
 ADMET
-filters
 MP-In1
-reference ligand
-Organization declared
+binding site residues
+dynamics simulations
+form stable complexes
+World Health Organization declared
 11th
 March,2020
 exact
+humanity
 modern era
 simulator
 aiding
@@ -2605,21 +2688,20 @@ indulged
 analysing
 anti-inflammatory drugs
 prednisone
-anti-psychotic
 investigations
 lacking
 aimed to assess
+Autodock 4.2
 Lamarckian
+Genetic Algorithm
 probability
 cross-validated
 Swiss
-Dock
 Biovia
 Discovery Studio
 Quinine
 viz
 Artesunate
-Clotrimazol
 Artemether
 Mefloquine
 ciprofloxacin
@@ -2627,7 +2709,8 @@ clindamycin
 SJ-733
 vina
 GLU
-case fatality
+highly contagious disease
+case fatality rate
 significantly higher
 diabetes
 cardiovascular disorders
@@ -2653,17 +2736,17 @@ aging
 explains
 molecular basis
 fatality
-corresponding
-downregulate ACE2
+downregulate
 network-based approach
 COL-3
-acute lung
-distress
-non-small-cell lung
+acute lung injury
+acute respiratory distress
+non-small-cell
+lung cancer
 We propose
 anti-viral drugs
 enormous
-seriously ill
+seriously ill patients
 requiring hospitalization
 effective vaccine
 Readily
@@ -2673,12 +2756,14 @@ chemicals
 Bioassays
 Biosynthesis
 chosen
+potential candidates
 experimental validation
 synergistic antiviral
 underestimated
-AI technologies
-knowledge mining
+AI
+realized
 analytics
+unprecedented opportunities
 drug combinations
 emphasize
 expertise
@@ -2692,16 +2777,13 @@ Curcuma longa
 broad
 pharmacological properties
 capability
-ΔG
-ranging
-ΔG =
-stressed healthcare
+stressed
 forcing
 medical doctors
 decontaminating
 reusing
 single-use
-personal protective
+personal protective equipment
 uncertain
 compounded
 survive
@@ -2710,13 +2792,11 @@ epidemiologists
 accurately
 thermodynamic
 inactivation
-related coronaviruses
-fundamental understanding
 thermal
 degradation
 mitigate
 future outbreaks
-introduces
+This paper introduces
 synthesizes
 analytical framework
 Arrhenius
@@ -2726,6 +2806,7 @@ temperature-dependent
 much-needed
 decontamination
 masks
+70 °C
 3-log
 achieved
 ovens
@@ -2737,24 +2818,21 @@ forecasting
 seasons
 obliged
 confinement
-attractive drug
-aims
+attractive drug target
+This study aims
 vitamins
 antioxidant
 visualizer
 softwares
-chosen based
 Tocopherol
 Thiamine
-vitamin B1
-Pantothenic acid
+B1
 B5
 Pyridoxine
-vitamin B6
+B6
 Biotin
 B7
 GSH
-pose
 repetition
 RR
 MEV
@@ -2764,14 +2842,14 @@ saved
 satisfied
 weakest
 Depending
-vitamin B
 supportive
 to-date
+caused by the severe acute
+respiratory syndrome coronavirus
 type 2
 etiological agent
 1.8 million
 hundreds
-infected individuals
 exponential rate
 data-driven approach
 connectivity
@@ -2779,34 +2857,30 @@ transcriptional signature
 lung carcinoma
 spectrum
 chemoinformatic
-physically interact
-SARS-CoV-2 nsp12
+physically
 commonly prescribed
 drug repositioning
-reserpine
 fluoxetine
 trifluoperazine
 sunitinib
 atorvastatin
 raloxifene
 metformin
-doctor ’
+treating or preventing
 needed to elucidate
 Hydroxychloroquine and azithromycin
 promise
 inhibit the replication
 recent discoveries
 AZR
-mechanism involves
 Cl
 phosphate
 uracil
 forming
 NH
-adenine nucleotide
+adenine
 vector
 collects
-ions
 Mg2+
 Zn2+
 Ca2+
@@ -2829,16 +2903,16 @@ purchased
 awaiting
 enzymatic activity
 blocks
-SARS-CoV spike
+SARS-CoV spike protein
 effective in preventing
 hypertension
 MLN-4760
-ligand-protein interactions
-MD simulation
+spike receptor-binding domain
+ligand-protein
 100 ns
 Analyzing
 crystallographic structures
-SARS-CoV RBDs
+RBDs
 binds to ACE2
 alters
 hydrogen
@@ -2849,9 +2923,8 @@ reforming
 closed conformation
 native conformation
 disassociation
-RBD binding
 neither
-rescue
+spike RBD
 enzymatic function
 Similarly
 proteolytic cleavage
@@ -2864,38 +2937,33 @@ BHH
 analysis revealed
 analogue
 interacts
-strongly
 His296
 Ser441
 catalytic triad
 hydrophobic contacts
-structural information
 Respected
 Sir/Madam
 Chemarxiv
 herewith
 submitting
 article entitled
+Molecular docking studies
 N-acetyl cysteine
 zinc
 acetyl
-binding abilities
+abilities
 selectively bind
-derivative
 Cys-145
 His-163
 Gly-143
 COV-2
-Ser-144
 Glu-166
-His 41
-Arg-188
 zinc-acetyl
 kcal mol-1
 His-41
+The results indicate
 Thanking
 With regards
-@ yahoo.com
 plethora
 choices
 peptide sequences
@@ -2906,23 +2974,21 @@ positioned
 achieving
 geometries
 limiting
+disturb
 frontier
 orbitals
 HOMO-LUMO
-play crucial
 electron
 sink
 behaves
 nucleophile
-pave the way
 tolerable
+validation
 urgent demand
 causative agent
-emerged in December
+emerged in December 2019
 lockdown
-drugs and vaccines
-transmission
-necessitated the need
+necessitated
 tapped
 computational modelling
 ninety
@@ -2930,6 +2996,8 @@ fungi
 enzymes involved
 viral attachment
 post-translational
+silico ADMET
+excretion and toxicity
 fumiquinazoline
 quinadoline
 scedapin
@@ -2937,7 +3005,6 @@ polyketide
 isochaetochromin
 D1
 cysteine proteases
-nsp3 and nsp5
 non-structural protein
 nsp15
 evasion of host
@@ -2948,7 +3015,6 @@ blood-brain barrier
 crossing
 capacities
 belongs
-potential threat
 antiviral therapy
 chemical structures
 freeware
@@ -2957,30 +3023,31 @@ Hypericin
 mid-April 2020
 crippled
 vaccines and antivirals
-infected people
 deployed
+specific antiviral drugs
 considerable
 directed
 structural similarity
 NS3/4A protease
 striking
 arrangement
+HCV NS3/4A
 active-site
 cleft
 protease nsp5
-HCV protease
 shown to inhibit
 pandemicity
 boundaries
 demography
 prevalence
 200 countries
-laboratory confirmed
+confirmed cases
 excluding
 April 2020
 struggling
 flatten
 epidemic curve
+utmost important
 widespread
 SARS‐CoV-2
 gains access
@@ -2988,34 +3055,33 @@ reveals
 ACE-2
 interfere
 host-viral
+lead molecules
 documented
 impeding
 signifies
+amino acid residue
 Lys
 We sought
 strongest
-chose
 molecular weight
 MW
 daltons
 After correction
 hydrogens
 investigational
-Bictegravir
 Itacitinib
 Ouabain
 Trametinib
+Lumacaftor
 Edoxaban
 Tegobuvir
 Filibuvir
 Remdesavir
-In silico
 toxicology
 lead-like
 lower bound
 supplement
 Diosmin
-DrugBank ID
 varicose
 veins
 energy-minimized
@@ -3023,7 +3089,6 @@ energy-minimized
 deeply
 penetrated
 width
-potentially serve
 self-medicating
 Lastly
 near-term
@@ -3039,13 +3104,14 @@ protease nsp3
 nsp10
 transcription factor
 nsp13 nsp13
+attractive drug
 ebselen
 covalently bind
 cysteines
 protease activity
 broad-spectrum
-conserved domains
 synergistically
+emergence of drug resistance
 affecting
 communicable
 difficulties
@@ -3063,15 +3129,14 @@ Aspergillus flavus
 Aspergillus
 oryzae
 Aspirochlorine
-Aflatoxin
-B1
 Ethyl
-3-nitropropionic
 arranged
 descending order
+Kcal/mole
 in-vivo
 small-molecule
 bioactivity
+signatures
 expand
 By comparing
 universe
@@ -3079,23 +3144,23 @@ universe
 analogous
 restricted
 broader
-automatically incorporated
+available at https
 sbnb.irbbarcelona.org/covid19
-tackle the problem
 herbal remedies
-compare the efficacy
+Angiotensin Converting
 Hydroxy-Chloroquine
 Amino
 Acids
 PyMOL
-Sulfasalazine
+pave a way
 Till
 stop the spread
 mainly affects
+surface glycoprotein
 propagation
 discussed
 unavailability
-end of 2019
+Since the end of 2019
 recently recognized
 transmembrane protein
 constituting
@@ -3103,19 +3168,17 @@ biomolecular
 state-of-the-art
 computational approach
 molecular mechanisms
-formation
 quantitatively
 assessing
 ligand-induced
 decreased
 grounds
 rationales
-SARS CoV
-glycosylated spike
+glycosylated
+human angiotensin converting
 enzyme-2
-sequence alignments
+multiple sequence alignments
 phylogenetic trees
-order to analyze
 sequence motifs
 N-terminal domain
 MESEFR
@@ -3124,11 +3187,12 @@ pangolin
 loops
 VGGNY
 loop
+loop 2
 tethered
 disulfide bridge
 connecting
 structural determinants
-human ACE-2
+human ACE-2 receptor
 complete genome
 MN996532.1
 genomes
@@ -3141,20 +3205,39 @@ S1 and S2
 TMPRSS4
 TMPRSS11A
 TMPRSS11D
-TMPRSS11E
+serine protease
 We searched
 universally
 pre-set
 threshold value
 inhibits
+glycoprotein
 ACE-II
+Quantitative
+peptide-type
+MPro
+OECD
+aimed to identify
+salient
+concealed
+structural features
+govern
+sixty-two
+statistically robust
+highly predictive
+extensively
+satisfy
+threshold values
+statistical
+R2 =
+interrelations
+Qualitative
 arginine
 COV-19
 citrulline
 N-acetyl
 thiocitrulline
 moderate
-bind selectively
 surrounding
 weaker
 preferential binding
@@ -3163,14 +3246,13 @@ protecting
 kindly
 pre-print
 esteemed
-Ramesh
+antiviral drugs or vaccines
 potent inhibitors
 urgently required
-glycosylated S protein
 directly interacts
-human angiotensin-converting
+human angiotensin-converting enzyme
 first-line
-dynamics simulation
+docking and molecular dynamics
 laxative
 Bisoxatin
 constipation
@@ -3178,11 +3260,8 @@ colon
 surgical procedures
 nicely
 pi-pi
-Tyr505
 hook
 hydrophilic
-Glu406
-Ser494
 Thr500
 consistently
 Dear Editor
@@ -3196,30 +3275,29 @@ conjugated
 phenolic
 thymol
 vanillin
-guaiacol
 eugenol
+4-hydroxycoumarin
 Williamson
 ether
-reaction
 conjugation
 coveted
-potential candidate
 Nath
 PhD
-NAMS
 IMS
 Sum
 Odisha
 E-mail
 @ gmail.com
-appalling conditions
+currently facing
+appalling
 tothe
 disease-2019
 continuously
-novel therapeutic
-syndromecoronavirus
+novel therapeutic target
+severe acute
 surface of the virion
-membrane
+angiotensin-converting enzyme-2
+host cell membrane
 binding and internalization
 holds
 asignificant
@@ -3227,17 +3305,19 @@ AP-NP
 2-amino-5
 naphthalen-2-yl
 pyrimidin-4-yl
+phenol
 AP-4-Me-Ph
 p-tolyl
 diaryl
 pyrimidine
-spikeglycoprotein
+enzyme 2
 hACE2 receptor
 strengthen
-SARS-CoV-2 is the seventh
 Homo sapiens
 newer
+effective therapeutic strategies
 led to the identification
+virtual screening and molecular docking
 endoribonuclease
 NendoU
 6VWW
@@ -3245,19 +3325,25 @@ antimicrobial
 antiprotozoal
 thorough
 rationality
-Foretinib
+Inarigivir
+arsenical
+implies
+darinaparsin
+silico docking
+viral replicase
 beta-coronavirus
 alarming
 pace
 infecting
 lakh
 quarantine measures
-succeeded in containing
+succeeded
 extent
+clinically approved
 biggest
 bottleneck
-combating the pandemic
-expedite
+expedite the process
+promising drug target
 indispensable role
 E-pharmacophore
 imidazole
@@ -3274,25 +3360,25 @@ urges
 react
 TMB607
 TMC310911
-key amino
 remains intact
 RMSD
 RMSF
-infected millions
+proves
+SARS-CoV-2 nsp5 enzyme
+infected millions worldwide
 fighting
 characterized
 chemical constituents
-docking and MD
 EGCG
 withaferin
 activation
 host proteases
+serine protease TMPRSS2
 Cathepsin
 activate
 prevents
 blockade
 surprisingly
-drugs targeting
 synergy
 mathematical model
 explicitly
@@ -3305,20 +3391,19 @@ vary widely
 synergistic
 tissue tropism
 provide insights
-deployability
 occurred
+global health threat
 comparative analysis
 backbone
 plasticity
+substrate binding site
 consequences
-oxirane
 SARS-nCoV2
-belongs to the category
 RNA viruses
 viral polyprotein
-prove to be useful
-high-resolution crystal
-structure of nsp5
+drug repurposing approach
+prove
+high-resolution crystal structure
 apo form
 cumulative
 μs
@@ -3327,37 +3412,32 @@ clustering
 Markov
 helped
 exploring
-possessed
 anti-bacterial
-potential candidates
 ongoing pandemic
-posed a serious threat
+posed a serious threat to global public
 exists
 represented
+computational approaches
 increasingly popular
 robust
 experimental design
 promising candidates
 repurposed to treat
 DTI
-DeepDTA
 improvements
-drug-protein
 KIBA
 We ran
+high throughput screening
 anidulafungin
 glecaprevir
-rifabutin
-procaine penicillin
+procaine
+penicillin G
 tadalafil
-monophosphate
-flavin adenine
-dinucleotide
+flavin
+adenine dinucleotide
+terlipressin
 desmopressin
-oxatomide
-enasidenib
 selinexor
-inhibitory
 Q-learning
 fragment-based
 ADQN-FBDD
@@ -3371,34 +3451,26 @@ reinforcement learning
 deviate
 VAE
 diminishing
-T-705
 trialled
-help accelerate
 solution-phase
 computational chemistry
 Density
 DFT
 SMD
-continuum
 solvation
 prefers
 aromatic
-enol form
 ketone
 tautomer
-Deprotonation
 constants
 conjugate
 pKas
 G4
 gas-phase
-weak base
-protonate
 physiological pH
 preferential
 protonation
 nitrogen
-ortho
 alcohol
 pKa
 side-chain
@@ -3414,20 +3486,20 @@ officially named
 pneumonia-like
 illness
 originating from Wuhan
-studies involving
 antiviral and immunomodulatory
-Full genome
-sequencing
+Full genome sequencing
 uploaded
 freely available
 maturation
 SARS coronavirus
+ADME properties
 likeliness
 X77
+HWH
 DMS
+These findings suggest
 recognized
 THR25
-SER144
 MET165
 missense
 SNP
@@ -3443,6 +3515,7 @@ nucleophilicity
 indices
 HOMO
 LUMO
+successfully
 explain
 simulation results
 donors
@@ -3460,17 +3533,17 @@ strongly suggest
 exhibits strong
 electrophilic
 turns
-behaves like
 donor
 Contrary
 zinc gluconate
 selenomethionine
-copper sulfate
-sodium
-selenite
+copper
+sulfate
+sodium selenite
 strengthens
-fight against COVID-19
-sudden
+These findings indicate
+The sudden outbreak
+end of 2019
 mankind
 Despite extensive
 designed to evaluate
@@ -3478,6 +3551,8 @@ plant-based
 candidacy
 metabolites
 Nsp9
+RNA binding
+spike receptor binding
 ecto-domain
 HR2 domain
 asiatic
@@ -3492,7 +3567,6 @@ reproductive
 witheferin
 comparatively
 toxic
-cytotoxicity
 immunotoxicity
 belonged
 oxidoreductases
@@ -3504,7 +3578,7 @@ DB00741
 SARS-CoV-1 and MERS
 Dinoprost-tromethamine
 DB01160
-biologically active
+biologically active compounds
 Mupirocin
 DB00410
 Simvastatin
@@ -3521,9 +3595,9 @@ catalytic dyad
 His41 and Cys145
 neighbouring
 coumarins
-belonging to the class
-stepping stone
-analytical validation
+furanocoumarins
+stepping
+analytical
 collective
 pursuit
 MEDLINE
@@ -3536,19 +3610,19 @@ extraction
 novel insights
 accelerated
 drug/vaccine
+re-purposing
 text-mining
 CORD-19
 pair-wise
 correlations
 biomedical
 entity
+entity types
 text-mined
 associations
 CoNetz
 subnetwork
 user-friendly
-network visualization
-NetworkX
 consisted
 covering
 captured
@@ -3560,37 +3634,78 @@ up-to-date
 neighborhood
 avoids
 drawbacks
-manual curation
+curation
 up-to-date information
 Amongst
 postulated
 managing
+motivated
+transition
+labor-intensive
+compromising
+laboratories
+autonomous
+micro-flow
+reactor
+catalyst
+condensing
+laboratory-scale
+chromatograph
+GC
+enabling
+reactant
+pressures
+Inquiries
+hydrodynamic
+sought to evaluate
+measurements
+catalyzed
+reactions
+dehydration
+ethanol
+2-propanol
+apparent
+kinetics
+selectivities
+barriers
+packed
+reactors
+ten-fold
+cheaper
+fabricate
+setups
+vapor-phase
+catalytic
+chemistries
+automation
+instrumentation
+novel coronavirus disease 2019
 rampaging
 1.4 million
-confirmed cases
 April 9th
 belongs to the family
 consisting
 non-structured
 papain like
 believed to play
-ligand-receptor binding
+ligand-receptor
 chloroquine and hydroxychloroquine
-Amaryl
 antibiotics
+Rifabutin
 antiemetic
-Fosaprepitant
-Netupitant
 promising candidate
+unprecedented global public health
 long-range
 short-range
 ISM
-rapid diagnostic
+pandemic has created an unprecedented
+rapid diagnostic testing
+mitigation
 diagnostic tool
 currently employed
-polymerase chain
-good sensitivity
-logistical problems
+reverse transcription polymerase chain
+excellent specificity
+logistical
 hindered
 adoption
 Lateral flow
@@ -3601,7 +3716,7 @@ sensitive
 gaps
 RT-PCR testing
 regime
-low- and middle-income
+low- and middle-income countries
 LMICs
 serology
 relatively long
@@ -3618,9 +3733,17 @@ measured
 LOD
 ng/mL
 equivalent
+mimic
+host cell surface receptors
+governs
+influenza viruses
+receptor determinant
+ZINC database
+applicability
+sialic acid
 250,000 deaths
 May 2020
-repurpose existing
+repurpose existing drugs
 overactive immune
 ARVs
 anecdotal reports
@@ -3628,7 +3751,7 @@ milder
 PLWH
 We hypothesized
 nucleoside/nucleotide
-reverse transcriptase
+reverse transcriptase inhibitors
 abacavir
 emtricitabine
 lamivudine
@@ -3645,15 +3768,13 @@ quickly spread
 recently declared
 anthraquinones
 DSS
-prove
-non-covalent
 differed
 kcal
 mol
 alternate
-cysteine protease
 synthesised
-sampling
+computational method
+drug screening
 explicit solvent
 atoms
 graphical
@@ -3662,7 +3783,7 @@ confidence
 Modifiable
 air pollution
 cooking
-electricity
+electricity generation
 emissions
 modulated
 intensity
@@ -3670,11 +3791,10 @@ typically
 emission
 altering
 closures
-opportunity to observe
+observe
 quantify the impact
 modifiable factors
-ambient air
-pollution
+ambient air pollution
 real-time
 twenty-seven
 low-cost
@@ -3689,7 +3809,6 @@ Concentrations
 PM2.5
 NO2
 COVID-related
-measurements
 business as usual
 periods
 PM2.5 concentrations
@@ -3699,8 +3818,6 @@ pollutants
 attribute
 pollutant
 enhancements
-emission sources
-industrial emissions
 intra-day
 variability
 rush
@@ -3709,23 +3826,22 @@ commuter
 enhancement
 traffic emissions
 fell
-This translates
-average PM2.5
+translates
+PM2.5 concentration
 Ambient
 NAAQS
 tightened
 shed light
 reductions
-stringent
+stringent regulations
 clusters
-MD-based
+5R82
 6VW1
-re-docked
 collect
 Ebola
 electrophilicity
 sinks
-electron acceptor
+acceptor
 S proteins
 electronically
 shields
@@ -3733,7 +3849,6 @@ sinking
 electron transfer
 exothermic
 endothermic
-key insights
 contagious nature
 proteome
 cytotoxic T
@@ -3742,7 +3857,7 @@ helper T
 prophylactic or therapeutic
 multi-subunit
 diagnostic tools
-beginning of the 21st
+beginning of the 21st century
 coronavirus disease-19
 influenza-like symptoms
 ranging from mild
@@ -3750,17 +3865,16 @@ discomfort
 lung injury
 multi-organ failure
 eventually leading
-Effective treatments
+April 30
 currently exist
-combating COVID-19
-positive-sense RNA
+positive-sense RNA viruses
 replicate in the cytoplasm
+infected cells
 replication/transcription machinery
 nonstructural proteins
 nsp
 nsp16
 SARS-CoV-1 and MERS-CoV
-methyltransferase
 catalyze
 transcribed nucleotide
 ribose
@@ -3768,45 +3882,41 @@ O-Me
 cap
 RNAs
 protects
+exoribonucleases
 ensures
-efficient translation
-host innate
-immune
-2'-O-MTase
+host innate immune
+previously documented
+vitro and in vivo studies
 2′-O-MTase
 attenuation
 dysfunction
 down-regulates
-innate immune
-sensing
-retinoic acid-inducible
+innate immune sensing
+retinoic acid-inducible gene
 RIG-I
-melanoma differentiation-associated
+melanoma differentiation-associated gene
 MDA5
 O-MTase
 restrain
 anti-SARS-CoV-2 drugs
 systematic
-human CoVs
+amino acid sequences
 top-ranking
-socioeconomic disruption
+socioeconomic
 broadly
-effective antiviral
+antiviral treatment
 dire situation
 Ro5
-AI
-focuses
-SARS-CoV-2 3CL
 hereby
 propitious
 highest-ranking
-corroborate
 plausibility
 favourable
 encouraging
 hyperinflammation
+structural and functional
 mimicry
-MPro
+non-covalent inhibitor
 X77-mimetic
 X77-MPro
 web-oriented
@@ -3816,20 +3926,19 @@ modes
 SARS-CoV-2 MPro
 effectively block
 functionally important
-Leu-141
 Met-165
 salt bridges
 participate
 demands
-curb the pandemic
-cleavage of the polyprotein
-chances of success
+curb
+chances
 great promise
 instructive
 biochemical and structural
 shortlisted
-Objectives
-outbreak started
+underway
+Background and Objectives
+outbreak started in Wuhan
 S protein Glycoprotein
 6VSB
 6LZG
@@ -3837,25 +3946,22 @@ ferrocene
 interacted
 constant
 dominated
-electrostatic
 H-bond
-results indicated
+Pi-Alkyl
 biophysical and structural
-extensive computational
+HE glycoprotein
 NPACT
-2R,3R
 Silymarin
-drug-likeness
+Withanolide
+drug-likeness properties
 top-ranked compounds
 affirmed
-COVID19 pandemic
-virus belongs
 nsp14
 exoribonuclease
 removing
 mismatches
 arise
-duplication
+genome duplication
 nsp10-nsp14
 substrate
 overlaps
@@ -3870,26 +3976,23 @@ online repository
 COVID-19-related
 Grid
 Inhomogeneous
-AmberTools
-solvent
 displacement
 modification
 water-based
 It is hoped
 freely
+drug discovery efforts
 defeat
-continues
 impose
 devastating impacts
 accountable
 short span
-potentially druggable
 puts
-mimic
 endogenous
 transcripts
-evasion of the immune
-diversity
+evasion
+immune response
+chemical diversity
 JFD00244
 SAM
 SIRT2
@@ -3901,80 +4004,86 @@ CoVs encode
 nucleocapsid protein
 N-protein
 RNA-binding protein
+replication cycle
 ribonucleoprotein complex
 NTD
 NTD-N-protein
 legitimate
 pharmacophore model
-guanosine monophosphate
+guanosine
+monophosphate
 GMP
-ZINC database
-screened compounds
 scrutinized
+molecular docking and molecular dynamics
 impetus
-proteolysis
 QM/MM
-landscape
-provides valuable
+free energy landscape
+provides valuable information
 appearing
 differs
 antiviral compounds
-ongoing global
-antiviral medicines
-mild to moderate
+ongoing global pandemic
+mild to moderate symptoms
 unexpected
-success in controlling
 herbal medicines
 remained elusive
-plays an important
+plays an important role
+underlying molecular mechanisms
+silico methods
 possibly
 satisfies
-stronger binding
+stronger binding affinity
 therapeutic approach
 fastest
 efficient way
-deadly disease
 bioinformatics approach
 structure-based drug
 anti-parasitic
 anti-fungal
 anti-tuberculosis
-arginine vasopressin
+vasopressin
 antagonist
 non-nucleoside
 Schrodinger
 bridges
 findings highlight
+sudden
 depletion
 respirators
-temporal
-respirator
 reuse
 systematically evaluated
-filtration performance
-qualitative fit
-reuse of N95
+viable option
+N95 respirators
 3M
 cooker
-120°C
-effective in inactivating
-deteriorating
+100°C
+relative humidity
+50 min
+inactivated
+Tulane
+rotavirus
+adenovirus
+transmissible gastroenteritis virus
+respirator
+integrity
+particle filtration efficiency
+quantitative fit testing
+cycles
 rice
-cookers
 pots
-decontamination method
-N95 face
+reuse of N95
 viroporin
-anticancer drugs
 SwissDock
 appropriately
 anticancer agents
+In order to combat
 formulate
 adjuvants
 amphiphilic
-monophosphoryl lipid
+adjuvant
+monophosphoryl lipid A
 MPLA
-Toll-like receptor
+Toll-like receptor 4
 TLR4
 CpG ODN
 TLR9
@@ -3984,17 +4093,17 @@ liposomes
 safer
 translatable
 nanovaccine
-elicit
-humoral immune
+elicit humoral
 sera
 vaccinated mice
-infect
 Vero cells
+S1
 Alum
 elicit strong
+T cell immunity
 activating
 CD4+ and CD8+
-critical roles
+play critical roles
 eliminating
 viral load
 IgA antibody
@@ -4005,14 +4114,13 @@ intact
 PPE
 surfaces
 pose significant
-tested the hypothesis
+We tested the hypothesis
 electroceutical
 fabric
 disrupts
 destabilizing
 electrokinetic
 virion
-particles
 5 minutes
 Viral particles
 recovered
@@ -4025,9 +4133,9 @@ cytopathic effects
 eradication
 MTT
 cell viability
-provides the rationale
 halt
 major challenges
+effective antiviral drugs
 prescriptions
 Shennong
 strong affinity
@@ -4041,35 +4149,37 @@ Indian isolates
 complete genomes
 public repository
 NCBI
+databank
 isolates
 corresponds
-Wuhan-Hu-1
 epicenter
-COVID-19 pandemic.The
+pandemic.The
 outburst
 4.5 million
+therapeutic drug
+viable solution
 RNA‐dependent RNA
 polymerase nsp12
-SARS-CoV-2 RNA
+RNA replication
 single-stranded RNA
 absolutely necessary
-obvious
+target for antiviral drug
 plant-derived
 enzymatic activities
-parainfluenza virus
-respiratory syncytial
+type 1
+parainfluenza virus type
+respiratory syncytial virus
 More importantly
 dietary supplementation
-beneficial role
 immune homeostasis
 curious
 dietary
-therapeutic effects
 catalytic pocket
 quercetagetin
 myricetin
-strongly bind
 prompted
+repurposing of approved drugs
+This paper focuses
 cleaving
 three-dimensional structure
 apo state
@@ -4080,43 +4190,39 @@ plasminogen
 urokinase-type
 plasminogen activator
 uPA
-We highlight
 S1A
 serine proteases
 relatively uncommon
 lysine residue
 S2/S3
+serine protease inhibitors
 selective targeting
-TMPRSS2 inhibitors
 COVID-2019
 flexible
 Rosetta
-ADP ribose
+ADP
 phosphatase
-nucleocapsid phosphoprotein
+RNA binding domain
 HIV-AIDS
 3Clpro
-primarily involve
+involve
 binders
 smaller
 high-priority
 co-crystallization
 paramount importance
-repurpose drugs
 comprises
-well-tempered
-metadynamics
+approved and investigational drugs
 verifications
 incessant
 claimed
 lakhs
 valuable
+infected millions of people
 worsened
 approved therapeutics
-rapid development
 biology
 expense
-propogation
 attractive therapeutic
 public databases
 optimised
@@ -4124,32 +4230,31 @@ sub-set
 sequentially
 filtering
 modalities
-Larotrectinib
+cysteine protease inhibitors
 Calpain
+bioactive compound
+A total of 101
 ACE
 carboxypeptidase
-1R42
 autumn
 medicinal plants
 Acacia
 Indigofera
-caerulea
-Catechin
 Gallic
+Piperitone
 Limonene
 Mp
 penetration
+multiplication
 phenolic compounds
 toxicities
 pending
 evaluations
-attach
 S1/S2 site
 harboring
 G476S
 V483G
 lies
-RBD region
 prevalent
 D614G mutation
 vicinity
@@ -4157,38 +4262,38 @@ V483A
 Radius
 gyration
 compactness
+landscape
 Gibbs free
-S1/S2 region
+S1/S2
 cleavage site
 elastase
 broaden
-tropism
+host cell tropism
 D614G
 epitope mapping
 antigenic determinants
 chimeric
-antibody
 arising
 immunogenicity
-viral tropism
+viral tropism and pathogenesis
 lieu
 precisely
 Wuhan city
 continues to spread
 anti-infective
-anti-histamine
 Lymecycline
 Mizolastine
-nsp5 crystal
-novo
+conformational dynamics
+Molecular dynamic
+Chymotrypsin-like protease
+nsp5 nsp5 nsp5
 X-ray structures
 covalent
 6W63
-3D representation
-PDB format
+crystal structure of nsp5
+representation
 medicinal chemists
 SDF
-protein-ligand complexes
 VR
 rapid growth
 blocked
@@ -4198,28 +4303,29 @@ antifungal
 consumed
 Piperine
 We anticipate
-dug
-Cladribine
-Clofarabine
 Fludarabine
 Adenosine
-high mortality
 Utilising
 remodelling
+silico molecular docking
 observation
 Remdisivir
 rationalisation
+traditional Chinese medicines
+harnessed
+tend
+significantly enriched
 virus-specific
-investigational antiviral
+approved and investigational
 anti-cancer drugs
-SARS-Cov-2 virus
+attempt to discover
 artificially
 expanded
+alphabets
 AEGIS
 dP
 dZ
 dV
-dX
 dK
 dB
 dS
@@ -4228,63 +4334,58 @@ N4-hydroxycytidine
 EIDD-1931
 EIDD-2801
 Uprifosbuvir
-Balapiravir
 Acalabrutinib
-BMS-986094
 artificial
 unnatural
 occur naturally
 prescribing
-Gymnema
 GS
 gymnemic
 suitability
-severely
-hampered
-provide a valuable
+high mortality rate
+severely hampered
 scaffold
-discovery of new
-in-house
+in-house database
 Saudi
 recognised
-RNAdependent RNA
-identify putative
-facilitate the development
+Structure-based virtual
+RNAdependent
+RNA polymerase nsp12
 anti-COVID-19 drug
+Computational analyses
+7-rutinoside
 chrysophanol
-withanolide
+6-galloylglucoside
+mulberrofuran
+isocodonocarpine
+calonysterone
 tightly
 overwhelming
-predecessor SARS-CoV
+predecessor
 infective
 exhibiting
-tighter binding
+tighter
 hACE-2
 resemblance
-potential therapeutic
 non-interacting
-mutated
 exert
-peptide derived
 simultaneous
 yields
 two-fold
 peptide-inhibitor
 6 months
 marked
-Due to the urgent
-facilitate the discovery
+repurposing approved drugs
 effective therapies
 mesylate
 anticoagulant
 pharmacophoric
-drug-target interaction
+drug-target
 serves
 phenomenon
 compound libraries
+screened a library
 arbidol
-named “
-Bump
 computational biology
 visible
 CT-scan
@@ -4297,8 +4398,8 @@ thorax
 CRP
 biomarkers
 traditionally
-determining the prognosis
-therapeutic decisions
+determining
+prognosis
 prognostication
 Aeration
 app
@@ -4318,8 +4419,9 @@ accompany
 self-test
 diary
 shortness of breath
-7-day period
+7-day
 degrees Celsius
+aims
 ferritin
 μg/L
 doubling
@@ -4327,26 +4429,26 @@ serum ferritin
 tocilizumab
 respiratory failure
 dismal prognosis
-hyper
+hyper inflammatory
 respiratory insufficiency
 cytokine storms
 hampering
-immune response
 cytokine release
 syndromes
-CAR-T cell
+CAR-T
 pre-emptive
-syndrome
+cytokine release syndrome
 CRS
 cytokine storm
 To evaluate
-efficacy and safety
-lianhua
-qingwen
+clinical efficacy and safety
 capsule
 granule
 suspected
+clinical characteristics
+TCM syndrome
 subtraction
+To evaluate the efficacy and safety
 differentiation
 post-discharge
 PD-1
@@ -4358,114 +4460,135 @@ placebo
 ill patients
 To analyze
 prognostic factors
-2019-nCoV infection
 predictive model
 multivariate analysis
 To verify
 predictive power
 vaginal secretions
 provide guidance
-epidemic prevention
+epidemic prevention and control
+Establish
+cohort
+cognitive
+emotional
+behavioral
 sought
 invasive
 multiple organs
 chest
 lungs
 abdomen
-liver and kidneys
+liver
+kidneys
 vessels
-ultrasound images
+clinical signs and symptoms
 electrocardiogram
 imaging
 clinical manifestation
-sought to evaluate
-better or worse
-prognosis
+worse
 massage
 auricular
-acupuncture points
-alleviate anxiety
+acupuncture
+anxiety
 depression
 isolation
-anxiety
 long-term
 strict isolation
-non-strict
 strcuture
-pulmonary
+pulmonary ultrasound
 provid
 early diagnosis
+impaired lung function
+situations
+Cultivate
+umbilical cord mesenchymal stem
+MSCS
 lung function
 umbilical cord
-mesenchymal stem
-pneumon
+NK
+CIK
+immune function
+transform
+equivalence
 chloroquine phosphate
 droplet and contact
-large-scale public
+large-scale
 nurses
 faced
 high-risk
 overwork
 rehabilitation
 home and abroad
-proprioceptive neuromuscular
+proprioceptive
+neuromuscular
 breath
 Qigong
-infection prevention
-randomized controlled
+randomized controlled trials
 physical and psychological
-eight-segment
-rehabilitation exercise
 preliminarily
-provide theoretical
 frontline nurses
-Evaluation of the efficacy
-lipoic acid
+psychotherapy
+new-type coronavirus pneumonia
+psychological status
+observing
+negative emotions
+new coronary
+Evaluation of the efficacy and safety
+lipoic
 injection
-reducing the risk
-recombinant human
-α1β
-risk stratification
+2019 novel coronavirus disease
+recombinant
+interferon
+risk stratification tool
 safty
-extracorporeal
-blood purification
+extracorporeal blood purification
 semen
-Reproductive Health
 males
+non-medical
+negatively impact
+provide clues
+incidence
 indicators
-non-infected people
+severely
+non-infected
+antiviral response
 verify
 innate immunity
-cellular and molecular
+molecular biology
 treated
 Celebrex
+pulmonary lesions
 retrospectively reviewed
 Cesarean section
 maternal and fetal
-Intervention groups
+Intervention groups < br
 intervention group
 injected
 dose
-milion
 kg
 MSC
 sixth
 supplemented
 receive placebo
 normal saline
+intervention. < br
+br > Settings
+conduct < br
 normalize
-chest CT
-scan
+chest CT scan
 Rasoul
 Akram
 Iran
 admitted
-intensive care
+intensive care units
 28 days
 receiving
+br > Design
+randomized controlled clinical trial
 assigned
 simple randomization
-Participants/Inclusion and exclusion
+br > Participants/Inclusion and exclusion
+criteria < br
 acute
 HRCT
 pregnancy
@@ -4474,66 +4597,69 @@ inherited
 immune deficiency
 mental illness
 excluded
-study was to evaluate
+br > Study aim
+evaluate the efficacy
 cord-derived
+mesenchymal stem
 cell transplantation
 coadministration
-conventional therapies
-reduce mortality
-outcome variables
+patients. < br
+br > Main
+outcome variables < br
 severity index
-C reactive
+C reactive protein
 Procalcitonin
 Lymphocyte count
 CD3 +
-CD4 +
-CD8 +
+CD4 + and CD8 +
 Persian medicine
 syrup
-Imam Reza
+br > Settings and conduct
+Imam Reza Hospital
 randomly divided
-open-label study
+open-label
 Blinding
-18 years
+randomized clinical trial
+18 years old
 hospitalized
-Liver
 kidney
 Immunodeficiency
 breast feeding
 drug addiction
 allergies
-transplanted organs
-Cor
-deep vein
-thrombosis
-Determining
+transplanted
+organs
+deep vein thrombosis
+br > Determining
 O2 saturation
-Respiratory Rate
 CRP levels
 lymphocyte
 Determining the effect
 WBC
-Main outcome
-variables
+br > Main outcome
+variables < br
 Oxygen saturation
 Ipecac
 homeopathy
 drops
 6 hours
+days. < br
 Firoozgar
 therapist
 blinded
 randomized
 double-blind
-placebo-controlled clinical
-Inclusion
+placebo-controlled clinical trial
+Inclusion criteria
 Patients admitted
 suspicious
 definite diagnosis
 national guideline
-radiologic manifestations
+radiologic
+manifestations
 unilateral or bilateral
-multilobular infiltration
+multilobular
+infiltration
 CT scan
 chest x-ray
 Pneumoniae
@@ -4544,12 +4670,13 @@ Exclusion criteria
 treated with corticosteroids
 immunosuppressants
 oral medication
+br > Evaluation
 Chills
 Myalgia
 O2
 Saturation
 lymphocytes
-Serum CRP
+CRP level
 Ventilator
 intake
 rout
@@ -4561,23 +4688,25 @@ Stem Cell
 regenerative medicine
 Kerman
 physician
-dental pulp
-injected intravenously
+dental pulp mesenchymal stem
+intravenously
+br > Clinical trial
 Non-randomised
-Inclusion Criteria
 Patients undergoing
 resistant
 routine
-intravenously
+Pulmonary
 randomly assigned
+group. < br
 Arash
 staffs
 invited to participate
-inclusion and exclusion
+inclusion and exclusion criteria
 obtaining
 consent
-enrolled in the study
-obtaining informed
+enrolled
+based on inclusion and exclusion
+obtaining informed consent
 400 mg
 twice weekly
 nurse
@@ -4593,7 +4722,6 @@ G6PD
 arm
 MOH
 IV-IG
-Interferon beta
 admission
 dexamethasone
 48 hours
@@ -4602,69 +4730,72 @@ province
 demographic
 questionnaire
 SpO2
+randomized controlled trial
 Participants will be recruited
 allocated
+Inclusion
 Exclusion
 need for intubation
 contraindication
 IG
-Interferone
+interferon beta
 Concomitant
-interferon β-1b
-Daru
+β-1b
 mcg
 subcutaneously
 14 days
 Patents
 adverse reactions
+treatment. < br
 Imam Khomeini
 non-blinded
 permuted block
 randomization
-18-75 years
-highly suspected
-drug allergy
+suspected or confirmed COVID-19
+allergy
 Uncontrolled
 baseline
 neuropsychiatric disorders
 thyroid disorders
-Pregnancy and lactation
+lactation
 liver failure
-β-1b
+br > Evaluating
+efficacy and safety
+interferone
 Primary endpoints
-adverse drug
-reactions
+adverse drug reactions
 Secondary endpoints
 duration of hospitalization
 Tab
 hydroxychloroquine 400
-mg twice
-200 mg
-twice daily
+mg twice daily
+200 mg twice daily
 lopinavir/ritonavir
 200/50 mg
-tablets twice
+tablets twice daily
 atazanavir/ritonavir
 complaint
-singes
 vaccination
 Hemodynamic
 Oxygenation
 Supportive care
+drug reactions
 Complications
 hospitalization
-Participants/Inclusion
+trial. < br
+br > Participants/Inclusion
+exclusion criteria < br
 triple-drug
+pregnancy and lactation
 Hydroxychloroquine +
-Incidence rate
 Astragalus
 gossypinus
 10 cc
 grams
-apple juice
+juice
 Forty
+double-arm
 Eighty
-Physicians
 statistician
 specialist
 pharyngeal
@@ -4674,7 +4805,7 @@ vital signs
 10 days
 normalization
 ≤24/minute
-alleviation of cough
+alleviation
 absent
 sustained
 daily dose
@@ -4684,8 +4815,8 @@ sooner
 supervisor
 clinician
 Sina
-Tehran University
-arm parallel
+Tehran University of Medical Sciences
+arm parallel group
 triple
 placebo controlled
 assign
@@ -4694,27 +4825,26 @@ continuing
 renin-angiotensin-aldestrone
 discontinued
 substituted
-calcium channel
+calcium channel blocker
 blocker
-beta blocker
 recruiter
 analyzer
 triple-blind
-parallel groups
+clinical trial with parallel
 suggestive
-chest computed
-tomography scan
+chest computed tomography scan
 radiologist
 consuming
+angiotensin-converting enzyme
 inhibitors or angiotensin
 receptor blockers
-systolic blood
+systolic blood pressure
 diastolic
-congestive heart
+congestive heart failure
 arrhythmia
 newly
 prescribed medications
-severe asthma
+asthma
 lithium
 antiepileptic drugs
 chemotherapy
@@ -4722,18 +4852,45 @@ unwillingness
 influenced
 clinical outcomes
 COVID -19
-renin-angiotensin-aldosterone system inhibitors
+renin-angiotensin-aldosterone
 ceasing
 consumption
+calcium channel blockers
 beta-blockers
-Vitamin A
+Psychological
+counseling
+sessions
+WhatsApp
+Skype
+45 minutes
+empirically
+educational intervention
+pretest-posttest
+ethics
+supervision
+depressed
+entered
+comprised
+psychological counseling
+post-test
+empirical
+pre-test
+Satisfaction
+attend
+psychological interventions
+hospitals and clinics
+KMU
+vitamin A
+Imam Reza
 affiliated
 Tabriz
+respiratory signs
 sing
 parallel group
 hospitalized patients
 pregnant
-lactating mothers
+lactating
+mothers
 high-dose vitamin
 duration
 non-hospitalized patients
@@ -4744,63 +4901,71 @@ Qazvin
 intern
 n't know
 double blinded
-Diagnostic imaging
+randomly divided into two groups
 Radiological
 pulmonologist
+othe
 PCR test
-manifestations
-Oseltamivir 75
-Interferon beta-pp1a
-Masih Daneshvari
+pulmonary manifestations
+Oseltamivir
+75 mg
+beta-pp1a
+Masih Daneshvari Hospital
 Non-controlled
+clinical trial < br
+Participants/Inclusion and exclusion criteria
 chronic kidney
+liver diseases
 adverse effects
 subcutaneous administration
-regimen
-standard regimen
+receive standard regimen
+control group will be prescribed
+standard regimen for COVID-19
 500 mg
 intubation
 mortality rate
-enrolled
+groups. < br
 pulmonary involvement
 cbc
-reduced lymphocyte
 Ketoacidosis
-decompensated heart
+decompensated heart failure
 kidney failure
 GFR
-30 ml/min
+ml/min
 metabolic acidosis
+severe respiratory failure
+immediate need
 exclude
+study. < br
+br > Study
 meformin
 ARDS
-treated according
+syndrome differentiation
 Hunan
-patients receiving
 Tehran
 sufficient
 explanations
-obtaining written
-informed consent
-first-degree relatives
+written informed consent
+first-degree
+relatives
 consciousness
 dementia
 permuted
 licorice
-randomized double-blind
+8 days
+controlled clinical trial
 arrival
 occurrence
 pulmonary complications
-Observe
 therapeutic effect
 Ultra
 Wave
-Electrotherapy
+Corona Virus Disease 2019
 Sofosbuvir-Velpatasvir
 Kermanshah
 unaware
 conveniently
-Absolute lymphocyte
+18 years
 ML
 SaO2
 breast-feeding
@@ -4808,27 +4973,29 @@ physician 's
 liver disease
 cirrhosis
 ALT
-AST levels
-fives
+AST
 contraindicated
 untreated
-HIV infection
 effectiveness and safety
 treatment regimens
+subjective
+expiratory
+dyspnoea
+chest distress
+sleep disorder
+1-2 weeks
 approving
-chancellor
 Sabzevar
 completing
 written consent
 ICU
-randomly
-experimental group
+divided randomly
 Benson
 relaxation
 pamphlet
 twice a day
 Specialty
-bachelor 's
+bachelor 's degree
 cooperate
 withdraw
 incomplete
@@ -4839,115 +5006,110 @@ atmosphere
 perception
 coping styles
 health emergencies
-sessions
 conducts
 hemoperfusion
-12-24 hours
 24 hours
 blindness
 Ayatollah
 Babol
 Mazandaran
 severe forms
-despite receiving
 clinical manifestations
-real-time polymerase
+real-time polymerase chain reaction
 PaO2
 PaO2/FiO2
 non-invasive
 platelets count
 microliter
-Multiple organ
+Multiple organ failure
 inflammatory cytokines
+evaluate the effectiveness
 Improving
-evaluate the efficacy
-Recombinant
+evaluate the efficacy and safety
 α1b
 ophthalmic
+mild to moderate
 2 weeks
 Trachyspermum
 copticum
+placebo. < br
 Valiasr
 Arak
 thirty
-statistical
 analyst
-satisfaction
-preliminarily evaluate
 mild and moderate
 Tanacetum
 parthenium
 Sch
-Forghani
 Qom
 definite
-progressing rapidly
+progressing
 announcement
 classified
+infectious disease prevention and control
 antimalarial drug
-vitro experiments
+In vitro experiments
 2019ncov
 hydroxyl group
 retaining
 intends to conduct
 three-phase
+randomized controlled
 2019ncov.The
-efficacy of chloroquine
 decoction
 8 hours
 12 hours
-Thirty-four patients
+Thirty-four
 capsules
 twelve
+randomly assign
+br > Randomized
 Concurrent
 Controlled Trial
 ARI
 PO2
-infiltration
 75 years
 genders
 intubated
 metabolic disorders
 history of allergy
-herbal product
+Inability
+per-oral
 precludes
 continuance
 judgment
-radiologic
 non-critical
 inflammatory biomarkers
 losartan
+5 mg
 amlodipine
 Emam
-Reza
-SPSS Version
+SPSS
 One-hundred
-stable hemodynamic
+informed consent
 mmHg
 exacerbation
 initiating
-potassium levels
+potassium
 anemia
 shock
 decreasing
 angioedema
 hepatic failure
-acute renal
-bilateral renal
-artery stenosis
-uncontrolled hypertension
+acute renal failure
+bilateral
+renal
+artery
+stenosis
 ARB
 phenobarbital
 rifampin
 fluconazole
-safety and efficacy
-investigate the effectiveness
-severe NCP
+To evaluate the safety and efficacy
 Fifth Edition
 myrtle
 5 days
 boil
-10 grams
 fruit
 sugar
 glasses
@@ -4956,25 +5118,36 @@ smooth
 quarantine
 18-65 years
 outpatient
-Allergy
-asthma
 pregnancy/lactation
-chronic renal
+chronic renal failure
 Corticosteroid
 weakness
-muscular
+muscular pain
 Primary objective
 Fapilavir
 ordinary
-objective
+Secondary objective
 evaluate the safety
 barley
 CHF
-barley-based
+intestinal
+impairment
+16S
+metagenomics
+macro
+intestinal flora
+richness
+metabolomics
+microecological
+strains
+probiotics
+nutritional
+preparations
 convalescent plasma
+admitted to ICU
+Intensive care unit
 Sari
 Recipient
-attend
 Do n't
 FiO2
 Donator
@@ -5000,16 +5173,18 @@ blood transfusion
 Randomised
 10-day
 30-day mortality
+Inflammatory
+Ganovo
 acetaminophen
 febuxostat
 parallel-controlled
-critically ill
+critically ill patients
 Triazavirin
-coronary
+coronary pneumonia
 12g
 Vitamin C
 dextrose5
-200 ml
+4 days
 placebo group
 distilled water
 selecting
@@ -5019,13 +5194,14 @@ allocate
 prepare
 investigator
 biochemical tests
-double blind
+inflammatory indices
+double blind clinical trial
 moderate to severe
 nephrolithiasis
+chronic kidney disease
 hemodialysis
-We aimed
+We aimed to assess
 high dose
-organs
 specially
 pulmonary function
 1:1 ratio
@@ -5040,23 +5216,19 @@ Gorgan
 digestive
 TUMS
 Radiologists
+physicians
 2-arm
 age ≥
-18y
 24/min
 O2Sat
 Pa02/Fi02
 allergic reaction
-pregnant or breastfeeding
 60/min
 Amiodarone
 multiorgan failure
-requiring mechanical
-ventilation
+requiring mechanical ventilation
 eGFR
-mL/min
 Daclatasvir
-increases
 composite
 subgroups
 plasma-derived
@@ -5066,18 +5238,16 @@ hospital-based
 parallel-group
 single-blind
 COVIDE-19
-RT-qPCR test
+RT-qPCR
 age ranged
 Hepatitis B
 syphilis
 HTLV-1
-criteria:1
-Lactating
 allergic reactions
 intravenous administration
 Smokers
-Complete remission
 qRT-PCR
+nucleic acid test
 sputum samples
 swab samples
 50 mg
@@ -5086,11 +5256,13 @@ ESR
 LFT
 anonymous questionnaire
 matched
+dry cough
+chest CT
 signing
 inform
 TB
 chronic
-administration of corticosteroids
+corticosteroids
 pulses
 IVIG
 anti-TNF
@@ -5105,24 +5277,29 @@ ozonated autohemotherapy
 Crostop
 Croguard
 multi-center
-Renal
+suspected or confirmed
 To investigate
-rhG-CSF
 Camostate
+200 mg
+standard regimen
 simple-randomly
 Phase 3
 2019-nCoV-infected patients
 Non-inclusion criteria
-elevated liver
+elevated liver enzymes
 participating
-pulmonary tuberculosis
-bacterial and fungal
+active pulmonary tuberculosis
+definite bacterial
+fungal infections
 pregnant or lactating
+CT scan images
+receive a standard regimen
 fingolimod
 thrombotic event
 failure؛
+Coronavirus-induced
 CT scanning
-B lymphocytes
+T and B lymphocytes
 clone
 monoclonal antibody
 plus Hydroxychloroquine
@@ -5131,49 +5308,58 @@ Stat dose
 600 mg
 7 days
 200mg
+regimen
 Hydroxychloroquine tablets
 multicenter
-positive RT-PCR
+positive RT-PCR test
 Requiring
+100 years
+informed consent form
 antiviral medications
-Oseltamivir
 renal failure
 GI bleeding
-Lactation
 QT interval
+safety and efficacy
 In-hopital
+CRP values
 discontinuation
 supplemental oxygen
 Oxygen therapy
 lit/min
 allergic
-drug reactions
-rehabilitation training
+ovarian
+reproductive age
 Patients were divided
-B vitamins
+vitamin D
+twice daily
 solute
 ampoule
 placement
+60 years old
 definitive
 collaboration
 liver and kidney
+undergoing chemotherapy
 diagnoses
 supplementation
-vitamins A
 disease severity
+Variables
 BMI
 Serum levels
 IL6
 TNF-α
 IFN-G
 presence or absence
+effection
 mycobacterium
 vaccae
 Hydroxychlorquine
 100 mg
 placebo capsules
 randomize
+double blind
 block randomization
+Two arm parallel
 randomised trial
 definitive diagnosis
 chill
@@ -5182,56 +5368,77 @@ imaging findings
 companion
 dissatisfaction
 symtoms
-hypersensivity
 umifenovir
-improvment
 rupture
 large-scale production
+mesenchymal stem cells
+total lymphocytes
 proportions
 cell morphology
 non-specific
 liver function
 muscle enzymes
 PCT
-TH1 and TH2
+TH1
+TH2
 molecular markers
-establish
+stem cell therapy
+so-called
+extracts
+Elderberry
+turmeric
+suspension
+administered orally
+divided doses
+hospitals affiliated
+Mashhad
+eligibility criteria
+collector
+aware
+COVID- 19
+computed tomography
+organ damage
+cardiovascular
+lactating women
 immunocompromised patients
-clinical characteristics
 suffer
 sever
+symptoms and signs
 150 mg
 Septimeb
 DW
 infused
 300 mg
 infusion
-single arm
+This is a single arm
 radiology
 consent form
 guardians
 alcohol consumption
 growth hormone
-anabolic steroids
 30 days
 immunosuppressives
 radiotherapy
 3 weeks
 intending
+objective
 vitamin D3
 600mg
 acetylcysteine
 factorial
 Taleghani
 Abadan
+This study was conducted
 ward
-outcome assessment
+Written consent was obtained
 level of consciousness
-arterial oxygen
+breathing rate
+arterial oxygen saturation
 disorder
 mAb
 artificial ventilation
 admitted to the ICU
+coronary
 Ethics Committee
 eligible for inclusion
 adequately
@@ -5244,32 +5451,26 @@ Shadegan
 census
 normalized
 suramin
+sodium
 naproxen
 antiviral and antibacterial
+according to inclusion and exclusion
 convenient
-15 years
+15 years of age
 confirming
 confirmation
+informed consent to participate
 gastrointestinal bleeding
 captopril
 healing process
-To demonstrate
-abnormal
-urine
+abnormal urine
 kidney impairment
-paitients
-admission.To
-incidence
-facors
-acute kidney
+acute kidney injury
 500mg
-hospitals affiliated
-randomized double
 separation
 arterial blood
 gastrointestinal disorders
 mortality and morbidity
-240 mg
 nano
 packs
 double-blind randomized
@@ -5281,44 +5482,38 @@ IL-1
 IL-6
 IL-17
 quantified
-Quantitative
 Real-Time PCR
 ELISA
 secreting
-In accordance
+accordance
 etiologic
 Willingness
 alpha-lipoic
 immune suppression
-immunosuppressive agents
-admitted to ICU
+use of immunosuppressive agents
 cytokine secretion
-clinical observations
 TCM syndromes
-preparations
 Levamisole
 TDS
 inhaler
 puff
 single dose
-Vali
+Lopinavir / Ritonavir
 Fasa
 medical ethics
 elimination
 Lymphopenia
-chest CT-scan
-safety and effectiveness
+To evaluate the safety
 infusing
 three-drug
 lupinavir
 responsive
 intravenous immunoglobulin
 doses
-30g
-Mashhad
 responded
 Convenience
 prophylaxis
+thrombosis
 heparin
 examinations
 BP
@@ -5330,75 +5525,82 @@ pulse rate
 LDH
 Particle
 SRP
+Azvudine
 recovering
 Baqiyatallah
+Masih Daneshvari
 Shahid Beheshti
 volunteers
+plasma donors
 recovered and discharged
 Voluntary
-donate plasma
-plasma volume
+donate
 recipients
-Patient consent
-pneumonia of unknown
+Abnormal
+lung CT scan
+convalescent plasma therapy
+Since December 2019
+pneumonia of unknown cause
 gradually
 sharp increase
 throat swab
-negative nucleic
-acid detection
+nucleic acid detection
 impossible
 brings
 nomogram
 fifth
-Baqiyatallah Hospital
-6.The
-MSCs
-conventional treatment
 Day 0
+Day 3
+mesenchymal stem cell
+duration of hospital stay
 Shenfu
 Imam
-Hossein
-principle
 Allocation
 Assignment
 Masking
 Enrollment
-Radiographic evidence
+Radiographic
 pulmonary infiltrates
+aginst
 Multi-organ
 mechanical ventilation
 spouse
 armpit
 rectal
 72 hours
-inactivated
+double-blind placebo-controlled
+staging
+regimens
+suspected cases
+shortening
+critical illness
 study intends
 statistically
-analyze the impact
 endotracheal intubation
 ASC09F
 leflunomide
-pneumonia caused
 victims
 handlers
-psychological
+public health emergencies
 19-nCoV
 severity and prognosis
 anxiety and depression
 psychosomatic
 IgMIgG
-antibody detection
+detection kit
 inpatient
 isolation ward
 inpatients
+nucleic acid testing
 obviously
-low sensitivity
 Chen
 Wang
 intends
 protein-based
 conventional RT-PCR
 great significance
+rapid diagnosis
+This study intends
 retrospectively analyze
 anesthesia
 schemes
@@ -5408,11 +5610,11 @@ puerperae
 cesarean
 maternal and newborn
 infants
-analyzed.In
 ensuring the safety
 fetuses
 theoretical basis
 detection rate
+diagnostic kit
 IgM/IgG
 intravenous
 Wharton 's
@@ -5425,55 +5627,61 @@ M2
 alveoli
 interstitial lung
 lung tissue
-interstitial tissue
-excessive immune
+interstitial
+tissue
+excessive immune response
 mobilization
 neutrophils and monocytes
-NK
+natural killer
+immune cell
 suppress
 overreaction
+coordinate
 Reverse
-epithelial cells
+pulmonary epithelial cells
 extracellular
-interstitial
 immunoregulation
 DIC
-sensitive indicators
+neo-coronary
+dose-effect
+cardiopulmonary
+By collecting
+secretion
+specimens
+bacterial infections
+multiomics
+differential diagnosis
 early identification
 cardiac dysfunction
 echocardiographic
 echocardiography
 cardiac function
-frontline medical
+frontline medical staff
 psychological stress
 frontline staff
 coping style
 participated
 psychological intervention
-front-line medical
+front-line medical staff
 engage
 simplified
-cognitive behavioral
+cognitive behavioral therapy
 district-level
-acupuncture
-acupuncture treatment
 curative effect
-shorten the length
+shorten
 menstruation
-psychological state
 different ages
 choosing
 pulmonary fibrosis
+severe 2019-ncov pneumonia
 prediction model
 pediatric
 To establish
-correlation
 virological
 human umbilical
 cord mesenchymal
 exocytosis
 lung ultrasound
-pulmonary lesions
 diagnostic value
 continuous monitoring
 guided
@@ -5484,11 +5692,10 @@ NGS
 enrich
 resident
 detections
-provide evidence-based
+evidence-based
 Cortisol
 ACTH
 Adrenal
-tissue
 glucocorticoid therapy
 clarify
 glucocorticoid
@@ -5498,24 +5705,21 @@ demographic characteristics
 laboratory indicators
 APACHE
 SOFA score
-GCS score
+GCS
 survivors
 pneumonia-induced
 adrenocortical
 hormone
-reduce the incidence
-distress syndrome
+acute respiratory distress syndrome
 imaging examinations
 influenza A
 Xiyanping injection
-conventional therapy
 guide clinicians
 CD4
 CD8
 ALB
 predictive value
 high-dose
-severe and critical
 single-shot
 Internet-delivered
 cognitive-behavioral therapy
@@ -5524,14 +5728,13 @@ circumstance
 Mood
 insomnia symptoms
 correspondence
-physical rehabilitation
-based humanistic
+aim to evaluate the efficacy
+physical rehabilitation based humanistic
 humanistic care
-study aims
+Background and study aims
 infects
 unwell
 governments
-laboratories
 long delays
 doctors
 allowing
@@ -5539,87 +5742,77 @@ isolation rooms
 easing
 NHS
 Who can participate
-Patients aged
-involve
+Patients aged 18
+study involve
 nose and throat
 swab
 QIAstat-Dx
 communicated
-infection control
 clinical outcome
 collected retrospectively
 duration of hospitalisation
-benefits and risks
+possible benefits and risks
 isolation facilities
 upper respiratory
 swabs
 Southampton
-2021 Who
-NHS Foundation
+April 2021
+NHS Foundation Trust
 Tristan
 Clark
-@ soton.ac.uk
+soton.ac.uk
 high-intensity
-depression and post-traumatic
-stress disorder
+depression and post-traumatic stress disorder
 approved treatments
-late 2019
+emerged in China in late
 Respiratory Virus
 Threats
 Advisory Group
-NERVTAG
 advised
 interferon β
-low-dose corticosteroids
-aims to compare
+This study aims to compare
 injections
 nobody
 knows
 helping
 recover
 usual
-effective in treating
 side-effects
-attending doctor
+18 years of age
+attending
 thinks
 decides
 answering
-entered
 rolling
 dice
-commonly used to treat
 inhaled
 multiple sclerosis
 mouth
+usual standard of care
 personally
-tummy
 upset
 flu-like symptoms
 abnormalities
 participant
-aware
 University of Oxford
 anticipate
 NIHR
-Oxford
+NIHR Oxford
+Biomedical Research Centre
 Wellcome Trust
-Bill and Melinda
-Gates Foundation
+Bill and Melinda Gates Foundation
 Prof
 Horby
+As of February 20
 mainland
-suspected cases
 18th
-Coronary Virus
 Pneumonia Diagnosis
 believed
 transmission route
-respiratory droplets
-relatively closed
-Prolonged
-high concentrations
+main transmission route
+respiratory droplets and close contact
 aerosols
-Tracheal intubation
+Tracheal
 induction
 choking
 droplet transmission
@@ -5628,11 +5821,10 @@ occupational exposure
 anesthesiologists
 Anesthesiology
 crowns
-Pre-oxygenation
-induction of anesthesia
+tracheal intubation
 mask ventilation
 stops
-cover the nose
+nose and mouth
 moist
 gauze
 N95
@@ -5640,50 +5832,45 @@ surgical masks
 new crown
 droplet
 intend
-mask
 oxygen inhalation
-fever and/or
-air pockets
+blood oxygen
+identified in late 2019
+continuous cough
+Pneumonia is a chest
+small air pockets
 called alveoli
-liquid
-difficult to breathe
-minimize
-regularly wash
-reduce the spread
+liquid and make it more difficult to breathe
+minimize travel
+regularly wash their hands
 people aged
-people who have a weakened
+people who have a weakened immune
 pregnant women
-up-to-date advice
-investigate the effects
+following the up-to-date advice
 flu
 babies
 activated
-influenza pandemic
 adapted
 participating hospitals
 identifiable
 participated in the study
 January 2020
-Marian
 Knight
 aqueous extract
 soybeans
-nicotianamine
 able to inhibit
 untested
 usual care
 organizing
 chloroquine or hydroxychloroquine
-lopinavir plus
 interferon-beta
 pills
-daily injections
 invited to join
 collaborating
 volunteer
-relatives
 consented
-randomly allocated
+randomly allocated to receive
+ventilation
+intensive care
 reasonably safe
 routinely
 occur
@@ -5692,22 +5879,18 @@ increases the risk
 severe illness
 Headquarters
 Switzerland
+March 2021
 funders
 Ana
 Maria
-Henao
-Restrepo
-Moorthy
-Marie-Pierre
 laboratory examination
-open-label
 single-arm
 pharmacodynamics
 mild or moderate
-hemophilia A
+hemophilia
 factor VIII
 FVIII
-Hoffmann-La
+unprecedented global
 Roche
 temporarily
 pause
@@ -5715,11 +5898,12 @@ intention
 re-open
 recruitment
 closely
+Coronavirus Pneumonia
 nationwide
-expands globally
-Pulmonary edema
+public health crisis
+expands
+edema
 detrimental
-usually presents
 ALI
 Vascular
 Endothelial
@@ -5727,7 +5911,7 @@ VEGF
 vascular permeability
 inducers
 Numerous studies
-ALI and ARDS
+potential therapeutic target
 Bevacizumab
 anti-VEGF
 approved by the FDA
@@ -5735,11 +5919,12 @@ February 26
 oncotherapy
 ALI/ARDS
 suppression
-outbreak in Wuhan
-spreads worldwide
-Organization officially
+pulmonary edema
+spreads
+World Health Organization officially
 harsher
 Meanwhile
+`` Diagnosis and Treatment
 Coronavirus-Infected
 timely
 extremely important
@@ -5747,40 +5932,37 @@ guiding
 Noteworthy
 percentage
 rapidly progressed
-requiring supplemental
-edema
-causal factor
-VEGF levels
+requiring supplemental oxygen
+causal
 upregulation
 epithelium
 induce
-humanized monoclonal
+humanized monoclonal antibody
 long half-life
 understood
-Baidu
-Yin
+Qingwen Baidu Yin
 enroll
 randomized to receive
-inhaled nitric
-oxide
+inhaled nitric oxide
 institution 's
 antimicrobials
 inotropic
-vasopressor agents
+vasopressor
 2019-new
 Originated
+inhaled nitric
 oxide gas
-2003 SARS
+2003 SARS outbreak
 inhaled NO
-improves survival
+improves
 clinical spectrum
 ranges from mild
+syndrome
 diffuse
 multiorgan dysfunction
 fatality rate
 admission to ICU
 retrospective study
-52 critically
 organ failure
 deceased patients
 AKI
@@ -5790,48 +5972,43 @@ pulmonary hypertension
 severe hypoxia
 shortened
 ventilatory support
+NO donors
 S-nitroso-N-acetylpenicillamine
 greatly increased
 survival rate
 SARS-CoV-infected
 eukaryotic cells
 antiviral effects
-investigators propose
 institutional
 Inspired
 ppm
-40 ppm
 resolves
 Weaning
-improves
 consecutively
 institutional protocols
 4 hours
 step-wise
 hypotension
+90 mmHg
 methemoglobin levels
 methemoglobin
 CO-oximeter
-MetHb
 halved
 Interleukin-2
-pneumonitis caused
-To collect
+treatment of pneumonitis caused
 immunological
 datas
-novel therapies
 epidemics
 originated in China
 preliminary data
 beneficial effects
 genomic similarities
-targeted therapeutic
-combined with adjuvant
 currently under investigation
-tract infection
-onset
+upper respiratory tract infection
+symptoms onset
+severe respiratory distress
 deteriorates
-non-invasive ventilatory
+non-invasive ventilatory support
 earliest
 phases
 unpredictable
@@ -5841,6 +6018,7 @@ translate
 morbidity and mortality
 pilot study
 low dose
+3 days
 shorten the time
 NO donor
 epithelial
@@ -5850,7 +6028,6 @@ acute exacerbation
 post-exposure prophylaxis
 preemptive therapy
 rapidly emerging
-Once exposed
 standard-of-care
 dosing
 critically important
@@ -5864,28 +6041,25 @@ Provinces
 Quebec
 Manitoba
 Alberta
-umn.edu
 folder
 timeliness
 double-blinded
 randomized 1:1
 hospital admission
-despite intensive
+approximately 50 %
 Aviptadil
-Vasoactive
-Intestinal
+Vasoactive Intestinal
 Polypeptide
 VIP
 maximal
 vs. placebo
-escalating doses
-lethal complication
+Patients will be randomized
+escalating
+pmol/kg/hr
 awarded
 Orphan
 Designation
-Nonclinical
 highly concentrated
-NMDA-induced
 caspase-3 activation
 TNFa
 guinea pigs
@@ -5893,11 +6067,6 @@ sheep
 swine
 restores
 barrier function
-Sarcoid
-Bronchospasm
-Erectile
-severe ARDS
-ascending
 successfully extubated
 alive
 timepoint
@@ -5910,20 +6079,20 @@ ECG
 ICUs
 belief
 preserves
+randomly allocated
 intravenous infusion
+blood oxygenation
 pulmonary rehabilitation
 critial
-requiring inpatient
+inter-group
 contracted
 contamination
 observational
 strict
 precaution
-accordance
 CDC
 got infected
 Quarantined
-nurses and physicians
 norm
 putting
 functionality
@@ -5931,7 +6100,7 @@ targeted therapy
 intermittent
 February 24
 physicians and nurses
-contracting COVID-19
+contracting
 protections
 dozens
 consecutive days
@@ -5939,42 +6108,42 @@ shortage
 postpone
 indefinitely
 cardiac surgery
-oncological procedures
+oncological
 urgent and emergent
 consolidations
+reverse transcriptase
 rt
 traumatic injury
 goggles
 protective
 garments
 gown
-double gloving
+gloving
 collaborative
 virology laboratory
 Leuven
 Belgium
 Physiology
-Uppsala University
+Uppsala
 Sweden
 Beijing
-Akerstrom
 palmitoylation
-in-vitro studies
-equally effective
+viral RNA synthesis
+equally
 human-to-human contact
-occurs primarily
+respiratory droplets
 coughs and sneezes
 meters
 incubation period
 ranges
-median incubation
+estimated median incubation
+6 days
 impair
 organ function
-kidneys
 safely
 decades
 newborns
-pulmonary artery
+pulmonary artery pressure
 60 minutes
 adolescent
 cystic fibrosis
@@ -5985,14 +6154,12 @@ remained
 well-being
 Gap
 retains
-potent antiviral
+potent antiviral activity
 To assess
 breathe
-cycles
 leaving
 stopped
 masked
-ritonavir tablets
 investigators aim
 randomized in a 1:1
 pharmacies
@@ -6001,23 +6168,20 @@ commencement
 evidence supporting
 promising therapeutic
 short- and long-term
-making it an attractive
 aims to investigate
+The investigators hypothesize
 investigators hypothesize
-significantly improve
-virological clearance
+clearance
 resolve
 proportion
 clinical deterioration
 in-hospital mortality
 studies investigating
 treatment modalities
-direly
 two-arm
-pragmatic randomized
+pragmatic
 RCT
 designed to assess
-Pragmatic
 informing
 decision-makers
 optimal
@@ -6027,20 +6191,21 @@ By utilizing
 pragmatic approach
 swift
 data warehouse
-Akershus University
+Akershus
 surveillance
 data extraction
 procure
 acceptable
 placebo-controlled
 suspicion
-tract infections
+acute respiratory tract infections
 nasopharyngeal swab
-microbiological examination
+microbiological
 entirety
-Department of Microbiology
+Microbiology
 regularly
 interval
+study aims
 adaptive
 planned
 frequent
@@ -6049,15 +6214,20 @@ eCRF
 endpoints
 nasopharyngeal specimens
 Guangzhou
-transition
+elderly population
+establishment
+intervention strategies
+elderly
+longitudinally
+minimize
 burden
-so-called
 renin-angiotensin-system
 RAS
 cascade
 cellular internalization
 downregulation of ACE2
-excessive accumulation
+excessive
+accumulation
 angiotensin II
 stimulation
 pp1a
@@ -6069,64 +6239,67 @@ lung pathology
 AT1R blockers
 ARBs
 valsartan
-pathological process
-excessive
-angiotensin-mediated
+pathological
 upregulate ACE2
 reduces
-vasodilator angiotensin
+vasodilator
+angiotensin 1-7
 avert
 morbidity
-admission to intensive
-SARS-CoV-2-infected patients
+admission to intensive care unit
+Objective : To investigate
 n=651
 active-treatment
+arm will receive
 titrated
 160mg
 placebo arm
 matching placebo
 primary endpoint
-The objective
-admitted to the intensive
+The objective of this study
+clinical characteristics and outcomes
+admitted to the intensive care unit
+23 March 2020
 countries and territories
 asymptomatic
-mild upper
+mild upper respiratory tract
 rapidly progressive
-formally declared
+formally
 ICU admissions
 RuxCoFlam
+single arm
 reversal
+improve pulmonary function
 dependency
 sepsis
 10mg
 dose escalation
 20mg
-radiographic
 CIS
 unaffected
 alteration
 5mg
-15mg
-day3
 discretion
 clinically indicated
-outweigh the risks
+outweigh
 day 7
-compared to baseline
 high-flow
-≥18 years
-active tuberculosis
-bacterial
+aged ≥18 years
+CXRAY
+tuberculosis
 fungal
 personalized
 organ dysfunction
 laboratory findings
-macrophage activation
+macrophage activation syndrome
 immune dysregulation
 experiencing
 November 2019
 Coronavirus-19
+March 16
 died1
+critically ill
+acute respiratory failure
 presence of comorbidities
 leukopenia and lymphopenia
 hepatic dysfunction
@@ -6134,17 +6307,14 @@ pro-inflammation
 hyper-cytokinemia
 MAS
 early recognition
-precise
 correction
 Hellenic
-negative predictive
-diabetes mellitus
+negative predictive value
+type 2 diabetes mellitus
 prone
-hyper-production
 interleukin
 1β
 retrospective analysis
-severe sepsis
 anakinra
 28-day mortality
 IL-1β
@@ -6156,66 +6326,68 @@ November 2017
 entitled ``
 restoration
 immune dysfunction
-EudraCT number
+EudraCT
 ClinicalTrials.gov
-NCT03332225
+laboratory diagnosis
 Enrolment
 unpublished data
-profound lymphopenia
+profound
 elevated IL-6
-H1N1 pandemic
 Treg
-chronic obstructive
-ESCAPE
+diabetes mellitus
+chronic heart failure
+chronic obstructive pulmonary
 life-threatening
 More precisely
 mandates
 slow the spread
 social distancing
-Environmental stressors
-constraints
 stressors
+constraints
 self-rated
+distress
 Eligibility
-English-speaking
+English-speaking adults
 ages
 surveys
-email reminders
+reminders
 repeated
 end-of-study
 sociodemographic
 Mobility
 self-care
 Behaviors
-substance use
+substance use disorder
 Psychological distress
 hotlines
 guidance
-seek care
+seek
 leverages
 NIMH
 accomplish
 time-sensitive
+environmental stressors
 imposed
 healthy volunteers
 utilization
-efficient and timely
-secondary objectives
+Objectives
+The primary objective
+The secondary objectives
 moderates
 resilience
 descriptive
 experienced
-emotional
-behavioral
 repeatedly
 repeated measures
 phenotype
+18 years and older
 sexes
+English-speaking
 advertisements
 Metropolitan
 entirely
-LY3127804
 presumed
+9 weeks
 visits
 day 28
 follow-up visits
@@ -6225,17 +6397,14 @@ grown
 bone marrow
 spongy
 bones
-muscle cells
+muscle
 respiratory infections
 healthy donor
-cells were grown
 frozen
-Physical exam
-pre-medicated
-Benadryl
-Tylenol
+exam
+Scan
+urine
 vein
-x 10^6
 cells/kg
 monitored closely
 afterwards
@@ -6249,17 +6418,14 @@ NG
 infection/pneumonia/respiratory
 insufficiency
 needing
-noninvasive mechanical
+noninvasive mechanical ventilation
 discharged
 rehabilitation centers
-situations
 filling
 expansion
 prolonged hospitalization
-dehydration
-nutritional
 hospital readmissions
-assess the prevalence
+prevalence of OD
 compensatory
 observational study
 swallowing
@@ -6274,22 +6440,19 @@ adaptation
 nutritional supplements
 frail
 malnutrition
-lower respiratory
+lower respiratory tract infections
 aspiration pneumonia
 mid-term
 CSdM
 48h
+Aim : To
 Mataró
-Jaume
-Sta
 Magdalena
-Eligibility criteria
 48 h
-fully awake
+awake
 HCP
 safety considerations
 phenotypes
-Purple
 semi-critical
 Wards
 complexity
@@ -6298,11 +6461,10 @@ medicalized
 sub-acute
 convalescents
 endorsed
-CIBERehd
-Centro de Investigación
-Biomédica en
+Centro
+Investigación
+Biomédica
 Enfermedades
-Catalana
 Pla
 V1
 April 6th
@@ -6315,21 +6477,22 @@ volumes
 20mL
 viscosities
 nectar
-Diagnostic sensitivity
-Kappa value
-CI
+liquid
+Diagnostic sensitivity and specificity
+Kappa
+95 % CI
 intermediate
-10mL
 fluids
 thickener
-nutritional assessment
 short-form
 MNA-sf
 universal screening
+nutritional risk
 NRS 2002
 simplified version
 MNA
 geriatric
+risk of malnutrition
 malnourished
 nourished
 five-step
@@ -6351,7 +6514,7 @@ codified
 registry
 institution
 Ethical Committee
-waiver of informed
+waiver of informed consent
 prescribe
 contagious
 health-care
@@ -6369,7 +6532,7 @@ alveolar
 delaying
 reversing
 oxygen desaturation
-requirement for supplemental
+supplemental
 menace
 comorbidities such as hypertension
 cardiovascular disease
@@ -6378,28 +6541,24 @@ nephrological
 maintenance dialysis
 renal transplant
 Mainland China
-attending
 perspective
-lack of sufficient
 occult
 immunization
-screened serologically
+serologically
 IgM
 IgA and IgG
-Blood and urine
+urine samples
 12 months
 sampled
 gather
-persistence
-provide sufficient
+SARS-CoV-02
 unavoidable
 modes of transmission
-droplet spray
-speaking
 spray
+speaking
 saliva
-prevent transmission
 prevented
+Objectives : To determine
 asymptomatic individuals
 tested positive
 drive-up
@@ -6408,7 +6567,6 @@ droplets
 spit
 90 minutes
 drinking water
-juice
 tongue
 painted
 sour
@@ -6417,30 +6575,43 @@ nose
 inserted
 rub
 throat
-moderate or severe
 implicated
-asymptomatic transmission
 oral fluids
 actionable
 salivary glands
 presumably
-viral loads
+high viral loads
 oral secretions
 nasal
 viral infectivity
-and2
-asymptomatic or mildly
+asymptomatic or mildly symptomatic
 nitazoxanide
 exploratory study
+evaluate the efficacy of hydroxychloroquine
+400 mg BID
 400 mg/day
 D2
 D7
 ambulatory
-HCQ and AZT
+AZT
 fulfill
 inclusion/exclusion criteria
 willing to participate
 invited
+companionship
+childbirth
+postnatal
+traumatic stress
+mother-child
+marital
+maternal
+suicide
+postpartum
+extrapolated
+post-partum
+over-risk
+mental disorders
+restriction
 evaluates
 Longitudinal
 Expenditure
@@ -6451,8 +6622,6 @@ Duke
 capable
 collecting
 describing
-elderly patients
-pre-existing
 frailty
 sarcopenia
 co-morbid conditions
@@ -6463,7 +6632,6 @@ energy expenditure
 muscle mass
 mitochondrial function
 body composition
-muscle
 pathophysiology
 mitochondrial dysfunction
 muscle wasting
@@ -6498,8 +6666,8 @@ life expectancy
 psychological impact
 check-up
 gather information
-prior to admission
 momentary
+risk stratification
 decision-making
 treating physicians
 calculate
@@ -6517,14 +6685,14 @@ consultation
 immunocompromised
 deemed
 ambulatory care
-previously uninfected
-rooms and wards
+mild or moderate symptoms
+uninfected
 regard
-typical radiologic
+radiologic signs
 bilateral consolidations
-`` crazy
-paving ''
+crazy paving
 high sensitivity
+onset
 viral pneumonias
 reaches
 time-consuming
@@ -6535,7 +6703,8 @@ supine position
 CT-scanner
 properly
 oral swab
-expectorated sputum
+expectorated
+sputum
 clinical suspicion
 high prevalence
 false-positive
@@ -6547,32 +6716,28 @@ therapeutic approaches
 high-flow oxygen
 HFNC
 non-invasive ventilation
-intubation and mechanical
+intubation and mechanical ventilation
 deemed safe
 adequate
 raised concerns
 advocate
-intubation and invasive
+intubation and invasive ventilation
 initiated
 laid
 hospitalize
-suspected or confirmed
 diagnostic markers
 cut-offs
-help decide
+decide
 safely managed
 epidemiological
 laboratory and radiologic
-17th March
+17th March 2020
 8th
-rapid increase
 territory
-14th March
+14th
 poorly understood
-hospital capacities
 development and validation
 diagnostic tests
-assess the prognostic
 COVID-10
 characterisation
 diagnostic methods
@@ -6583,7 +6748,6 @@ epidemiologic
 ou
 cares
 MTX-loaded
-nanoparticles
 inflammatory reaction
 harmful
 worsen
@@ -6591,31 +6755,28 @@ nanoparticules
 exacerbated inflammatory
 inflammatory process
 20 mg
-2nd or 3rd
-30 mg
+2nd
+3rd
+n=12
 Fase
+n=26
 40 mg
-current outbreak
 psychological problems
 frightening
 Taiwan
-enormous emotional
-traumatic stress
 half of the respondents
 moderate-to-severe
 one-third
-chances
 anxiety and stress
 preexisting
-restriction
 worried
-minimize face-to-face
+face-to-face interaction
 respondents
 monkey
 ILBS
 New Delhi
 1st January
-31st March
+31st March 2020
 SMS
 retrieval
 Child-Turcotte-Pugh
@@ -6632,27 +6793,23 @@ EUA
 Rapid Test
 Premier
 Biotech
-aid in the diagnosis
 SARSCoV-2
 randomized placebo-controlled
 400mg
 taken orally
 symptomatic and asymptomatic
 1:1 allocation
-placebo arms
 90 days
 cumulative incidence
-Secondary outcomes
+Secondary outcomes include
 attributed
 attributable
-ii )
-unable to work
+unable
 markers
 HCW
 varying sizes
-Presbyterian Hospital
+New York Presbyterian
 Cornell
-participate in the study
 adjusted
 ratios
 covariate
@@ -6661,37 +6818,37 @@ log-binomial
 regression model
 Melatonin
 protective effect
-anti-oxidative
+bacterial and viral infections
+anti-inflammatory and anti-oxidative
 seeks
-acquiring
-equipment shortages
-epidemic situation
+increased risk of acquiring
+current epidemic situation
 preventive strategies
 circadian rhythm
 spare
 younger children
+severe forms of the disease
 rarely
 Peak
 elevating
 administering
-mg of melatonin
 hypothesize
-initiation of therapy
-initiated immediately
+receiving placebo
 phase 2/3
-toxic derivative
-effective in inhibiting
 sparse
 flaws
 February 15
-treated with CQ
-non-randomized clinical
+non-randomized clinical trial
 underwent
+viral loads
 nasopharyngeal swabs
-subjects receiving
+P < 0.02
 rigorously
-confirm or refute
+refute
 efficacy of HCQ
+clinical trial to evaluate the safety
+risk of getting infected
+1:1 ratio to receive
 n=200
 interim analysis
 DSMB
@@ -6705,21 +6862,21 @@ auto-immune
 auto-inflammatory
 non-rare
 immunosuppressive and immunomodulatory
-This retrospective
-multicentre observational
+study aims to evaluate
 twice-daily
 subcutaneous
 enoxaparin
-venous thromboembolism
+venous thromboembolism prophylaxis
 lambda
 innate antiviral
+respiratory viral infections
 interferons
+tissue distribution
 Peginterferon
 long-acting
 studied extensively
 viral hepatitis
 adaptive design
-cohort
 home isolation
 subcutaneous injection
 180µg
@@ -6728,27 +6885,23 @@ remotely
 repeat
 Day 8
 n=60
-approves
 continuation
 Day 1
-best supportive
+best supportive care
+The primary endpoint
+Day 15
 ancillary
-predictors
+predictors of disease severity
 odontology
 Pitié-Salpêtrière
 GHPS
 dental emergency
 sociological
 typology
-studies indicate
 consultations
 cited
-study was undertaken
 odontological
 thesis
-URC
-Pitié
-Salpêtrière
 venue
 emergency dental
 Reception
@@ -6770,9 +6923,8 @@ Telephone follow-up
 interviewer
 non-availability
 recalled
-extrapolated
-slope of the curve
-D1 and D2
+slope
+curve
 D4
 D5
 D8
@@ -6781,7 +6933,7 @@ D9
 Recall
 recalls
 36h
-II.1
+84h
 investigators want
 4 weeks
 readings
@@ -6789,22 +6941,19 @@ attendance
 4x
 lost to follow-up
 analysable
-II.2
 statistical methods
-A descriptive
-pain scores
+A descriptive analysis
 follow-up appointments
 appreciation
 politeness
 recommendation
 anxiety scores
 perceived
-II.3
 invalid
 unreachable
+follow-up period
 contacted
 nearest
-curve
 analyzed separately
 foresee
 nominative
@@ -6813,142 +6962,128 @@ concerned
 Chronological
 digits
 interviewers
-EXCEL
 seizure
 coordinating
 collaborators
-trained
 telephone interviews
 CRF
-Excel database
 stakeholders
-tract
-require supplemental
+lower respiratory tract
+require supplemental oxygen
 LPM
 two-staged
 Stage 1
 clinically significant
-impairment
 pre-determined
 Stage 2
 sixty
-provide adequate
 statistically significant
 therapeutic efficacy
 randomized trial
 admission.The
 overarching goal
 assess the effectiveness
+lower respiratory tract infection
 LRTI
 adult outpatients
-inform public
+inform public health
 placebo-equivalent
 ascorbic acid
 1:1:1 ratio
-PCR-confirmed SARS-CoV-2
+PCR-confirmed SARS-CoV-2 infection
 co-primary
-outcome.During
 nasal swab
 quantification
+progression to LRTI
 March 11th
 rising
 high-risk individuals
 hospital admissions
 physiologic
-epidemiologic data
+severe complications
 case-series
-critical illness
-requiring extracorporeal
-membrane oxygenation
+requiring extracorporeal membrane oxygenation
 SARS-coronaviruses
 hospitalizations
-avoid overloading
+overloading
 obstetric
 triage
 inpatient wards
 Upon completion
 6-month
 Study objectives
+upper respiratory tract
 breathing difficulties
 symptoms suggestive
 DMDs
 self-isolation
 To examine
 routinely collected
+confirmed and suspected cases
 longer-term
 disability
 relapses
-monthly intervals
+intervals
 Since the outbreak
 sanitary emergency
 evolves
 supply shortages
 ventilators
 bed capacities
-characteristics and outcomes
+patients admitted to intensive
 epidemiology
 compartment
 ARDS-like
 cellular and humoral
-mechanically ventilated
+mechanically ventilated patients
 examining
 cytokine
 complement pathway
-bronchoalveolar lavage
+bronchoalveolar lavage fluid
 relate
-systemic inflammatory
-main objective
-HCQ and AZ
+systemic inflammatory response
+The main objective
 standard precautions
-COVID-19 crisis
-vulnerable
-examine the effect
 16 weeks
 Nancy
 Cov-H-AKI
 monocenter
 hospitalised
-evaluate the association
 variations
 72H
 post-inclusion
 blood-based
 priori
 NT-proBNP
-coagulation
 D-dimers
-renin angiotensin
-aldosterone
+renin angiotensin aldosterone
 NGAL
 KDIGO
+Secondary objectives
+blood and urine
 cardiovascular-renal
 bio
 Angiotensin
 ceramides
 oxidative stress
 cystatin C
+KIM-1
 urinary
-cardiovascular
+inflammatory damage
 elevation
 troponin
-99th
-percentile
+99th percentile
 hospitalisation
-Elevated serum
-creatinine
+serum creatinine
 discharge from hospital
 exploratory analyses
 OLINK
 Neutrophil
-Gelatinase
 Lipocalin
-Kidney Injury
 Natriuretic
 BNP
-Adrenomedullin
 FGF
 fibroblast growth
-factor-23
 cardiometabolic
 granular
 de-identified
@@ -6956,12 +7091,11 @@ centralized
 housed
 Vanderbilt University
 PHI
-Portability and Accountability
+Health Insurance Portability and Accountability
 HIPAA
-JAK 1/2
+JAK
 myelofibrosis
 quelling
-clearance
 Warwick
 Coventry
 Igor
@@ -6971,23 +7105,23 @@ Ukraine
 chatbot
 sectors
 specialists
-emergence of the novel
 threatens
 eliminate
 mounting
+antiviral immune response
 neutralizing antibodies
 therapeutic purposes
 objectives of this study
-To generate
-human monoclonal
+human monoclonal antibodies
 neutralizing
-immortalized
-convalescent
+immortalized B
+convalescent patients
 serological
 uncomplicated illness
 required hospitalization
 oxygen support
 monoclonal antibodies
+On March 11
 February 27
 gradual increase
 Austrian
@@ -6996,37 +7130,32 @@ closing
 national borders
 mandatory
 use of facemasks
-imposed restrictions
+restrictions
 trauma
 rehabilitation facilities
-specific IgG
-IgM antibodies
+IgG and IgM antibodies
 carriers
-iii )
-iv )
 occupation
-observational cross-sectional
+cross-sectional study
 Occupational
-AUVA
-oropharyngeal swab
+oropharyngeal swab samples
 antibody tests
 preservation
 twice
 statistical analysis
 traveling
-inquiries
 productivity
 workforce
 stored
 Wolverhampton
-RWT
 RTLS
 tracks
+second-by-second
 health outcomes
 seroprevalence
 IgG
 University Hospitals
-cross sectional
+cross sectional study
 HCWs
 Kasr
 Ain Shams
@@ -7039,77 +7168,75 @@ Socio-demographic
 interviewees
 residence
 marital status
-performing procedures
 wearing
 gloves
 handwashing
 worker
+past 3 months
 radiographically confirmed
-approximately 15,000
-double-blind fashion
-baseline assessments
-For convenience
 missed
 QoL
+2 months
 chlorpromazine
-IV injection
 enzootic
 birds and mammals
 capable of infecting
+Organisation
 lysosome
+pH value
 bio-chemical
-thats
 envelope
-genetic material
-dopamine receptor
-DRD2
+viral genetic material
+dopamine
 psychiatric disorders
 deprive
-aims to evaluate
+genetic material
+This study aims to evaluate
 ventilator support
-Approximately 60
-Cairo University
-Intra-venous
+Cairo
+Consents
 1 week
 Lactate dehydrogenase
 C-reactive protein
 Arterial
 gases
+[ Time Frame
+Polymerase chain reaction
 BLD-2660
-orally active
-CAPN
+orally
+small molecule inhibitor
 cathepsins
 displays
-metabolic stability
 oral bioavailability
 cytochrome P450
 CYP
 SARSCoV2
-unmet medical
-Calpains
-non-lysosomal
-cellular processes
+unmet medical need
+diverse cellular processes
 cellular proteases
 dimeric
+calpains
 Barnard
 calpain inhibitors
-MDL 28170
-SJA
+MDL
 anti-SARS-CoV activity
-virus particle
 This observation
 reproduced
+7-log
+replication in cell culture
 Schneider
 anti-viral activity
-small interfering
+small interfering RNA
 siRNA
 silence
 isoform
+calpain activity
+nonclinical
 calpain inhibitor
 liabilities
 SARS-CoV-1 and -2
-Kuba
 co-expressed
+respiratory epithelial cells
 predominant
 bleomycin
 IL-6 levels
@@ -7130,15 +7257,15 @@ SAD
 MAD
 add-on therapy
 SOC
-observational cohort
+observational cohort study
 immunosuppressed
 acquired immunodeficiency
 immunosuppressive therapy
 primary immunodeficiency
-solid organ
-transplant
-psychological status
-assessing the efficacy
+solid organ transplant
+public hospitals
+convalescent
+assessing the efficacy and safety
 21 days
 onset of symptoms
 cohorts
@@ -7153,8 +7280,8 @@ genetic factors
 asymptomatic and symptomatic
 sense of smell
 taste
-anecdotally reported
-olfactory and gustatory
+anecdotally
+olfactory and gustatory dysfunction
 Chinese herbal
 returning
 opts
@@ -7162,10 +7289,10 @@ NYULH
 timepoints
 DBS
 chemoprophylaxis
-disease modifying
-antirheumatic drug
+modifying
+antirheumatic
 safe and well tolerated
-efficacy of hydroxychloroquine
+designed to evaluate the efficacy
 declines
 TMPRSS2 inhibitor
 competitive inhibitor
@@ -7174,46 +7301,48 @@ TMPRSS2-specific
 bromhexin
 shortens
 lowers
-secundary
-developing severe
+deteriorating
 younger
 immunizations
 intolerances
 food allergies
+birthdate
 gathered
 ineligibility
 dispensed
-older than 60
-plus azithromycin
-invasive mechanical
+older than 60 years
+hydroxychloroquine plus azithromycin
+invasive mechanical ventilation
 consenting
 underlying comorbidity
-primary outcome
-requiring invasive
+The primary outcome
+Secondary outcomes
+requiring invasive mechanical ventilation
 day 14
 Randomization will be stratified
 Sheba
 tertiary hospital
-Tel Aviv
-Participants will be randomized
+Aviv
+randomized in a 1:1 ratio
 Colchicine
 UCLA
 control arm
 emerges
 SevereAcute
+late 2019
 spreading quickly
 controversial
-vertical transmission
+risk of vertical transmission
 pregnant woman
-correlated
-neonatal
+neonatal outcome
 gestational age
-neonates born
-mothers
+social distancing measures
+neonates born to mothers
 congenital
-remains unclear
+It remains unclear
+neonatal
 transplacental transmission
-postnatal
+In order to investigate
 PCR tests
 samples collected
 infected-mother
@@ -7221,16 +7350,16 @@ postpartum period
 pilot
 designed to investigate
 prophylactic treatment
+progression to respiratory failure
 serologic
 markers of inflammation
 Interleukin 6
 D-dimer
 7th day
-hypoxemic respiratory
-number of infected
+hypoxemic respiratory failure
+study aims to assess
 longitudinal study
 stratified
-decades of life
 24 months
 20-29 years
 regardless
@@ -7244,33 +7373,34 @@ sequels
 eventual
 reinfection
 prospectively assessed
-randomised controlled
+Design < br
+randomised controlled trial
+br > Intervention groups
 IUs
 wks
 analogs
 bone metabolism
-hepatic or renal
-malabsorption
+hepatic
+malabsorption syndrome
+Incubation
 60 days
+primary and secondary outcomes
 collectors
 executives
 coordinator
 computer-generated
 coding
-cellular immune
+cellular immune response
 cytokinic
 caregivers
 resuscitation
 CHU
 symptomatology
-kinetics
 aggravation
-Th1
 comprising
-different populations
 immunomodulating
-emerging infectious
-zoonosis
+emerging infectious disease
+viral zoonosis
 SARS-CoV-21
 mode of transmission
 microdroplets
@@ -7282,15 +7412,17 @@ evolve
 elderly subjects
 chronic diseases
 obesity
-undergoing immunosuppressive
+undergoing
+immunosuppressive treatments
 remain asymptomatic
 renal insufficiency
 transplantation
-over-risk
+gamma interferon
 INFγ
 T lymphocytes
-Huanan seafood
+Huanan seafood market
 ventilatory assistance
+production of inflammatory cytokines
 IL2
 IL7
 IL10
@@ -7305,17 +7437,16 @@ flu-like
 wishes
 optimise
 infectiology
+number of beds
 overload
 personalised
-corticosteroids
 immunomodulators
 axes
 axis
-( ii
 recruited
-Th1 response
 measuring
 T-cell
+risk of developing severe
 directs
 serological tests
 retrospectively
@@ -7323,39 +7454,44 @@ mimicking
 IFNγ
 COVID.19
 D10
-secretion
 anti-IL6
 cytokines
-production of pro-inflammatory
+production of pro-inflammatory cytokines
 mildly symptomatic
+randomised controlled
+br > Intervention
+randomly assigned to two groups
+15 years
 curable
-Acute Lymphoblastic
 Leukemia
-Myeloblastic
 high-grade
 non-Hodgkin
 Lymphoma
-bellow
 kilograms
 retinopathy
+Acute respiratory tract
 immuno-suppressive
-pulmonary disease
+chronic pulmonary
 immuno-suppressant
 chemotherapeutic agents
+incidence rate
+Novel Coronavirus Disease
 treated with hydroxychloroquine
+computerize
 tomography
+nucleic acid amplification
 NAT
 treating physician
 analyser
-academic hospitals
 Dornase
 FDA-approved drug
-mucus
+mucus clearance
 cutting
 neutrophil-derived
 double-stranded DNA
 aerosolized
 intra-tracheal
+mucus
 thinner
 looser
 secretions
@@ -7363,33 +7499,35 @@ double-stranded
 DNA-induced
 recruit
 multicentric
+open-label clinical trial
 reaching
 neutrophil recruitment
 neutrophils
 NETs
 traps
-alveoli and bronchioles
+bronchioles
 bronchoalveolar
 congestion
 DNAse
 DNA strands
-administration of recombinant
 loosening
 broncho-alveolar
+By conducting
 COVID19-related
+mechanically ventilated
 linear regression
 fitted
 stratification
 Khomeini
 Ardabil
-counseling
+n=50
 nebulization
 maximizing
 minimizing
 refractory
 virulence factors
 mortality rates
-uses angiotensin-converting
+uses angiotensin-converting enzyme 2
 gateway
 alveolar epithelial
 cells1
@@ -7397,8 +7535,7 @@ respiratory epithelium
 physiological functions
 vasodilatator
 opposite
-Imai et
-receptor2
+Imai
 downregulated
 ACE activity
 alveolar damage
@@ -7407,7 +7544,8 @@ counter-intuitive
 ACE2 expression
 gate
 injury2
-progressing
+followed by 100 mg
+multiple organ
 March 20
 universities
 enrolls
@@ -7422,6 +7560,7 @@ TTCI
 categorical
 TTCR
 respiration
+evaluate the safety and efficacy
 reorganization
 redeployment
 imposes
@@ -7453,25 +7592,22 @@ sylvestris
 sativum
 estimate
 contaminating
-1 meter
+meter
 quantifying
 aspirated
 hygiene measures
 practiced
 evidenced
+Respiratory viruses
 justifies
-emerging viruses
 highlighted
 environmental contamination
-objectified
 gravity
 inoculum
 exhaled
-respiratory viruses
 absolutely
 simpler
-wearing a surgical
-transform
+wearing a surgical mask
 mg/kg
 PFS
 ‎patients
@@ -7479,23 +7615,24 @@ inadequate
 re-administered
 12-hour
 comprehend
+‎the
 guardian
 aged≥18
 radiography
+Exclusion criteria include
 GI
-tuberculosis
+phase-III
 14-day
-Pharmed
-Computed Tomography
+large dataset
 deep learning-based
 prognostic
 March 17th
 Diagnosis relies
-reverse-transcription polymerase
+reverse-transcription polymerase chain reaction
 positivity
 delayed
+mean interval
 PMID
-RT-PCR results
 problematic
 depiction
 distinguish
@@ -7510,61 +7647,56 @@ highlighting the need
 worsening
 proven efficacy
 relies
-ongoing randomized
+randomized trials
 desirable
-order to evaluate
 multi-centric
 CT scans
 annotation
 depicting
-( iii
-non-proprietary
 aided
 academia
 latest advances
 reliable diagnostic
 early detection
 distinction
-bacterial bronchopneumonia
+bronchopneumonia
 standardization
 ensemble
 independently
 severity scores
+positively impact
 epidemic peak
 sequelae
 lung abnormalities
-new therapeutic
+new therapeutic approaches
 prove useful
 preceded
-early tracheotomy
-conduction
+SARS and MERS outbreaks
 tracheotomy
+conduction
 orotracheal intubation
 insertion
 endotracheal tube
 required invasive
+required invasive ventilation
 categorized
 airway management
-Data analyzed
-statistical package
-SPSS
-SPSS Inc
 seroconverted
 Parisian
 immune status
 healthy carriers
 fraction
 undiagnosed
-likely to transmit
+transmit
 modulates
 deconfinement
 immunoprotection
 pauci
-asymptomatic subjects
 reservoir
 CEA
 Institut Pasteur
-neutralizing Ab
+Ab
+children hospitalized
 APHP
 relevance
 sampling sites
@@ -7574,40 +7706,34 @@ biofluid
 measles
 complemented
 subpopulation
-aiming to evaluate
-viral carriage
+carriage
 acquisition
 immune memory
 D15
 D30
 nasopharyngeal sample
-decisive
 lift
 containment
 reopen
-evolution of the epidemic
 metropolitan area
 suburbs
-Seine
 Denis
 heavily impacted
 circulation
 meal
-severe dyspnea
-require mechanical
+require mechanical ventilation
 treatment-resistant
-collector
 packaging
+blood oxygen saturation
 receives
-placebo.The
 NeuroMyelitis
 Optica
 NMO
 spectrum disorder
-strongly suspected
-immunomodulatory or immunosuppressive
+immunomodulatory
 favoring
 immunoactive
+disease modifying therapies
 DMT
 case-by-case
 neurologist
@@ -7618,99 +7744,92 @@ neurologists
 ensuring
 multicenter study
 grouping
-OFSEP
-SFSEP
 thematic
-FCRIN4MS
 participating centers
+tested positive for SARS-CoV-2
 computerized
 1mg/kg
 20mg/day
 converted
-tablet form
 prednisolone
 fulfilled
-carriage
 nasopharyngeal and oropharyngeal
+pregnant patients
+Chamran
+Primary outcome
 methylprednisolone
 Shiraz
-contagious disease
+contagious disease caused
+acute respiratory illness
 digestive tract
 nervous
 COVID-9
 exact mechanism
 kidney involvement
+remains unclear
 sepsis-related
 albuminuria
 hematuria
 nephropathy
-succeeded
-urine sample
-coronarivus
+kidney tissue
 characterizing
-accurate characterization
 physiopathologic
+kidney injury
 recieved
 Razi
-clinical pharmacist
 non invasive
 plus ribavirin
-regimens
 KPT-330
-placebo groups
 gathering
-2.Duration
-oral supplementation
-efficiency.The
-objective of this study
+objective of this study was to evaluate
 occuring
-systemic lupus
-erythematosus
+systemic lupus erythematosus
 SLE
 sanitary
 paramount
-wih
-secondary objective
 lupus
 rheumatology
 nephrology
 Montpellier
 collect information
+patient 's condition
 cardio-vascular
-hepatic
-• Local
-loading doses
+loading
 orally twice
 NB
 contraindications
 chronic liver
 All-cause mortality
+Aim : To evaluate
 Lopinovir/Retinovir
 cord
 UC-MSC
+Respiratory Distress Syndrome
 freshly
+75 years old
 non-entry
 HTN
 COPD
-need for mechanical
+need for mechanical ventilation
 one-month mortality
 intervention arm
-Elderly
-diabetes and cardiovascular
+cardiovascular diseases
 morbility
 gut microbiota
 composition
 vulnerability
-self-isolation at home
 As a consequence
+acquiring
 patients presenting
-community-acquired
-complicated
+acute respiratory tract infection
+community-acquired acute respiratory
+tract infection
+complicated course
 CA-ARTI
-study parameters/endpoints
+Main study parameters/endpoints
 non-productive
 disastrous
-ICU beds
+shortage of ICU beds
 ethical dilemmas
 nursery
 invent
@@ -7731,8 +7850,8 @@ EtCO2
 SAP
 DAP
 hrs
-blood-gas analysis
-required mechanical
+blood-gas
+required mechanical ventilation
 extrapulmonary
 palliative
 vegetative
@@ -7743,21 +7862,20 @@ shortage of respirators
 terrorist attack
 natural disasters
 engineers
-Biomedical Engineering
-Polish Academy
+Polish
 prototypes
 ventilated
 usefulness
 scientific societies
 mechanical ventilators
-modes of ventilation
+complicated
 characterised
-bilateral ground-glass
-opacities
-inspiratory oxygen
+bilateral ground-glass opacities
+inspiratory
 In contrast
-end expiratory
-right-to-left shunt
+expiratory pressure
+right-to-left
+shunt
 noninvasively
 continuous positive
 airway pressure
@@ -7765,21 +7883,22 @@ CPAP
 face mask
 conjunction
 fractions
+Objective : To evaluate
 physiological
-tolerability and safety
+tolerability
 inspired oxygen
 spontaneous breathing
 Cross-over
-conventional oxygen
-non-rebreathing mask
+non-rebreathing
 crossed
 open-circuit
 cmH2O
 modality
 30 minutes
-tolerability
+In order to assess
 thereafter
 transcutaneous
+oxygen administration
 canula
 inlet
 outlet
@@ -7788,28 +7907,29 @@ PEEP valve
 keeps
 lasting
 30 min
-Oxygen delivery
 nonrebreathing mask
 inflow
 pulse oximetry
 substantiated
-inspiratory
-flow oxygen
-ventilation-perfusion matching
+predictors
+high flow oxygen
+ventilation-perfusion
 diminished
 diffusion
 secondary outcome
 high-titer
+require hospital admission
+Disease progression
 symptom severity
 immunoreaction
 medial
-longitudinally
 correlate
 immunoreactions
 non-severe
+personal protective
 order to adapt
 steep rise
-Hannover Medical
+Hannover
 departements
 assesses
 intensive
@@ -7820,25 +7940,21 @@ PBMCs
 adaption
 vertical
 SARS-CoV-2-IgG
-retrospective cohort
+retrospective cohort study
 aims to determine
 Spanish hospitals
 laboratory-confirmed COVID-19
-Universitario Gregorio
-Marañón
+Universitario
+Gregorio
 waived
-consecutive hospitalized
-start of the epidemic
+consecutive hospitalized patients
 March 17
-epidemiological information
-cycle threshold
+RT-PCR cycle threshold
 confirmatory
 demographics
 signs and symptoms
 supportive treatments
-anti-inflammatory medications
 systemic corticosteroids
-Drug-related
 April 17
 discharged alive
 secondary endpoint
@@ -7846,7 +7962,6 @@ censoring
 number of unreported
 Bremen
 mere
-biochemical evidence
 myocardial
 injuries
 Possible mechanisms
@@ -7855,20 +7970,14 @@ cardiac involvement
 cardiac arrhythmia
 latent
 4-6 weeks
-standard 12-lead
-serum troponin
+12-lead
 transthoracic echocardiogram
-left ventricular
+left ventricular dysfunction
 150,000 deaths
 elevated troponin
 myocardial damage
-viral illnesses
-12-lead electrocardiogram
-biological samples
-collected and analysed
+illnesses
 standardised
-Organisation
-investigate the prevalence
 infestation
 high-risk area
 SARS/CoV-2
@@ -7877,13 +7986,12 @@ anamnestic
 CP
 reflected
 elevated hsTPN
-use of convalescent
 COVID19 CP
 salutary
 severity/duration
-duration of mechanical
+duration of mechanical ventilation
 considerable overlap
-requirement for mechanical
+requirement for mechanical ventilation
 redundancy
 hopeful
 common colds
@@ -7893,10 +8001,12 @@ pharyngitis
 tachypnea
 arrythmias
 cardiovascular manifestations
+Angiotensin Converting Enzyme-2
 membrane-bound
 aminopeptidase
 functional receptor
-expressed predominantly
+expressed
+predominantly
 intestine
 pulmonary alveolar
 require hospitalization
@@ -7904,83 +8014,83 @@ myocardial injury
 elevated high-sensitivity
 hsTPN
 electrocardiographic
-contractile function
+Ventricular
+contractile
 ST-segment elevation
-obstructive coronary
-artery disease
+obstructive coronary artery disease
 multifactorial
 ischemia
-atherosclerotic plaque
+atherosclerotic
+plaque
 systemic inflammation
 macrophage infiltration
 autopsied
 succumbed
-SARS outbreak
-directly correlated
+outbreak in Toronto
 hsCRP
 independent predictors
 multi-variable
 prognostic information
 pre-existing co-morbidities
-pre-existing cardiovascular
+pre-existing cardiovascular disease
 incremental
 incurred
-predictor of mortality
+predictor
+admitted to hospital
 morality
 aggressive
-extracorporeal membrane
+extracorporeal membrane oxygenation
 ECMO
-satisfy
-women of child-bearing
-Hs-CRP
-NT-pro BNP
-reflect
+child-bearing
+NT-pro
 myocardial dysfunction
 reflects
 myocardial necrosis
 enrollees
-male donors
 nulliparous
 females
-female donors
-HLA antibodies
+HLA
 minimize the risk
-transfusion-related acute
+transfusion-related acute lung injury
 TRALI
-ABO and Rh
+ABO
+Rh
 typing
 AABB
 mls
+In late 2019
 emerged in Wuhan
-2002-2003 epidemic
 causative virus
 enters
 airway
 membrane protein
+alveolar cells
 S protein-ACE2
 internalized
 endocytosis
 pro-inflammatory
-angiotensin 1-7
 interstitium
 apoptosis
-release of proinflammatory
+release of proinflammatory cytokines
 establishing
 self-powered
+eventually
 tentative
 telmisartan
 open-label randomized
 Briefly
 mg/12h
+cardiovascular function
 Guo
-; Li
+Li et al
 Lu
 Chang
+Renin Angiotensin System
 Gurwitz
 Vaduganathan
 coined
 Lu et
-; Wan
+Wan
 Shang
 Graham
 Baric
@@ -7989,19 +8099,16 @@ intracellular
 transformation
 AT1 receptors
 vasoconstriction
-proinflammatory effects
+proinflammatory
 fibrosis
-Mas receptors
 opposite effects
 vasodilation
 deviation
-homeostatic
+homeostatic balance
 favor
 II-AT1
 receptor axis
 Paz
-Ocaranza
-Bernardi
 Burns
 Liu et
 fundamentally
@@ -8012,15 +8119,13 @@ oxygen supply
 ensues
 Ware
 Matthay
-aetiopathogenic
 pharmacotherapeutic
 proposals
-Angiotensin Receptor
 indicative
 ofan
-pyrogenic cytokines
+pyrogenic
 imbalance
-pulmonary interstitium
+renin angiotensin
 antagonize
 cascading
 self-sustaining
@@ -8034,27 +8139,22 @@ Sharpe
 Jarvis
 Goa
 gathers
-tissue penetration
 stands
 markedly
 lipophilic
-expressed
 partition
 coefficients
-octanol
 neutral pH
 Vd
-approximately 500
 irbesartan
 olmesartan
 candesartan
 AT1 receptor
-radioligand binding
+radioligand
 pKi
 pIC50
 active metabolite
 Kakuta
-Yamagishi
 organ
 blood vessels
 tissues
@@ -8062,8 +8162,6 @@ AT1
 pA2
 10-fold higher
 dissociation
-dissociation rate
-blocking agents
 cloned
 half-lives
 dissociates
@@ -8074,93 +8172,88 @@ longer lasting
 agonist
 downregulation
 mRNA and protein
-partial agonist
 PPAR-gamma
 Peroxisome
-Proliferator-Activated
-producing
 absorbed
 longest
 plasma half-life
 24 h
 lipid
-irreversible
 Michel
 Foster
 Brunner
-Laboratorio
 Buenos Aires
 Argentina
 hypertensive patients
-160 mg
 Su
 Roth
 Jinyebaidu
-provide reliable
+tongji
 temporary
 sevoflurane
 sedation
 POD
+respiratory syndrome corona virus
+leading cause of mortality
 exacerbated
 'cytokine storm
 volatile
 anesthetic
 anti-inflammatory properties
-vivo studies
 anesthetics
 pilot trial
-improving oxygenation
 hydroxychloroquine sulfate
-establishment
 standardized
 treatment regimen
 coagulation tests
 tied
 coagulation abnormalities
-septic
-difficult to assess
+septic patients
+severe courses
 incorrectly
 Thrombin
 TGA
+individual 's
 hardly
 endothelial cells
 thrombomodulin
 depict
 commen
+This study seeks
 psychopathology
-generalized anxiety
-strict social
-distancing
+depression and generalized anxiety
+strict social distancing
 government-initiated non-pharmacological
 NPI 's
+seeks to examine
+generalized anxiety
 depressive symptoms
 predictors of adherence
 policymakers
-health practitioners
+practitioners
 government-initiated
 health-care professionals
 psychological stressors
 demographic variables
 adherence
-adherence rates
 COVID-19-virus
 Depressive
 H1
-depressive and generalized
-anxiety symptoms
+depressive and generalized anxiety
 comparisons
 prevalence rates
 GAD
 non-pandemic
-levels of depressive
 demographic subgroups
 H2
 significant predictors
 depression and anxiety
 revealing
 younger adults
+symptoms of anxiety and depression
 self-reported
 significant predictor
+depression and anxiety symptoms
 H3
 Involuntary
 autonomy
@@ -8168,11 +8261,10 @@ frustration
 loosing
 H4
 competence
-sufficient information
 H5
 coping behaviors
 engaged
-anxiety and depressive
+anxiety and depressive symptoms
 previous pandemics
 adhere
 Norway
@@ -8185,17 +8277,16 @@ situational
 difficulty
 suspects
 worry
-Multiple linear
-regression
+Multiple linear regression
 theorized
+multiple regression analysis
+anxiety symptoms
 multiple regression
-Thayer
-poorer mental
+poorer mental health
 Scandinavian
 Molarius
 Relationship/Marital
-Zhang &
-mental disorders
+higher levels of depressive symptoms
 Gallo
 Kim
 psychological disorders
@@ -8203,89 +8294,88 @@ Castalano
 Dooley
 Deci
 Ryan
-Self-Determination
+Self-Determination Theory
 socially distance
 adverse psychological
+symptoms of depression and anxiety
 Tindall
 Curtis
 self-perceived
-Brooks et
+perceived competence
+Brooks et al
 protector
 non-pharmacological
 isolation and quarantine
-associated with poorer
+associated with poorer mental health
 DSM
 co-occurrence
 symptom-cluster
 acitvity
-higher scores
 epidemiological studies
 Hunt
+generalized anxiety symptoms
 elsewhere
 unemployment
-Consistent with previous
+Consistent with previous findings
 gender differences
 conformity
 Cooper
-Costa et
-Weisberg
+Costa
 mixed
 regards
-Webster et
+Webster
 risk perception
 age-related differences
 risk-taking
-Viscusi
 relation
 DiGiovanni
-predictor
-Hsu et
+Hsu
 longer duration
 Transmitting
 kin
 Hamilton
-desire
+desire to protect
 Suspect
-Teh
+seek medical attention
 suspecting
 validated questionnaires
+situational factors
 psychological needs
 beliefs
 fears
-theoretically-driven
 selections
 topological
 overlap
 'The
 Norwegian
-involving multiple
 overwhelm
-large-scale
 scales
 theory-driven
-clinical psychologists
+psychologists
 time-period
 strictest
 GDPR
 deleted
-University of Oslo
+Oslo
 accessed
 de-identification
 Stopping
 NPIs
-cognitive
 PHQ-9
 GAD-7
 respondent
 lasting longer
+self-choice
 quarantine/isolation
-fear of transmitting
-Cronbach 's
+protective factors
+outcome variables
+outcome variable
+Cronbach 's alpha
 combine
 anxiety and fear
 Inference
 significance level
-'Norwegian
+p < 0.001
 Fried
 Cramer
 conservative
@@ -8293,70 +8383,66 @@ Roscoe
 multivariate
 recommends
 conservative estimates
+stopping rule
 keeping
 NPI
 Fortunately
+multiple regression analyses
 dependent variable
-Multicollinearity
 assumptions
+multicollinearity
 assumption
 violated
 VIF
-Hocking
 approached
 handled
 Descriptive statistics
 SDs
 meets
-PHQ-9 and GAD-7
 cut-off
 Transformations
 skewness
-theoretical
 possibilities
 interpretations
 study examines
 skewed
 depressive and anxiety
-empirically
+theoretically and empirically
 supposed
 skew
 disseminate information
+interval-based
 parametric
-choosing the appropriate
 pre-registered
 dealing
 exploratory analysis
 pre-registration
 outline
 Committees
-Ethics
 REC
 ethical aspects
 cross-sectional studies
-clinicaltrials
 RCTs
+epidemic situation
 develops
 reorganizations
+diversity
 fragile
-muscular weakness
+muscular
 immobility
-attacks
 undernutrition
 repercussions
-Retrospective studies
 CoV1
 nonrandomized
 medical staffs
 high-risk populations
-We systematically
 post-exposure
-investigate the effect
 severe/critical
 started in Wuhan
 threshold
 intensifying
 therapeutic strategies
+effective treatments
 hydroxy
 antihypertensives
 converting enzyme
@@ -8368,26 +8454,25 @@ HCQ and CQ
 SNDS
 PMSI
 anti-malarial drugs
-anti-hypertensive
+anti-hypertensive drugs
 co-morbidities
 geographical locations
 underlying comorbidities
 at-risk population
 receptor-blocking
-angiotensin-converting-enzyme inhibitors
-prospective cohort
-d'Information
-worsening respiratory
+angiotensin-converting-enzyme
+prospective cohort study
+pharyngeal swabs
+feces
+diagnose
+worsening respiratory failure
 timing
 ill
 severely ill
-negative prognostic
 titration
 anti-IL-6
 heterogeneous
 randomized-controlled
-cohort studies
-intubated patients
 posology
 administer
 nasogastric tube
@@ -8396,31 +8481,30 @@ highly pathogenic
 Ebola virus
 SARS1
 With regard
+seriously ill
 satisfactory
 rash
 ambiguous
-day +3
 second dose
 watching
 transfusion reactions
 reevaluate
-day +6
 reassessed
 transfusion
 1b
+main objective
 plasma infusion
-epidemiological and clinical
 summarized
+epidemiological and clinical characteristics
 outpatients
-aged 65
+aged 65 years
 multi-arm
 multi-stage
-MAMS
-receive hydroxychloroquine
+Arm 1
 imatinib
 begins
 experimental arm
-fulfilling the criteria
+fulfilling
 futility
 prematurely
 terminated
@@ -8433,15 +8517,16 @@ viral clearance
 H1N1 influenza
 suggestion
 expedited
-need to undertake
 deploying
 neutralizing antibody
+plasma therapy
 supportive therapy
-need for invasive
+March 30
+convalescent plasma transfusion
+need for invasive ventilation
 interventional
-trial involving
 radiological evidence
-transfusion of convalescent
+routine care
 Firstly
 aimed to establish
 cohort study
@@ -8449,68 +8534,56 @@ Secondly
 Thirdly
 ear-nose
 ENT
-aerosol-inducing
 diagnostic procedures
 fatal cases
-ENT specialists
-REDcap
+Infection control measures
 progressively
 evolving
-admitted to hospital
 case fatalities
 Denmark
-pose a great
-SARS epidemic
 accounted
 initial stages
 Stanford University
 acknowledged
 Confederation
 Otorhinolaryngology
-Neck Surgery
-CEORL
+Head and Neck Surgery
 HNS
 possible explanation
-mucosa
-ENT examinations
+airway mucosa
 sneezing and coughing
 endoscopic procedures
 posing
 airways
-advised to stay
-unspecific symptoms
+advised to stay at home
+unspecific
 upper airways
 oral cavity
 pharynx
 neck
 ENT department
-influenza epidemics
 middle ear
-Complications include
 mastoiditis
-ethmoiditis
 peritonsillar abscess
 potentially life-threatening
 clinical presentations
 pneumonias
+multi-organ failure and death
 debut
 fully understood
 partly
 aerosol transmission
-keeping distance
 remain viable
 half-life
-plastic surfaces
 oropharynx
-week after symptom
-subsequent decline
+week after symptom onset
+decline
 mask and gloves
 March 3rd
-global shortage
+global shortage of personal
 adequate protection
 intensifies
 Iceland
-individuals carrying
 Danish
 deficient
 implement
@@ -8521,19 +8594,23 @@ pathogensis
 progressed
 hundred
 Re-infection
+analyzed retrospectively
+outside Wuhan
 PaO2/FiO2 ratio
+300 mmHg
 Hydroxychloroquine and chloroquine
-comprised
+safety and effectiveness
 administered intravenously
-150 mg/m2
+mg/m2
 Days 1
 hyperinflammatory response
 Hemophagocytic lymphohistiocytosis
 comparably
 trending
 inflammatory markers
+plasmid
 require hospitalisation
-severely inflamed
+inflamed
 leak
 tiny
 air sacs
@@ -8546,23 +8623,20 @@ disappear
 timely fashion
 interferes
 obstruct
-proper ventilation
 nebulised
-tissue plasminogen
-activator
+tissue plasminogen activator
 rt-PA
 nebuliser
 normally
 blood clots
-receive SOC
 clotting
 IMV
 NIV
 exceptions
 24-hour period
-receiving NIV
 magnitude
 overall survival
+sample size calculation
 fibrinolytic
 randomised to receive
 interventional studies
@@ -8574,12 +8648,9 @@ dissolved
 5 ml
 diluent
 permitted
-incidence and severity
 bleeding events
 plasma fibrinogen
 coagulation parameters
-potential biomarkers
-antiplasmin
 24hrs
 bleeding
 exaggerated
@@ -8587,30 +8658,25 @@ fibrinolysis
 fibrinogen
 systemic absorption
 dosed
-72 hrs
 noticed
 DMC
 resume
-improvement in PaO2/FiO2
 SaO2/FiO2
 set-up
 advise
 bleeding complications
 fibrinogen levels
-adhoc
 resuming
 male reproductive
-clinical decision-making
 containement
-psychotic
-experiences
-affected millions
+psychotic experiences
+affected millions of people
 Likewise
-people experiencing
 psychotic symptoms
+people 's
 perceptions
 habits
-lonely
+feel lonely
 emotions
 emotional state
 invited to complete
@@ -8618,51 +8684,53 @@ invited to complete
 paranoia
 hallucinations
 emotion regulation
-bias
+cognitive bias
+negative affect
+Time 1
 T2
 T3
 moments
 self-report measures
-psychological aspects
 paranoid ideation
 hallucinatory
-2nd/3rd
+experiences
 Depression Scale
-Loneliness
+UCLA Loneliness
 Experiential
 Avoidance
 cognitive restructuring
 Repetitive
+bias
 Psychosis
 Depression Anxiety
 Cardiff
 Anomalous
 safety and immunogenicity
-Adenovirus
+healthy adults aged
 multi-center study
 compared to placebo
 randomized 2:1
 BWH
+case fatality ratio
 curtail
 requiring intensive
 stretched
 collapse
 highlighting the importance
-commonly presents
 progresses
-hyperinflammatory
+hyperinflammatory phase
+hypoxemic respiratory
 failure.3,4
-spectrum of clinical
-Accumulating evidence
-profound
-decline
+requiring intensive care unit
+Accumulating evidence suggests
+pathophysiology underlying
 multi organ
 akin
 hyperinflammatory syndrome
-secondary hemophagocytic
-lymphohistiocytosis
+secondary hemophagocytic lymphohistiocytosis
 sHLH
 triggered
+excessive immune
 Postmortem
 pathologic findings
 infiltrates
@@ -8682,49 +8750,44 @@ IL-2
 IL-7
 G-CSF
 treated with tocilizumab
-dramatic improvement
+dramatic
 24-hours
+data strongly suggest
 immunologic
 immunomodulatory therapy
-modulation
 IL-1 and IL-6
 downstream pathways
-CAR-T
 promising results
+There is an urgent
 dire need
-disease progression
-ChiCTR2000029765
-NCT04324021
 MGH
-approximately 30
+approximately 30 %
 upcoming
 surge
 April 17th
 21st
+ICU beds
 IL-6 receptor
-blockade with tocilizumab
-want to investigate
 rosacea
 autoimmune
 dermatomyositis
 RA
 Sjogren
+UCTD
 taking hydroxychloroquine
-orally
 coagulopathy
 prerequisite
 thrombin generation
 TGT
 thrombotic risk
 TM
-Accumulating
+Accumulating data
 necessitating
 sepsis-induced coagulopathy
 prothrombin time
-PT and aPTT
+PT
+aPTT
 insensitive
-natural anticoagulants
-analytical
 reflecting
 analyzes
 culminating
@@ -8732,14 +8795,12 @@ exogenous
 quantifies
 checking
 platelet counts
-PT
 soluble
 fibrin
 monomers
 FMs
 relevant covariates
 clinically-relevant
-qualitative
 attitudes
 awareness
 La Paz
@@ -8751,12 +8812,12 @@ cross-protective
 measles vaccine
 MV
 measles virus
-titers of neutralizing
+recombinant MV
+titers of neutralizing antibodies
 immunized animals
 intranasal
-serologically
 shelter-in-place
-capture
+social distancing orders
 non-infection
 lifted
 Demographic data
@@ -8776,37 +8837,36 @@ ACP
 10-14 days
 SARS-CoV2-infected
 virus-neutralizing antibodies
-Injecting
 PAC
-cardiopulmonary
+exercise rehabilitation
 endurance
 RISC-19-ICU
 founded
 spread exponentially
-approximately 20
+approximately 20 %
 life-threatening illness
-approximately 10
+approximately 10 %
 overwhelmed
 far exceeded
 utmost importance
 stratify
 deterioration
-aims to collect
 anonymized
-extended dataset
 dataset consists
+accumulating
 subsequent waves
 gained
+contribute to a better understanding
 unfavorable
 patient triage
 circulatory
+ICU length of stay
 grouped
 Guangdong
 NO.1
 anti-virus
 predictive factors
-deepen
-named SARS-CoV-2
+deepen the understanding
 reorganized
 preserve
 elective procedures
@@ -8814,8 +8874,7 @@ catheterization
 programmed
 significant proportion
 catheterization laboratory
-ST-elevation myocardial
-infarction
+ST-elevation myocardial infarction
 STEMI
 ST elevation
 unstable angina
@@ -8823,18 +8882,15 @@ postponed
 cardiologist
 impression
 pointed
-longer delays
+delays
 percutaneous
 major concern
-delay in seeking
 detrimental impact
-acute myocardial
+acute myocardial infarction
 aslo
 SAMU
-d'Aide
 Médicale
 Thrombolysis
-Delays
 symptom onset
 balloon
 TIMI
@@ -8844,23 +8900,24 @@ PCI
 LVEF
 Ejection
 ventricular tachycardia
-supervision
 cath lab
 pre-defined
 sentences
 smartphone/tablet
 upload
 vocal
-hospital admittance
+admittance
 Diagnostic Accuracy
 salivary
+symptomatic and asymptomatic individuals
 mass screening
+Lateral
 Immunoassay
 able to detect
 outcome assessors
 rRT-PCR
-sensibility and specificity
-meet eligibility
+sensibility
+meet eligibility criteria
 discharged from the hospital
 stoppage
 surrogate
@@ -8870,44 +8927,40 @@ Hyperkalemia
 renal function
 Cockcroft-Gault
 mL/min/1.73 m2
-urinary output
 mL/h
 rashes
 palpitations
 interference
-clear explanation
-warrant immediate
 cessation
 notification
 SBP
 DBP
 60 mmHg
 norepinephrine
-µg/kg/min
 physiotherapy
 walking
 incentive
-spirometer
 re-admission
+200 countries worldwide
 common symptoms
 tiredness
 aimed at improving
 coughing
-physiotherapy interventions
-evaluate the effectiveness
-postural drainage
-physiotherapy sessions
+postural
+drainage
 invite
+Imam Khomeini Hospital
 coordination
 interviewing
 Intention-to-treat
 dropped
+This retrospective study
 MRS
 elderly people
 multi-drug
+adverse drug events
 ADE
 investigational agents
-anecdotally
 acknowledge
 chloroquine/hydroxychloroquine
 monoclonal
@@ -8915,11 +8968,11 @@ JAK inhibitors
 thalidomide
 predictive tool
 ADEs
-A retrospective
+A retrospective study
 polypharmacy
 contractually
+This retrospective cohort
 3-month period
-prescribed drugs
 suPAR
 biomarker
 co-existing
@@ -8927,88 +8980,82 @@ immunodysfunction
 trimethoprim/sulfamethoxazole
 major hurdle
 SRF
-immunomodulatory
 visionary
 consequence
 alleviates
 financial burden
+Current evidence suggests
+endothelial function
 uPAR
-urokinase plasminogen
+urokinase
 anchored
 cell membranes
 kallikrein
-cleaved
 systemic circulation
 Greek
 March 1st
-Greek hospitals
 6ng/ml
-positive predictive
+positive predictive value
 unfavourable outcome
 admissions
 interquartile range
 30-day
 non-survivors
-prognostic utility
 intensified
 IL-1α
-lung epithelial
-stimulates the production
+lung epithelial cells
+stimulates
 alveolar macrophages
 downstream
 inflammatory cascade
 rheumatoid arthritis
 gout
-HIV-free
 pulmonary parenchyma
-dysregulation of the immune
+dysregulation
 trimethoprim
 sulfamethoxazole
 assess the feasibility
 delivering
 sufficient numbers
-donate
 high titer
-immunoglobulin-containing
-logistical
 Our objective
 Ville
-Evrard
 close relatives
 anger
-admitted to intensive
+admitted to intensive care unit
+observational cohort
 suspected or proven
 stigma
 Egyptian
 emphasis
 bacterial coinfections
+severe clinical course
 pathogen causing
-compromised
+retrospective studies
+acute respiratory syndrome
 monocentric study
 naso
 oropharyngeal swabs
-To characterise
 immunological response
-IgG-antibodies
 cytokine and chemokine
 medically indicated
 bronchoscopy
+bronchoalveolar lavage
 coinfections
 chemokines
 lung biopsy
 post mortem
-histological analysis
+histological
 ensured
-telephone visits
 Ld-IL2
 SARS-CoV2-related
-cell infiltration
+inflammatory cell infiltration
 dysregulated
 cytokine/chemokine
-immunopathological changes
-Regulatory T
-CD4+ T
-playing a crucial
+immunopathological
+Regulatory T cells
+CD4+ T cells
+playing a crucial role
 immune responses
 excessive inflammation
 Treg cells
@@ -9017,7 +9064,6 @@ Treg-specific
 preclinical models
 inflammatory diseases
 autoimmune diseases
-low concentrations
 pg/mL
 BAL
 supernatant
@@ -9026,23 +9072,20 @@ inducer
 recruiting
 investigating
 member/trusted
-unable
-J0
 monitored daily
 D28
 decoy
 IL-1Ra
-IL-1α and IL-1β
+multiple Randomized Controlled
 cmRCT
-Randomization will occur
 COVIMUNO-19
-consenting adult
+consenting adult patients
 CORVID-19
+pneumonia requiring mechanical
 immune modulators
-ICU bed
+ICU bed requirement
 reportedly
 sub-optimal
-COVID-19-related pneumonia
 vasoplegia
 vascular enlargement
 lung lesions
@@ -9051,25 +9094,21 @@ small vessels
 hyperventilation
 hypocapnia
 Almitrine
-intrapulmonary shunt
-hypoxic pulmonary
+intrapulmonary
+hypoxic pulmonary vasoconstriction
 iNO
 redistributes
-shunt
 ventilation/perfusion
 improves oxygenation
 pulmonary vasoconstriction
-precapillary
 pulmonary arteries
 perfusing
 hypoxic
 slight increase
 mean arterial
-ventilation-perfusion
 Sarilumab
-human IgG1
+IgG1
 binds specifically
-soluble and membrane-bound
 IL-6Rs
 sIL-6Rα
 mIL-6Rα
@@ -9077,11 +9116,12 @@ IL-6-mediated
 signaling
 CORIMUNO-19
 non-interventional
+aiming to identify
 predictive biomarkers
-31st December
-aetiology
+31st December 2019
+pneumonia of unknown aetiology
 7th
-measures to curb
+measures to curb the spread
 closing borders
 imposing
 limits
@@ -9090,10 +9130,7 @@ implementing
 nationwide lockdowns
 nasal congestion
 runny nose
-About 40
-needing special
 difficulty breathing
-underlying medical
 correlating
 shedding
 advisable
@@ -9102,55 +9139,54 @@ real-time RT-PCR
 cleared
 specific antibodies
 infectious agent
+blood plasma
+humoral immune response
 convalescent serum
 CS
 eradicate
 centuries
 CP transfusion
-Mecklenburg-Vorpommern
 buccal
 swaps
 judging
-individuals aged
 clinical and radiological
 5-day
 diphosphate
 active ingredient
 global spread
+severe acute respiratory distress
+cell surfaces
 sparked
 hypertensive
+hypertensives
+angiotensin-converting enzyme inhibitor
 ACE-I
 refuted
 unsupported
-aims to assess
-King Faisal
-Specialist Hospital
-KFSH
-& RC
+This study aims to assess
+Faisal
+RC
 Riyadh
 Saudi Arabia
-coronary artery
+coronary artery disease
 antihypertensive medications
 patient demographics
-ACE-I or ARB
-serum creatinine
-admission to the intensive
-Sequential Organ
+admission to the intensive care unit
+Sequential Organ Failure Assessment
 SOFA
 vasopressors
-length of ICU
+length of ICU stay
 PF
 univariate logistic
 regression analysis
 adjust
 co-founders
-glomerular filtration
-kg/m2
+glomerular filtration rate
+30 kg/m2
 jointly
 multi-centre
 population-based
-patients with laboratory-confirmed
-establishes
+This study establishes
 multidimensional
 Zhejiang province
 one-month
@@ -9163,11 +9199,11 @@ APPs
 telehealth
 QI
 NCT04277650
+ML algorithm
 visits and hospitalizations
 encounters
-QI project
 discern
-expectations
+' expectations
 in-person
 completion
 COVID-19-based
@@ -9175,8 +9211,8 @@ precautions
 treatment-related
 exposures
 sick people
-protective equipment
-Wake Forest
+use of personal protective
+Wake
 Baptist
 syndromic
 seroconversion rates
@@ -9186,43 +9222,39 @@ self-reporting
 syndromic surveillance
 IgM/G
 reinfections
-community spread
 seroconversions
 expanded to include
-Abl
-kinase inhibitors
-Abl2
+Abl kinase
 kinase activity
 fuse
-Pharmacokinetic studies
 ABL1
 BCR-ABL1
 kinase
 microM
 trough
+plasmatic
 achievable
 clinically achievable
 20 years
 corrected
-70y
 800 mg
 CIVID-19
 ideated
 prospectively
 moderate-severe
-platelet reactivity
+platelet
+reactivity
 thrombotic
 evidences
-cardiovascular risk
+cardiovascular risk factors
 arterial hypertension
 poor prognosis
 heightened inflammatory
 coagulative
-platelet count
+low platelet count
 micro-vessels
 pulmonary circulation
 activation of coagulation
-platelet
 ultrasonography
 prospective multicenter
 question arises
@@ -9236,103 +9268,86 @@ CEP C30
 Cao et
 superiority
 late stages
-Early initiation
-ARV regimen
+ARV
 Île-de-France
 M0
 M3
 M6
 paramedical
-high probability
 on-site
 diagnostic test
 scanner
-Ivermectin
-0.2mg/kg
 400mg daily
 HCQ 400
 plus placebo
-capacity to accommodate
+accommodate
 projected
 exceed
-evidence-based
 low tidal
 prone positioning
 attenuating
 dominant
-pathologic feature
+pathologic
 viral-induced
-accumulation
 microvasculature
 airspaces
 preclinical
-antifibrinolytic
 attenuates
 provoked
-urokinase
 streptokinase
+oxygen delivery
 thrombolytic therapy
 tPA
 clot lysis
 IIa
-successful extubation
+IV tPA
+extubation
 accelerates
 grown exponentially
-experience suggests
 in-patients
-needing mechanical
+needing mechanical ventilation
 threatening
-overwhelm hospital
 encompassing
 trans-pulmonary
-pressures
 COVID-19-induced ARDS
 NCT04317092
-NCT04322773
 SOLIDARITY
-NCT04321616
 intrinsically
 intertwined
-consistent finding
 deposition of fibrin
-fibrin-platelet
 microthrombi
 pulmonary vasculature
 progressive
-specimens
 Inappropriate
-activation of the clotting
 clot formation
 decades ago
 dysfunctional coagulation
-excessive amounts
-inhibitor-1
+tissue factor
+alveolar epithelial cells
+plasminogen activator inhibitor-1
 PAI-1
 derangements
 hemostatic
 prolongation
-fibrin degradation
-clot burden
+fibrin degradation products
 mirrors
-experimental endotoxemia
-coagulation and fibrinolytic
+endotoxemia
 past two decades
 plasminogen activators
-ARDS-induced
 Hardaway
+pulmonary failure
 widely available
 traditionally considered
-fibrinolytic agents
-unprecedented public
-far outweighed
+outweighed
 extremely high
 fibrinolytic therapy
-tissue-type plasminogen
+tissue-type
+trial will evaluate the efficacy
+versus standard of care
+China mainland
 hardest-hit
 uncontrollable
 contagion
-restrictions
-Italian territory
 March 8th
 feelings
 reinforced
@@ -9340,25 +9355,27 @@ lengthening
 subchronic
 predictable
 Post-traumatic
-Wuhan and surrounding
 psychic
 mental disorder
 psychiatric illness
+psychological impact of quarantine
 hardest hit
 mass quarantine
-psychological effects
-investigated the effects
 fear of contagion
 stress-related
+Hyperbaric
+HBOT
+hyperbaric oxygen therapy
+After completion
+intravenous vitamin C
 HDIVC
 safe and tolerable
-assess the safety
+respiratory failure requiring mechanical
 rapidly evolving
 prediction models
 organ failures
-worsening oxygenation
-peripheral capillary
-fraction of inspired
+peripheral capillary oxygen saturation
+fraction of inspired oxygen
 requiring intubation
 By calculating
 ICU-free
@@ -9369,30 +9386,29 @@ infected persons
 sick
 pushed
 unprecedent
+properly manage
 committed
 great uncertainty
-evolving crisis
 plenty
 arisen
 unpublished
-antibody that binds
+human monoclonal antibody
 membrane-bound and soluble
 signalling
-subcutaneous route
 investigator-initiated
 monocentric
+aims to evaluate
 hospitalised patients
 wearable-based
-prediction algorithm
 equipped
 smartwatch
-unprecedented burden
 urgently need
 general ward
 discharged home
 transferred to the ICU
 palliative care
 physiological parameters
+heart rate variability
 Indonesia
 Indonesian government
 implements
@@ -9401,12 +9417,12 @@ praying
 Moslem
 anxious
 whenever
-study tries
+tries
 mental well-being
 important aspect
+cross sectional
 SRQ-20
 SDQ
-10 years
 extra-respiratory
 organ dysfunctions
 endothelium
@@ -9416,30 +9432,25 @@ granted
 10x
 seasonal influenza
 anecdotal
-promising preliminary
 Pentagon
 continuity
+Colson
 Zhou
-Antimicrobial Chemotherapy
 Guangdong Province
-Expert consensus
 Respiratory Diseases
 Yao
 In Vitro
 Projection
-Clin Infect
-Dis
-A systematic
-J Crit
+Clin
+Infect Dis
+A systematic review
 NCT04261517
 Interim
-Clinical Guidance
 Gross
 AE
-Bryson
+Noninfluenza
 Respiratory Viral
 Systematic Review
-Pharmacother
 Arabi
 YM
 Fisher
@@ -9451,9 +9462,9 @@ TT
 J Med
 Virol
 JAMA
-Li Y
 Extraordinary
 GU-rich
+innate immune response
 Microbes
 Xiaoling
 peer reviewed
@@ -9463,14 +9474,11 @@ severity of illness
 speeds
 dental clinics
 collaborate
-aviators
 PRP
 typically seen
-Medicine Clinic
 DiLorenzo
 Tricare
 EUAs
-treatment protocols
 pre-treated
 operationally
 telework
@@ -9480,18 +9488,15 @@ non-compliant
 refuse
 spaces
 attempting
-determine the efficacy
 elected
-interested in participating
 thanked
 AIs
-clinical duties
+duties
 witnessed
 PI
 telemedicine
 wet
 identifier
-consent process
 tracking
 CMP
 UA
@@ -9506,15 +9511,14 @@ spreadsheet
 PII
 refills
 queried
+conducted to determine
 displaying
 anniversary
 civilian
 MHS
-Impax
 optimal timing
 DM
 cofounding
-risk stratify
 CXR
 Intracranial
 CBCs
@@ -9523,19 +9527,17 @@ Neurology
 guage
 proceeding
 particulary
-need for supplemental
-properly assess
-secondary prophylaxis
+ICU discharge
+need for supplemental oxygen
 termination
 Witness
 Commonwealth
-capable of making
 subscribed
 impartial
 Responsibilities
 truly
 explained
-flow nasal
+high flow nasal
 HFNO
 invasive or non-invasive
 wellness
@@ -9550,26 +9552,25 @@ diffirence
 diffirent
 protective measures
 certainty
+Statistical Package
 arithmetic
 averages
-mean ±
+mean ± SD
 standard deviation
 counting
 graphs
-Spearman correlation
-coefficient
-considered statistically
-calculated based
+Spearman correlation coefficient
+p < 0.05
+considered statistically significant
 falling
-1000 people
 chlorine dioxide
 June 2020
 quasi-experimental design
 negativity
-determine the effectiveness
 negativization
 verifying
 hoped
+therapeutic options
 number of deaths
 currently exists
 Quasi-experimental
@@ -9577,27 +9578,25 @@ dilutions
 Chlorine
 diluted
 liter
-visual analog
+visual analog scale
 VAS
-10-point scale
-equivalence
+10-point
 unilaterally
+SSSP
 termed ``
 abbreviated
 implications
 border
-requires immediate
 solve
 bases
-translational
-conventional medicine
+translational medicine
 terrain
+therapeutic possibilities
+Chinese city of Wuhan
 practically
 WHO recommends
-Delimitation
 unconventional
-research objectives
-reduce morbidity
+delimitation
 posed
 modify
 avalanche
@@ -9611,24 +9610,24 @@ subunit vaccines
 sensitizes
 subunits
 mutagenicity
+On January 23
 Gilead Sciences
 ongoing outbreak
 interferon beta-1b
 descriptions
-recommended doses
 Ural
-Yekaterinburg
 H5N1
 avian flu
-Chinese researchers
-apparent
 superior
-shorten
+ORF8
+surface glycoproteins
+porphyrins
 case-control study
 Shenzhen
-People 's
+People 's Hospital
 tested negative
 shorter period
+On March 16
 advisor
 Didier Raoult
 Instituto
@@ -9637,20 +9636,23 @@ Marseille
 southeastern
 Plaquenil
 developments
-interleukin-6 receptor
+interleukin-6 receptor antagonist
 Passive antibody
 blood donations
 transferred
 Vir
 evaluating the effectiveness
 mAbs
-Utrecht University
-Erasmus MC
+Utrecht
+Erasmus
+A systematic search
 bibliography
 indexed
 referenced
 disinfection
+agronomy
 A-induced
+DIOXIDE
 reacting
 sodium chloride
 salt
@@ -9663,12 +9665,13 @@ alkaline
 oxides
 ashes
 erythrocytes
-Bohr effect
+Bohr
 acidity
 lactic acid
 electromagnetic
 dissipate
-unicellular organisms
+unicellular
+organisms
 Multicellular
 Biochemistry
 defines
@@ -9678,24 +9681,24 @@ ozone
 penetrating
 biofilm
 impossibility
+bacterial resistance
 ClO2
 oxidant
 unlike
 phenols
 odor
 removes
+10 times
 feline calicivirus
 influenza virus
-canine distemper
+canine distemper virus
 human herpesvirus
 human adenovirus
 canine adenovirus
 canine parvovirus
-proved to be highly
 parasites
 protozoa
 great concern
-reactivity
 Tryptophan
 tyrosine
 proline
@@ -9703,21 +9706,18 @@ hydroxyproline
 reactive
 relatively easy
 Methionine
-methionine and cysteine
 sulfoxide
-aromatic amino
+aromatic amino acids
 sulfide
-inorganic ions
 thiol group
 microbe
-scientifically proven
+scientifically
 assumes
 dissolves
 mixing
 chlorite
 dilute
-hydrochloric acid
-dissolved in water
+hydrochloric
 acidic
 toxicological
 accumulate
@@ -9747,20 +9747,17 @@ Ludwig
 thirteen
 parenteral
 DAC
-Natrium
 subspecies
 resistances
 Let 's
 forget
 wastewater
-canine
+canine respiratory
 cats
-feline enteric
+feline enteric coronavirus
 FECV
-feline infectious
-peritonitis
+feline infectious peritonitis
 FIPV
-denatures
 capsids
 inactivating
 ingest
@@ -9768,24 +9765,21 @@ combustion
 mutant
 variant
 viability
-clinically proven
 high doses
-oral ingestion
+ingestion
 lethal dose
 LD50
 kilogram
+sub-toxic
 100 ml
-0.5 g
-15 g
 breaks
 negligible
-NaCL
 venous blood
 substantially
-behave similarly
+behave
+introduces
 protein synthesis
 segments
-viral nucleic
 capsid
 releasing
 oxygenate
@@ -9794,69 +9788,64 @@ mitochondrial
 DNA-RNA
 guanine
 cytosine
-adenine
 segment
+RNA and DNA
 8-oxoguanin
 by-product
-leads to the formation
 base pairing
 ideal candidate
 acidosis
 mitochondria
 facilitating
+lung diseases
 reacts
 antioxidants
-antioxidant effect
-Stomach
 constantly
 overdose
 hydrolyze
 carcinogenic
-THM
 genetic mutations
 malformations
 Orally administered
 eliminates
 quasi-experimental study
-quasi-experimental studies
-randomization procedure
-validity
+internal and external validity
 periodic
 periodically
 consistency
 RT-PCR assay
 ordinary wards
 aimed to determine
+validity
+chest computed tomography
 Jena
 gastrointestinal symptoms
 ruled
 greatest
 RT-PCT
-We assume
+assume
 infiltrations
 acronym
 pretest probability
-Cross-sectional study
-This cross-sectional
+cross-sectional survey
 Geriatrics and Gerontology
 standardized questionnaire
 emailed
 geriatrician
 March 22
-Geriatricians
+April 5
 Nationale
+l'Informatique
 Libertés
 CNIL
 Groupe
 Iso
-Ressource
-neurocognitive disorder
+neurocognitive
 pathology
+creatinine
 30ml/min
-geriatric syndromes
 hypoactive
-hyperactive
-delirium
+hyperactive delirium
 altered
 conscience
 polypnea
@@ -9873,7 +9862,9 @@ nausea or vomiting
 leucopenia
 thrombopenia
 Data were collected
+transmitted through respiratory droplets
 coughs or sneezes
+desire
 rapid detection
 Biosciences
 RBA-2
@@ -9883,13 +9874,14 @@ scanned
 spectra
 calibrate
 infected and non-infected
+machine learning algorithms
 Kerecis
 CE marked
 manufactured
-conducted to evaluate
 well-organized
 outpatient follow-up
 called ``
+upper respiratory symptoms
 split
 nasal passages
 To characterize
@@ -9897,38 +9889,36 @@ D2000
 Cartridge
 Optia
 SPD
+patients admitted to the ICU
 cardiac arrhythmias
 single-center
 prospective registry
-Mount Sinai
+Mount Sinai Hospital
 impacting
-24,000 deaths
-80,000 cases
 thousands of deaths
+mild upper respiratory
 low-grade fever
-opacification
+ground glass opacification
 chest imaging
-non-survivors compared
 meta-analysis
-standardized mean
-cardiac troponin
+standardized mean difference
+cardiac troponin I
 fulminant myocarditis
 cardiogenic shock
-atrial and ventricular
-arrhythmias
+atrial
+ventricular arrhythmias
 sampling bias
 sicker
 electrolyte abnormalities
 arrhythmic
 currently unclear
-HERG
 drug-induced
-LQT
 concomitantly
-antiarrhythmic drugs
+antiarrhythmic
 sotalol
 QT prolongation
-implantable cardioverter
+implantable
+cardioverter
 defibrillator
 ICD
 comorbidity
@@ -9938,19 +9928,20 @@ psychiatric
 somatic
 psychotropic
 pharmacological treatment
+inflammatory state
 observatory
 Nantes
-investigate the impact
 peritraumatic distress
-post-traumatic stress
+post-traumatic stress disorder
 PTSD
 coping
-residual plasma
+residual
+plasma concentrations
 psychotropic medications
 antipsychotics
 Azithro
 IIB
-1:1 to receive
+randomized 1:1 to receive
 followed by 250
 ≥60 years
 self-collected
@@ -9958,43 +9949,52 @@ nasal swabs
 shorten the duration
 pronounce
 combined with azithromycin
-inhibit viral
 nucleic
+acid-mediated
+innate immune
 lysosomal
 antigen presentation
 hydroxychloroquine monotherapy
 combination with azithromycin
 atteint
 100mg
-new corona
-1.Age
+≥18 years
 Announcing
 direct acting
-congenital heart
+congenital heart disease
 heart rhythm
 neurological diseases
 mental retardation
-spinal cord
+spinal cord injury
 malignancy
 organ transplantation
-receiving immunosuppressive
-pregnancy or lactation
-study.7
-met the inclusion
+immunosuppressive drugs
+met the inclusion criteria
 open-labeled
 mg tablets
-NG tube
-% dextrose
-220 mg
-sulfate
+tube
+dextrose
 medication regimen
 Conscious
-Hopsital
 breaths per minute
-40 years
+40 years of age
 criterion
+COV2
+affectation
 Teicoplanin
-radiologic finding
-childbearing potential
+Acute kidney
+childbearing
 PK
 paused
+warm water
+20 minutes
+warm
+nasopharyngeal
+randomly
+addition to the usual
+chest CT scans
+quintuple
+effectively treat
+24 weeks
+interviewed
+relating
