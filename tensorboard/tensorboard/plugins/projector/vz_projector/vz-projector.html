@@ -71,6 +71,7 @@ limitations under the License.
       #main {
         position: relative;
         flex-grow: 2;
+        margin: 10px 10px 10px 5px;
       }
 
       #main .stage {
@@ -84,6 +85,7 @@ limitations under the License.
         left: 0;
         right: 0;
         bottom: 0;
+        border-radius: 10px;
       }
 
       #selector {
@@ -98,11 +100,10 @@ limitations under the License.
         flex-direction: column;
         justify-content: space-between;
         width: 350px;
-        border-right: 1px solid rgba(0, 0, 0, 0.1);
+        margin: 10px 5px;
       }
 
       #right-pane {
-        border-left: 1px solid rgba(0, 0, 0, 0.1);
         background: #fafafa;
         display: flex;
         height: 100%;
@@ -294,7 +295,7 @@ limitations under the License.
             id="bookmark-panel"
           ></vz-projector-bookmark-panel>
         </div>
-        <div class="ink-panel-content active">
+        <div class="ink-panel-content active" style="border: 1px solid rgba(0, 0, 0, 0.1); border-radius: 10px; margin-bottom: 10px;">
           <vz-projector-inspector-panel
             id="inspector-panel"
           ></vz-projector-inspector-panel>

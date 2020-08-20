@@ -56,7 +56,7 @@ limitations under the License.
       }
 
       .tsne-buttons {
-        justify-content: space-evenly;
+        justify-content: space-around;
         display: flex;
         padding: 15px 0 0 0;
       }
@@ -166,8 +166,8 @@ limitations under the License.
         display: none;
       }
     </style>
-    <div id="main">
-      <div class="ink-panel-header">
+    <div id="main" style="border: 1px solid rgba(0, 0, 0, 0.1); border-radius: 10px; overflow: hidden;">
+      <div class="ink-panel-header" style="border: none; background-color: rgba(0, 0, 0, 0.03);">
         <div class="ink-tab-group">
           <div data-tab="umap" id="umap-tab" class="ink-tab projection-tab">
             UMAP
@@ -221,7 +221,7 @@ limitations under the License.
           >
             Search for two vectors upon which to project all points.
           </paper-tooltip>
-          <div id="icon-container">
+          <div id="icon-container" style="color :rgba(0, 0, 0, 0.6);">
             <!-- Icons and event handlers are inverted because the tray expands upwards. -->
             <paper-icon-button
               id="expand-less"

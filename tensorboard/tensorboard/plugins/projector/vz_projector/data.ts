@@ -880,7 +880,7 @@ namespace vz_projector {
       throw new RangeError('components length must be <= 3');
     }
     const projectionComponents: [string, string, string] = [null, null, null];
-    const prefix = projection === 'custom' ? 'linear' : projection;
+    const prefix = projection;
     for (let i = 0; i < components.length; ++i) {
       if (components[i] == null) {
         continue;
@@ -910,9 +910,9 @@ namespace vz_projector {
           dimensions.push(2);
         }
         break;
-      case 'custom':
-        dimensions = ['x', 'y'];
-        break;
+      // case 'custom':
+      //   dimensions = ['x', 'y'];
+      //   break;
       default:
         throw new Error('Unexpected fallthrough');
     }

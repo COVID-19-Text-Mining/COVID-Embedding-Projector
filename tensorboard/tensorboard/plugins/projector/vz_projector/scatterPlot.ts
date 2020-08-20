@@ -116,7 +116,7 @@ namespace vz_projector {
         premultipliedAlpha: false,
         antialias: false,
       });
-      this.renderer.setClearColor(BACKGROUND_COLOR, 1);
+      this.renderer.setClearColor(BACKGROUND_COLOR, 1.0);
       this.container.appendChild(this.renderer.domElement);
       this.light = new THREE.PointLight(0xffecbf, 1, 0);
       this.scene.add(this.light);

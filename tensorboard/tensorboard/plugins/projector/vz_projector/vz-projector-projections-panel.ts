@@ -845,7 +845,9 @@ namespace vz_projector {
       const yDir = vector.sub(this.centroids.yUp, this.centroids.yDown);
       this.dataSet.projectLinear(yDir, 'linear-y');
 
+      // @ts-ignore
       const accessors = getProjectionComponents('custom', ['x', 'y']);
+      // @ts-ignore
       const projection = new Projection('custom', accessors, 2, this.dataSet);
       this.projector.setProjection(projection);
     }
@@ -862,10 +864,10 @@ namespace vz_projector {
       if (this.polymerChangesTriggerReprojection === false) {
         return;
       }
-      if (this.currentProjection === 'custom') {
-        this.computeAllCentroids();
-        this.reprojectCustom();
-      }
+      // if (this.currentProjection === 'custom') {
+      //   this.computeAllCentroids();
+      //   this.reprojectCustom();
+      // }
     }
 
     private setupCustomProjectionInputFields() {
