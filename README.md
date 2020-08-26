@@ -1,15 +1,10 @@
 # COVID-19 Embedding Projector
 This is a project forked from Google's [embedding projector](https://github.com/tensorflow/embedding-projector-standalone).
 
-For source code, please refer to https://github.com/tensorflow/tensorboard/tree/master/tensorboard/plugins/projector.
-
-## Install
-To install the website to the vhost, you can use the command below.
-
-```Shell
-bash compile_projector.sh
-mv rsc/ vz-projector/ index.html <VHOST'S ROOT DIR> 
-```
-
 ## Demo
 You can find a demo on [https://projector.yuxingfei.top](https://projector.yuxingfei.top)
+
+## Update Embeddings
+Here we have an automatic script `update_projector.py` to update the embeddings with `gensim.models.FastText` model.
+
+First, you should change the dir to the root of this repo. Then change the variable `MODEL_PATH` to the path to the `FastText` model and `NUM_OF_WORDS`. Finally,  run the script `update_projector.py`.
