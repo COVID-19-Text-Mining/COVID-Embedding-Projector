@@ -9,16 +9,17 @@ from umap import UMAP
 
 # change this to where the model is stored
 # modify these two variables
-MODEL_PATH = r"F:\fulltext_covid19_model\fulltext_covid19_model_fasttext_optimized.model"
+MODEL_PATH = r"F:\covid19_fasttext\abstracts_covid19_model.model"
 NUM_OF_WORDS = 10_000
 
 # get words
 words = []
 model = FastText.load(MODEL_PATH)
 for each in list(model.wv.vocab.keys()):
+    if re.fullmatch(r"[\W_]+", each):
+        continue
     each = re.sub(r"_", " ", each)
     # do some filter here
-
     words.append(each)
         
     if len(words) >= NUM_OF_WORDS:
